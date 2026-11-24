@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VCA - Verifiable Credential Authority</title>
+    <script src="https://unpkg.com/arweave@1.14.4/bundles/web.bundle.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #f8fafc;
+            border-radius: 10px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .section h2 {
+            color: #1e293b;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #4f46e5;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #374151;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #6b7280 0%, #4b5563 100%);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+        }
+
+        .result-box {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .success {
+            background: #ecfdf5;
+            border: 1px solid #10b981;
+            color: #065f46;
+        }
+
+        .error {
+            background: #fef2f2;
+            border: 1px solid #ef4444;
+            color: #991b1b;
+        }
+
+        .info {
+            background: #eff6ff;
+            border: 1px solid #3b82f6;
+            color: #1e40af;
+        }
+
+        .wallet-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .wallet-info {
+            padding: 20px;
+            background: #f1f5f9;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-connected {
+            background: #10b981;
+        }
+
+        .status-disconnected {
+            background: #ef4444;
+        }
+
+        .transaction-details {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .transaction-details h4 {
+            color: #1e293b;
+            margin-bottom: 10px;
+        }
+
+        .transaction-details p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #4f46e5;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .two-column,
+            .wallet-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 VCA System</h1>
+            <p>Verifiable Credential Authority - Secure credential management on Arweave</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Arweave Wallet Section -->
+            <div class="section">
+                <h2>🔐 Arweave Wallet</h2>
+                <div class="wallet-section">
+                    <div class="wallet-info">
+                        <h3>Wallet Status</h3>
+                        <p>
+                            <span id="walletStatus" class="status-indicator status-disconnected"></span>
+                            <span id="walletStatusText">Disconnected</span>
+                        </p>
+                        <p><strong>Address:</strong> <span id="walletAddress">-</span></p>
+                        <p><strong>Balance:</strong> <span id="walletBalance">-</span> AR</p>
+                    </div>
+                    <div class="wallet-info">
+                        <h3>Wallet Actions</h3>
+                        <input type="file" id="walletFile" accept=".json" style="margin-bottom: 10px;">
+                        <br>
+                        <button class="btn" onclick="loadWallet()">Load Wallet</button>
+                        <button class="btn btn-secondary" onclick="generateWallet()">Generate New Wallet</button>
+                        <button class="btn btn-success" onclick="checkBalance()">Check Balance</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="two-column">
+                <!-- Credential Creation Section -->
+                <div class="section">
+                    <h2>📋 Create Verifiable Credential</h2>
+                    <form id="credentialForm">
+                        <div class="form-group">
+                            <label for="credentialSubject">Credential Subject (JSON):</label>
+                            <textarea id="credentialSubject" placeholder='{"id": "did:example:123", "name": "John Doe", "degree": "Computer Science"}'></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="credentialTypes">Types (comma-separated):</label>
+                            <input type="text" id="credentialTypes" placeholder="VerifiableCredential, UniversityDegreeCredential" value="VerifiableCredential, UniversityDegreeCredential">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="credentialProof">Proof (JSON, optional):</label>
+                            <textarea id="credentialProof" placeholder='{"type": "Ed25519Signature2018", "verificationMethod": "..."}'></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="expirationDate">Expiration Date (optional):</label>
+                            <input type="datetime-local" id="expirationDate">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="publicKey">Public Key for Encryption:</label>
+                            <input type="text" id="publicKey" placeholder="Enter public key for encryption" required>
+                        </div>
+
+                        <button type="submit" class="btn">Create & Upload Credential</button>
+                        <button type="button" class="btn btn-secondary" onclick="fillSampleData()">Fill Sample Data</button>
+                    </form>
+
+                    <div id="credentialResult"></div>
+                </div>
+
+                <!-- Transaction Management Section -->
+                <div class="section">
+                    <h2>🔗 Transaction Management</h2>
+                    
+                    <div class="form-group">
+                        <label for="pendingTx">Pending Transaction ID:</label>
+                        <input type="text" id="pendingTx" placeholder="Transaction ID from credential creation">
+                        <button class="btn" onclick="signAndSubmitTransaction()">Sign & Submit to Arweave</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="txStatus">Check Transaction Status:</label>
+                        <input type="text" id="txStatus" placeholder="Enter transaction ID">
+                        <button class="btn btn-secondary" onclick="checkTransactionStatus()">Check Status</button>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="retrieveTx">Retrieve & Decrypt Data:</label>
+                        <input type="text" id="retrieveTx" placeholder="Enter transaction ID">
+                        <input type="text" id="decryptKey" placeholder="Enter decryption key" style="margin-top: 10px;">
+                        <button class="btn btn-success" onclick="retrieveAndDecrypt()">Retrieve & Decrypt</button>
+                    </div>
+
+                    <div id="transactionResult"></div>
+                </div>
+            </div>
+
+            <!-- Server Status Section -->
+            <div class="section">
+                <h2>🖥️ Server Status</h2>
+                <button class="btn" onclick="checkServerHealth()">Check Server Health</button>
+                <button class="btn btn-secondary" onclick="toggleServer()">Start/Stop Server</button>
+                <div id="serverResult"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let arweave;
+        let wallet = null;
+        let currentTransaction = null;
+        const SERVER_URL = 'http://localhost:3000';
+
+        // Initialize Arweave
+        function initArweave() {
+            arweave = Arweave.init({
+                host: 'arweave.net',
+                port: 443,
+                protocol: 'https'
+            });
+            console.log('Arweave initialized');
+        }
+
+        // Initialize on page load
+        window.onload = function() {
+            initArweave();
+            checkServerHealth();
+            fillSampleData();
+        };
+
+        // Wallet functions
+        async function loadWallet() {
+            const fileInput = document.getElementById('walletFile');
+            const file = fileInput.files[0];
+            
+            if (!file) {
+                showResult('transactionResult', 'Please select a wallet file', 'error');
+                return;
+            }
+
+            try {
+                const walletData = await file.text();
+                wallet = JSON.parse(walletData);
+                
+                const address = await arweave.wallets.jwkToAddress(wallet);
+                const balance = await arweave.wallets.getBalance(address);
+                const arBalance = arweave.ar.winstonToAr(balance);
+
+                updateWalletUI(address, arBalance, true);
+                showResult('transactionResult', `Wallet loaded successfully!\nAddress: ${address}\nBalance: ${arBalance} AR`, 'success');
+            } catch (error) {
+                showResult('transactionResult', `Error loading wallet: ${error.message}`, 'error');
+            }
+        }
+
+        async function generateWallet() {
+            try {
+                wallet = await arweave.wallets.generate();
+                const address = await arweave.wallets.jwkToAddress(wallet);
+                
+                // Download wallet file
+                const walletBlob = new Blob([JSON.stringify(wallet, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(walletBlob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `arweave-wallet-${address.substring(0, 8)}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+
+                updateWalletUI(address, '0', true);
+                showResult('transactionResult', `New wallet generated!\nAddress: ${address}\n⚠️ Wallet file downloaded - keep it safe!\n⚠️ This wallet has 0 AR - you need to fund it to submit transactions.`, 'success');
+            } catch (error) {
+                showResult('transactionResult', `Error generating wallet: ${error.message}`, 'error');
+            }
+        }
+
+        async function checkBalance() {
+            if (!wallet) {
+                showResult('transactionResult', 'Please load a wallet first', 'error');
+                return;
+            }
+
+            try {
+                const address = await arweave.wallets.jwkToAddress(wallet);
+                const balance = await arweave.wallets.getBalance(address);
+                const arBalance = arweave.ar.winstonToAr(balance);
+                
+                document.getElementById('walletBalance').textContent = arBalance;
+                showResult('transactionResult', `Current balance: ${arBalance} AR`, 'info');
+            } catch (error) {
+                showResult('transactionResult', `Error checking balance: ${error.message}`, 'error');
+            }
+        }
+
+        function updateWalletUI(address, balance, connected) {
+            document.getElementById('walletAddress').textContent = address ? address.substring(0, 20) + '...' : '-';
+            document.getElementById('walletBalance').textContent = balance;
+            
+            const statusIndicator = document.getElementById('walletStatus');
+            const statusText = document.getElementById('walletStatusText');
+            
+            if (connected) {
+                statusIndicator.className = 'status-indicator status-connected';
+                statusText.textContent = 'Connected';
+            } else {
+                statusIndicator.className = 'status-indicator status-disconnected';
+                statusText.textContent = 'Disconnected';
+            }
+        }
+
+        // Credential functions
+        document.getElementById('credentialForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            await createCredential();
+        });
+
+        async function createCredential() {
+            try {
+                const credentialSubjectText = document.getElementById('credentialSubject').value;
+                const typesText = document.getElementById('credentialTypes').value;
+                const proofText = document.getElementById('credentialProof').value;
+                const expirationDate = document.getElementById('expirationDate').value;
+                const publicKey = document.getElementById('publicKey').value;
+
+                // Validate inputs
+                if (!credentialSubjectText || !typesText || !publicKey) {
+                    showResult('credentialResult', 'Please fill in all required fields', 'error');
+                    return;
+                }
+
+                if (!wallet) {
+                    showResult('credentialResult', 'Please load an Arweave wallet first', 'error');
+                    return;
+                }
+
+                // Parse JSON inputs
+                const credentialSubject = JSON.parse(credentialSubjectText);
+                const types = typesText.split(',').map(t => t.trim());
+                const proof = proofText ? JSON.parse(proofText) : null;
+
+                const requestData = {
+                    credentialSubject,
+                    types,
+                    proof,
+                    expirationDate: expirationDate || null,
+                    publicKey,
+                    wallet: wallet
+                };
+
+                showResult('credentialResult', 'Creating credential and uploading to Arweave...', 'info');
+
+                const response = await fetch(`${SERVER_URL}/api/credentials`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(requestData)
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    currentTransaction = result.blockchain.transactionId;
+                    document.getElementById('pendingTx').value = currentTransaction;
+                    document.getElementById('txStatus').value = currentTransaction;
+                    document.getElementById('retrieveTx').value = currentTransaction;
+                    document.getElementById('decryptKey').value = publicKey;
+                    
+                    showResult('credentialResult', 
+                        `✅ Credential created and uploaded to Arweave successfully!\n\n` +
+                        `📄 VC Data:\n${JSON.stringify(result.data, null, 2)}\n\n` +
+                        `🔗 Blockchain Info:\n` +
+                        `Platform: ${result.blockchain.platform}\n` +
+                        `Transaction ID: ${result.blockchain.transactionId}\n` +
+                        `Status: ${result.blockchain.status}\n` +
+                        `Data Size: ${result.blockchain.dataSize} bytes\n` +
+                        `Encrypted: ${result.blockchain.encrypted}\n` +
+                        `Arweave URL: ${result.blockchain.url}\n\n` +
+                        `✅ Transaction has been submitted to Arweave network!\n` +
+                        `You can now check the transaction status or retrieve the data.`, 
+                        'success'
+                    );
+                } else {
+                    showResult('credentialResult', `Error: ${result.error}\n${result.details || ''}`, 'error');
+                }
+            } catch (error) {
+                showResult('credentialResult', `Error creating credential: ${error.message}`, 'error');
+            }
+        }
+
+        // Transaction functions
+        async function signAndSubmitTransaction() {
+            const txId = document.getElementById('pendingTx').value;
+            
+            if (!wallet) {
+                showResult('transactionResult', 'Please load a wallet first', 'error');
+                return;
+            }
+
+            if (!txId) {
+                showResult('transactionResult', 'Please enter a transaction ID', 'error');
+                return;
+            }
+
+            try {
+                showResult('transactionResult', 'Signing and submitting transaction...', 'info');
+
+                // Note: In this implementation, we're simulating the transaction process
+                // In a real implementation, you would need to reconstruct the transaction
+                // and sign it with the loaded wallet
+                
+                showResult('transactionResult', 
+                    `⚠️ Transaction Signing Simulation\n\n` +
+                    `Transaction ID: ${txId}\n` +
+                    `Status: Simulated signing process\n\n` +
+                    `In a production environment, this would:\n` +
+                    `1. Reconstruct the transaction from the server\n` +
+                    `2. Sign it with your wallet\n` +
+                    `3. Submit it to the Arweave network\n` +
+                    `4. Return the final transaction ID\n\n` +
+                    `For now, consider the transaction as submitted.`, 
+                    'info'
+                );
+                
+            } catch (error) {
+                showResult('transactionResult', `Error signing transaction: ${error.message}`, 'error');
+            }
+        }
+
+        async function checkTransactionStatus() {
+            const txId = document.getElementById('txStatus').value;
+            
+            if (!txId) {
+                showResult('transactionResult', 'Please enter a transaction ID', 'error');
+                return;
+            }
+
+            try {
+                showResult('transactionResult', 'Checking transaction status...', 'info');
+                
+                const response = await fetch(`${SERVER_URL}/api/transaction/${txId}`);
+                const result = await response.json();
+                
+                if (response.ok) {
+                    showResult('transactionResult', 
+                        `✅ Transaction Status for: ${txId}\n\n` +
+                        `Status Code: ${result.status}\n` +
+                        `Message: ${result.message}\n` +
+                        `Block Height: ${result.confirmed?.block_height || 'Pending'}\n` +
+                        `Block Hash: ${result.confirmed?.block_indep_hash || 'Pending'}\n` +
+                        `Confirmations: ${result.confirmed?.number_of_confirmations || 0}\n\n` +
+                        `${result.status === 200 ? '🎉 Transaction is confirmed!' : '⏳ Transaction is still pending...'}`, 
+                        result.status === 200 ? 'success' : 'info'
+                    );
+                } else {
+                    showResult('transactionResult', `Error: ${result.error}\n${result.details || ''}`, 'error');
+                }
+            } catch (error) {
+                showResult('transactionResult', `Error checking status: ${error.message}`, 'error');
+            }
+        }
+
+        async function retrieveAndDecrypt() {
+            const txId = document.getElementById('retrieveTx').value;
+            const decryptKey = document.getElementById('decryptKey').value;
+            
+            if (!txId || !decryptKey) {
+                showResult('transactionResult', 'Please enter both transaction ID and decryption key', 'error');
+                return;
+            }
+
+            try {
+                showResult('transactionResult', 'Retrieving and decrypting data from Arweave...', 'info');
+                
+                const response = await fetch(`${SERVER_URL}/api/decrypt/${txId}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        decryptionKey: decryptKey
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (response.ok) {
+                    showResult('transactionResult', 
+                        `🔓 Data Retrieved and Decrypted Successfully!\n\n` +
+                        `Transaction ID: ${result.transactionId}\n` +
+                        `Message: ${result.message}\n\n` +
+                        `📄 Decrypted Verifiable Credential:\n` +
+                        `${JSON.stringify(result.decryptedData, null, 2)}`, 
+                        'success'
+                    );
+                } else {
+                    showResult('transactionResult', `Error: ${result.error}\n${result.details || ''}`, 'error');
+                }
+            } catch (error) {
+                showResult('transactionResult', `Error retrieving/decrypting data: ${error.message}`, 'error');
+            }
+        }
+
+        // Server functions
+        async function checkServerHealth() {
+            try {
+                const response = await fetch(`${SERVER_URL}/api/health`);
+                const result = await response.json();
+                
+                if (response.ok) {
+                    showResult('serverResult', 
+                        `✅ Server is running\n` +
+                        `Status: ${result.message}\n` +
+                        `Timestamp: ${result.timestamp}`, 
+                        'success'
+                    );
+                } else {
+                    showResult('serverResult', 'Server is not responding', 'error');
+                }
+            } catch (error) {
+                showResult('serverResult', `Server connection error: ${error.message}\n\nMake sure the server is running with: npm start`, 'error');
+            }
+        }
+
+        function toggleServer() {
+            showResult('serverResult', 
+                'To start/stop the server:\n\n' +
+                '✅ Start: Run "npm start" in your terminal\n' +
+                '❌ Stop: Press Ctrl+C in the terminal where the server is running\n\n' +
+                'Current server URL: ' + SERVER_URL, 
+                'info'
+            );
+        }
+
+        // Utility functions
+        function fillSampleData() {
+            document.getElementById('credentialSubject').value = JSON.stringify({
+                "id": "did:example:123456789abcdefghi",
+                "name": "John Doe",
+                "email": "john.doe@example.com",
+                "degree": {
+                    "type": "BachelorDegree",
+                    "name": "Bachelor of Science in Computer Science",
+                    "university": "Example University"
+                }
+            }, null, 2);
+
+            document.getElementById('credentialTypes').value = "VerifiableCredential, UniversityDegreeCredential";
+            
+            document.getElementById('credentialProof').value = JSON.stringify({
+                "type": "Ed25519Signature2018",
+                "created": "2024-01-15T10:30:00Z",
+                "verificationMethod": "did:example:issuer#keys-1",
+                "proofPurpose": "assertionMethod",
+                "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..signature"
+            }, null, 2);
+
+            document.getElementById('publicKey').value = "sample-public-key-12345678";
+        }
+
+        function showResult(elementId, message, type) {
+            const resultElement = document.getElementById(elementId);
+            resultElement.textContent = message;
+            resultElement.className = `result-box ${type}`;
+        }
+    </script>
+</body>
+</html>

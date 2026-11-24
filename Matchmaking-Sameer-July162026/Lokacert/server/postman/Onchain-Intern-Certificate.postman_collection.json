@@ -1,0 +1,116 @@
+{
+  "info": {
+    "_postman_id": "main-collection",
+    "name": "Onchain Intern Certificate API Tests",
+    "description": "Complete API test suite for the Onchain Intern Certificate project\n\nRecommended Order of Operations:\n\n1. Company Setup (Company Tests):\n   - Create company\n   - Get/update company details\n\n2. Employee Management (Employee Tests):\n   - Add employees\n   - Confirm employee accounts\n   - Update employee details/status\n\n3. Certificate Templates (Certificate Tests):\n   - Create certificate templates\n   - Get/update templates\n\n4. Certificate Operations (Certificate Tests):\n   - Issue certificates using templates\n   - Verify certificates\n   - Get/manage certificates\n\n5. Award Management (Award Tests):\n   - Create award types\n   - Update award types\n   - Mint award NFTs\n\nNote: Follow this order as many operations depend on the existence of entities created in previous steps.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1 - Company",
+      "description": "Company setup and management endpoints. Start here to create and manage companies.",
+      "item": [
+        {
+          "name": "Import Company Tests",
+          "request": {
+            "description": "Import Company-API-Tests.postman_collection.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "2 - Employee",
+      "description": "Employee management endpoints. Use after company setup to manage employees.",
+      "item": [
+        {
+          "name": "Import Employee Tests",
+          "request": {
+            "description": "Import Employee-API-Tests.postman_collection.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "3 - Certificate",
+      "description": "Certificate and template management endpoints. Use after company and employee setup.",
+      "item": [
+        {
+          "name": "Import Certificate Tests",
+          "request": {
+            "description": "Import Certificate-API-Tests.postman_collection.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "4 - Award",
+      "description": "Award management endpoints. Use after setting up companies and employees.",
+      "item": [
+        {
+          "name": "Import Award Tests",
+          "request": {
+            "description": "Import Award-API-Tests.postman_collection.json"
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api"
+    },
+    {
+      "key": "companyId",
+      "value": "test-company-id"
+    },
+    {
+      "key": "companyPubkey",
+      "value": "company-pubkey"
+    },
+    {
+      "key": "employeeId",
+      "value": "employee-id"
+    },
+    {
+      "key": "employeePubkey",
+      "value": "employee-pubkey"
+    },
+    {
+      "key": "employeeWallet",
+      "value": "employee-wallet-pubkey"
+    },
+    {
+      "key": "certificateId",
+      "value": "certificate-id"
+    },
+    {
+      "key": "certificatePubkey",
+      "value": "certificate-pubkey"
+    },
+    {
+      "key": "templateId",
+      "value": "template-id"
+    },
+    {
+      "key": "awardTypePubkey",
+      "value": "award-type-pubkey"
+    },
+    {
+      "key": "companyAuthorityPubkey",
+      "value": "authority-pubkey"
+    },
+    {
+      "key": "confirmationToken",
+      "value": "confirmation-token"
+    },
+    {
+      "key": "walletAddress",
+      "value": "wallet-address"
+    },
+    {
+      "key": "inactiveEmployeePubkey",
+      "value": "inactive-employee-pubkey"
+    }
+  ]
+}

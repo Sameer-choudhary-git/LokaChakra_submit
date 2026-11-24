@@ -1,0 +1,29 @@
+version: '3.7'
+services:
+  # 1. The Database
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.0
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m" # Cap memory usage
+    ports:
+      - "9200:9200"
+
+  # 2. The Pipe (Logstash)
+  logstash:
+    image: docker.elastic.co/logstash/logstash:7.17.0
+    volumes:
+      # Mount the file we created in Step 1
+      - ./elk-config/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    ports:
+      - "5000:5000"
+    depends_on:
+      - elasticsearch
+
+  # 3. The Dashboard (Kibana)
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.17.0
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch

@@ -1,0 +1,261 @@
+{
+  "info": {
+    "_postman_id": "unique-id-4",
+    "name": "Onchain Certificate - Award API Tests",
+    "description": "API tests for award-related endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Award Type",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('awardTypePDA');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"awardTypeId\": \"AWARD-TYPE-001\",\n    \"name\": \"Excellence Award\",\n    \"description\": \"Awarded for exceptional performance\",\n    \"metadataUri\": \"https://example.com/award-metadata\",\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/createAwardType",
+          "host": ["{{baseUrl}}"],
+          "path": ["createAwardType"]
+        },
+        "description": "Create a new award type for a company"
+      }
+    },
+    {
+      "name": "Update Award Type",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing required fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyPubkey\": pm.variables.get('companyPubkey')",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"awardTypePubkey\": \"{{awardTypePubkey}}\",\n    \"updates\": {\n        \"name\": \"Updated Excellence Award\",\n        \"description\": \"Updated description\",\n        \"metadataUri\": \"https://example.com/updated-metadata\",\n        \"isActive\": true\n    },\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/updateAwardType",
+          "host": ["{{baseUrl}}"],
+          "path": ["updateAwardType"]
+        },
+        "description": "Update an existing award type"
+      }
+    },
+    {
+      "name": "Mint Award NFT",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on invalid employee\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyPubkey\": pm.variables.get('companyPubkey'),",
+              "                \"employeePubkey\": \"invalid-pubkey\",",
+              "                \"employeeWalletPubkey\": pm.variables.get('employeeWallet'),",
+              "                \"awardTypePubkey\": pm.variables.get('awardTypePubkey'),",
+              "                \"awardId\": \"AWARD-001\",",
+              "                \"name\": \"Excellence Award NFT\",",
+              "                \"symbol\": \"EXC\",",
+              "                \"uri\": \"https://example.com/nft-metadata\",",
+              "                \"companyAuthorityPubkey\": pm.variables.get('companyAuthorityPubkey')",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});",
+              "",
+              "pm.test(\"Error on inactive employee\", function () {",
+              "    const inactiveRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyPubkey\": pm.variables.get('companyPubkey'),",
+              "                \"employeePubkey\": pm.variables.get('inactiveEmployeePubkey'),",
+              "                \"employeeWalletPubkey\": pm.variables.get('employeeWallet'),",
+              "                \"awardTypePubkey\": pm.variables.get('awardTypePubkey'),",
+              "                \"awardId\": \"AWARD-001\",",
+              "                \"name\": \"Excellence Award NFT\",",
+              "                \"symbol\": \"EXC\",",
+              "                \"uri\": \"https://example.com/nft-metadata\",",
+              "                \"companyAuthorityPubkey\": pm.variables.get('companyAuthorityPubkey')",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(inactiveRequest, function (err, response) {",
+              "        pm.expect(response.json().error).to.include('must be active');",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"employeePubkey\": \"{{employeePubkey}}\",\n    \"employeeWalletPubkey\": \"{{employeeWallet}}\",\n    \"awardTypePubkey\": \"{{awardTypePubkey}}\",\n    \"awardId\": \"AWARD-001\",\n    \"name\": \"Excellence Award NFT\",\n    \"symbol\": \"EXC\",\n    \"uri\": \"https://example.com/nft-metadata\",\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/mintAwardNFT",
+          "host": ["{{baseUrl}}"],
+          "path": ["mintAwardNFT"]
+        },
+        "description": "Mint an award NFT to an employee"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api"
+    },
+    {
+      "key": "companyPubkey",
+      "value": "company-pubkey"
+    },
+    {
+      "key": "employeePubkey",
+      "value": "employee-pubkey"
+    },
+    {
+      "key": "employeeWallet",
+      "value": "employee-wallet-pubkey"
+    },
+    {
+      "key": "awardTypePubkey",
+      "value": "award-type-pubkey"
+    },
+    {
+      "key": "companyAuthorityPubkey",
+      "value": "authority-pubkey"
+    },
+    {
+      "key": "inactiveEmployeePubkey",
+      "value": "inactive-employee-pubkey"
+    }
+  ]
+}

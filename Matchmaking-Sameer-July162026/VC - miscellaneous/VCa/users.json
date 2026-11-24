@@ -1,0 +1,7282 @@
+{
+  "founder": [
+    {
+      "wallet": "0xe8d4ce5de77d3b1195243282dfea0e542b28c9ea",
+      "role": "founder",
+      "name": "Johnathan Franco",
+      "startupName": "ChainMed Solutions",
+      "stage": "Revenue-generating",
+      "domain": [
+        "HealthTech",
+        "Blockchain"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Investors",
+        "Technical Experts"
+      ],
+      "seeking": "Investments",
+      "growthGoals12m": "Enter 3 new regional markets and hire sales team.",
+      "interestedInAccel": false,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Node.js",
+        "React"
+      ],
+      "fundingNeededUSD": 465244,
+      "hiringNeeds": [
+        "backend",
+        "frontend"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Incubator"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": true,
+      "fundraisingStage": "series A",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0x11a2c29842ce30e2e88e21fe6bc51092d3b461ea",
+      "role": "founder",
+      "name": "Justin Baker",
+      "startupName": "Finovate Labs",
+      "stage": "Scaling",
+      "domain": [
+        "AI",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Regulatory",
+      "collaboratorsNeeded": [
+        "Investors",
+        "Technical Experts"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Double monthly recurring revenue over the next year.",
+      "interestedInAccel": true,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "React",
+        "Solidity"
+      ],
+      "fundingNeededUSD": 193967,
+      "hiringNeeds": [
+        "backend",
+        "frontend"
+      ],
+      "location": "San Francisco",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": false,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Partnered with 3 hospitals to run initial pilot programs."
+    },
+    {
+      "wallet": "0x6bbf7c84ca13bd869757252ddf6d8fc3addd57f7",
+      "role": "founder",
+      "name": "Kyle Padilla",
+      "startupName": "Finovate Labs",
+      "stage": "Revenue-generating",
+      "domain": [
+        "HealthTech",
+        "AI"
+      ],
+      "biggestChallenge": "Tech",
+      "collaboratorsNeeded": [
+        "Mentors",
+        "Investors"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Raise $1M in seed funding to support product development.",
+      "interestedInAccel": false,
+      "preferredModel": "Grant",
+      "techStack": [
+        "Python",
+        "React"
+      ],
+      "fundingNeededUSD": 449968,
+      "hiringNeeds": [
+        "legal",
+        "frontend"
+      ],
+      "location": "San Francisco",
+      "previousSupportUsed": [
+        "Gov Scheme"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": false,
+      "fundraisingStage": "series A",
+      "tractionSummary": "Partnered with 3 hospitals to run initial pilot programs."
+    },
+    {
+      "wallet": "0xc493d658a5eb6b949baae2c03ef0b10b37064dd0",
+      "role": "founder",
+      "name": "Madeline Smith",
+      "startupName": "NeuroEdge Systems",
+      "stage": "Revenue-generating",
+      "domain": [
+        "AI",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Regulatory",
+      "collaboratorsNeeded": [
+        "Mentors",
+        "Legal Advisors"
+      ],
+      "seeking": "Investments",
+      "growthGoals12m": "Expand user base to 50,000+ active users.",
+      "interestedInAccel": false,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Node.js",
+        "React"
+      ],
+      "fundingNeededUSD": 351952,
+      "hiringNeeds": [
+        "legal",
+        "frontend"
+      ],
+      "location": "London",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": false,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0xa6f04a581a7975bef666a263127f3fd479612e66",
+      "role": "founder",
+      "name": "Sandra Willis",
+      "startupName": "NeuroEdge Systems",
+      "stage": "Idea",
+      "domain": [
+        "AI",
+        "Fintech"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Mentors",
+        "Legal Advisors"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Raise $1M in seed funding to support product development.",
+      "interestedInAccel": true,
+      "preferredModel": "Grant",
+      "techStack": [
+        "Node.js",
+        "React"
+      ],
+      "fundingNeededUSD": 134193,
+      "hiringNeeds": [
+        "backend",
+        "frontend"
+      ],
+      "location": "Bangalore",
+      "previousSupportUsed": [
+        "Incubator"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": false,
+      "fundraisingStage": "series A",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0xdae16ab1b6d72fe5ccce78201b35eaaa37ab74d1",
+      "role": "founder",
+      "name": "Laura Myers",
+      "startupName": "ChainMed Solutions",
+      "stage": "Scaling",
+      "domain": [
+        "Fintech",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Technical Experts",
+        "Investors"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Expand user base to 50,000+ active users.",
+      "interestedInAccel": false,
+      "preferredModel": "Grant",
+      "techStack": [
+        "Python",
+        "Node.js"
+      ],
+      "fundingNeededUSD": 424050,
+      "hiringNeeds": [
+        "frontend",
+        "backend"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Gov Scheme"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": true,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0x5bacaa16909c029764f1456edab032060f6a0382",
+      "role": "founder",
+      "name": "Mark Harmon",
+      "startupName": "HealthSync Technologies",
+      "stage": "Revenue-generating",
+      "domain": [
+        "Fintech",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Regulatory",
+      "collaboratorsNeeded": [
+        "Legal Advisors",
+        "Investors"
+      ],
+      "seeking": "Mentoring",
+      "growthGoals12m": "Double monthly recurring revenue over the next year.",
+      "interestedInAccel": true,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Python",
+        "Node.js"
+      ],
+      "fundingNeededUSD": 94155,
+      "hiringNeeds": [
+        "ops",
+        "backend"
+      ],
+      "location": "Bangalore",
+      "previousSupportUsed": [
+        "Incubator"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": false,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Achieved 20% month-over-month user growth."
+    },
+    {
+      "wallet": "0xb33907db62a09c540716920523128b7eb4295399",
+      "role": "founder",
+      "name": "Dennis Smith",
+      "startupName": "NeuroEdge Systems",
+      "stage": "MVP",
+      "domain": [
+        "Blockchain",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Tech",
+      "collaboratorsNeeded": [
+        "Legal Advisors",
+        "Technical Experts"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Double monthly recurring revenue over the next year.",
+      "interestedInAccel": true,
+      "preferredModel": "Equity",
+      "techStack": [
+        "Python",
+        "React"
+      ],
+      "fundingNeededUSD": 403360,
+      "hiringNeeds": [
+        "frontend",
+        "legal"
+      ],
+      "location": "Berlin",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": true,
+      "fundraisingStage": "series A",
+      "tractionSummary": "Achieved 20% month-over-month user growth."
+    },
+    {
+      "wallet": "0x2c2e7aa94b87f0cb3dc133d9778868a91c01633b",
+      "role": "founder",
+      "name": "Steve Davis",
+      "startupName": "NeuroEdge Systems",
+      "stage": "MVP",
+      "domain": [
+        "HealthTech",
+        "AI"
+      ],
+      "biggestChallenge": "Team",
+      "collaboratorsNeeded": [
+        "Legal Advisors",
+        "Mentors"
+      ],
+      "seeking": "Mentoring",
+      "growthGoals12m": "Raise $1M in seed funding to support product development.",
+      "interestedInAccel": true,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Solidity",
+        "Node.js"
+      ],
+      "fundingNeededUSD": 138783,
+      "hiringNeeds": [
+        "legal",
+        "frontend"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Gov Scheme"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": false,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Onboarded 500 beta testers with positive feedback."
+    },
+    {
+      "wallet": "0xaf691449e502eb36fda38f8fc54ed84fac0e152c",
+      "role": "founder",
+      "name": "Caitlin Shaw",
+      "startupName": "ChainMed Solutions",
+      "stage": "Idea",
+      "domain": [
+        "Fintech",
+        "AI"
+      ],
+      "biggestChallenge": "Funding",
+      "collaboratorsNeeded": [
+        "Mentors",
+        "Investors"
+      ],
+      "seeking": "Mentoring",
+      "growthGoals12m": "Launch MVP and secure 10 pilot customers.",
+      "interestedInAccel": true,
+      "preferredModel": "Equity",
+      "techStack": [
+        "React",
+        "Node.js"
+      ],
+      "fundingNeededUSD": 76916,
+      "hiringNeeds": [
+        "legal",
+        "backend"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": true,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0xdc5667d65f8bbcb36dc2e33c45858ccba27f2ec3",
+      "role": "founder",
+      "name": "Brian Bradley",
+      "startupName": "NeuroEdge Systems",
+      "stage": "Revenue-generating",
+      "domain": [
+        "AI",
+        "Blockchain"
+      ],
+      "biggestChallenge": "Tech",
+      "collaboratorsNeeded": [
+        "Technical Experts",
+        "Mentors"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Launch MVP and secure 10 pilot customers.",
+      "interestedInAccel": false,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Solidity",
+        "Python"
+      ],
+      "fundingNeededUSD": 115308,
+      "hiringNeeds": [
+        "legal",
+        "ops"
+      ],
+      "location": "London",
+      "previousSupportUsed": [
+        "Gov Scheme"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": false,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Onboarded 500 beta testers with positive feedback."
+    },
+    {
+      "wallet": "0x2be12d3b2a5d411e3fd2b52ef3af60ec59806cec",
+      "role": "founder",
+      "name": "Michael Flores",
+      "startupName": "HealthSync Technologies",
+      "stage": "Scaling",
+      "domain": [
+        "Fintech",
+        "Blockchain"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Legal Advisors",
+        "Investors"
+      ],
+      "seeking": "Mentoring",
+      "growthGoals12m": "Double monthly recurring revenue over the next year.",
+      "interestedInAccel": false,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "React",
+        "Python"
+      ],
+      "fundingNeededUSD": 412054,
+      "hiringNeeds": [
+        "frontend",
+        "ops"
+      ],
+      "location": "Berlin",
+      "previousSupportUsed": [
+        "Incubator"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": true,
+      "fundraisingStage": "series A",
+      "tractionSummary": "Onboarded 500 beta testers with positive feedback."
+    },
+    {
+      "wallet": "0x94f7c2ccf7882e5f94b5653431d99d412075d700",
+      "role": "founder",
+      "name": "Devin Harrington",
+      "startupName": "HealthSync Technologies",
+      "stage": "Idea",
+      "domain": [
+        "AI",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Legal Advisors",
+        "Mentors"
+      ],
+      "seeking": "Investments",
+      "growthGoals12m": "Double monthly recurring revenue over the next year.",
+      "interestedInAccel": false,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Node.js",
+        "Python"
+      ],
+      "fundingNeededUSD": 74400,
+      "hiringNeeds": [
+        "frontend",
+        "ops"
+      ],
+      "location": "London",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": true,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Partnered with 3 hospitals to run initial pilot programs."
+    },
+    {
+      "wallet": "0x2070a10df498acce878334c5af254af067118fd0",
+      "role": "founder",
+      "name": "Joseph Williams",
+      "startupName": "NeuroEdge Systems",
+      "stage": "Revenue-generating",
+      "domain": [
+        "HealthTech",
+        "Fintech"
+      ],
+      "biggestChallenge": "Funding",
+      "collaboratorsNeeded": [
+        "Technical Experts",
+        "Mentors"
+      ],
+      "seeking": "Mentoring",
+      "growthGoals12m": "Expand user base to 50,000+ active users.",
+      "interestedInAccel": true,
+      "preferredModel": "Grant",
+      "techStack": [
+        "React",
+        "Python"
+      ],
+      "fundingNeededUSD": 408987,
+      "hiringNeeds": [
+        "legal",
+        "ops"
+      ],
+      "location": "San Francisco",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": false,
+      "fundraisingStage": "seed",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0x9d21ffde361d192ecaca9bb023a0db813393878f",
+      "role": "founder",
+      "name": "Alison Lopez",
+      "startupName": "Finovate Labs",
+      "stage": "Idea",
+      "domain": [
+        "AI",
+        "Blockchain"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Legal Advisors",
+        "Mentors"
+      ],
+      "seeking": "Investments",
+      "growthGoals12m": "Launch MVP and secure 10 pilot customers.",
+      "interestedInAccel": false,
+      "preferredModel": "Grant",
+      "techStack": [
+        "Node.js",
+        "React"
+      ],
+      "fundingNeededUSD": 142132,
+      "hiringNeeds": [
+        "ops",
+        "legal"
+      ],
+      "location": "Berlin",
+      "previousSupportUsed": [
+        "Incubator"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": false,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Secured letters of intent from 5 enterprise clients."
+    },
+    {
+      "wallet": "0x8e053a19d280daa9cc9eb188ddcfb18a01903968",
+      "role": "founder",
+      "name": "Monica Lynn",
+      "startupName": "NeuroEdge Systems",
+      "stage": "Scaling",
+      "domain": [
+        "HealthTech",
+        "Fintech"
+      ],
+      "biggestChallenge": "Regulatory",
+      "collaboratorsNeeded": [
+        "Technical Experts",
+        "Investors"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Launch MVP and secure 10 pilot customers.",
+      "interestedInAccel": false,
+      "preferredModel": "Grant",
+      "techStack": [
+        "Node.js",
+        "Solidity"
+      ],
+      "fundingNeededUSD": 475442,
+      "hiringNeeds": [
+        "ops",
+        "legal"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Incubator"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": true,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Onboarded 500 beta testers with positive feedback."
+    },
+    {
+      "wallet": "0x53731a4cc84c1a24775ce4ca02e81b1733be9113",
+      "role": "founder",
+      "name": "Casey Brown",
+      "startupName": "NeuroEdge Systems",
+      "stage": "Revenue-generating",
+      "domain": [
+        "AI",
+        "Fintech"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Technical Experts",
+        "Mentors"
+      ],
+      "seeking": "Partnerships",
+      "growthGoals12m": "Enter 3 new regional markets and hire sales team.",
+      "interestedInAccel": true,
+      "preferredModel": "Equity",
+      "techStack": [
+        "React",
+        "Solidity"
+      ],
+      "fundingNeededUSD": 328982,
+      "hiringNeeds": [
+        "frontend",
+        "backend"
+      ],
+      "location": "Berlin",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": true,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Generated $100K in revenue in the past quarter."
+    },
+    {
+      "wallet": "0x8d279e25d98f660353ee785d0d56b3292498384b",
+      "role": "founder",
+      "name": "Miranda Campbell",
+      "startupName": "AIgenix",
+      "stage": "Idea",
+      "domain": [
+        "Fintech",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Team",
+      "collaboratorsNeeded": [
+        "Investors",
+        "Technical Experts"
+      ],
+      "seeking": "Investments",
+      "growthGoals12m": "Double monthly recurring revenue over the next year.",
+      "interestedInAccel": true,
+      "preferredModel": "Equity",
+      "techStack": [
+        "Solidity",
+        "React"
+      ],
+      "fundingNeededUSD": 194017,
+      "hiringNeeds": [
+        "backend",
+        "ops"
+      ],
+      "location": "San Francisco",
+      "previousSupportUsed": [
+        "Gov Scheme"
+      ],
+      "productType": "Marketplace",
+      "coFounderNeed": true,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Generated $100K in revenue in the past quarter."
+    },
+    {
+      "wallet": "0x56614a203ca0ec1cbcd19511d58a851a583eb55e",
+      "role": "founder",
+      "name": "Dawn Chung",
+      "startupName": "AIgenix",
+      "stage": "Revenue-generating",
+      "domain": [
+        "HealthTech",
+        "AI"
+      ],
+      "biggestChallenge": "Market Access",
+      "collaboratorsNeeded": [
+        "Investors",
+        "Mentors"
+      ],
+      "seeking": "Investments",
+      "growthGoals12m": "Launch MVP and secure 10 pilot customers.",
+      "interestedInAccel": false,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Node.js",
+        "Solidity"
+      ],
+      "fundingNeededUSD": 194335,
+      "hiringNeeds": [
+        "ops",
+        "frontend"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Mentorship Program"
+      ],
+      "productType": "Tokenized App",
+      "coFounderNeed": false,
+      "fundraisingStage": "series A",
+      "tractionSummary": "Generated $100K in revenue in the past quarter."
+    },
+    {
+      "wallet": "0xb71ff3effc1de01560ca0606b4bd1d85988b0944",
+      "role": "founder",
+      "name": "Morgan Durham",
+      "startupName": "HealthSync Technologies",
+      "stage": "MVP",
+      "domain": [
+        "AI",
+        "HealthTech"
+      ],
+      "biggestChallenge": "Regulatory",
+      "collaboratorsNeeded": [
+        "Technical Experts",
+        "Mentors"
+      ],
+      "seeking": "Mentoring",
+      "growthGoals12m": "Launch MVP and secure 10 pilot customers.",
+      "interestedInAccel": true,
+      "preferredModel": "Revenue-share",
+      "techStack": [
+        "Node.js",
+        "Solidity"
+      ],
+      "fundingNeededUSD": 121336,
+      "hiringNeeds": [
+        "legal",
+        "frontend"
+      ],
+      "location": "New York",
+      "previousSupportUsed": [
+        "Gov Scheme"
+      ],
+      "productType": "SaaS",
+      "coFounderNeed": false,
+      "fundraisingStage": "pre-seed",
+      "tractionSummary": "Partnered with 3 hospitals to run initial pilot programs."
+    }
+  ],
+  "investor": [
+    {
+      "wallet": "0x20490af1c1d03ac0308902f5d7ccd4c096baf691",
+      "role": "investor",
+      "name": "Justin Wilson",
+      "organization": "Robinson, Cooper and Nelson",
+      "investorType": "PE",
+      "ticketSizeUSD": [
+        84401,
+        66645
+      ],
+      "stageFocus": [
+        "Seed",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "Fintech",
+        "AI"
+      ],
+      "geography": [
+        "USA",
+        "India"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "Syndicate",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Board Seat",
+        "Passive"
+      ],
+      "evaluationCriteria": [
+        "CAC",
+        "Traction",
+        "TAM"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "LTV",
+        "NPS",
+        "CAC"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Unrealistic projections",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "High growth rate"
+      ],
+      "dealDiscovery": "Both",
+      "toolsUsed": [
+        "Crunchbase",
+        "Docsend"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1-2 per quarter",
+      "portfolio": [
+        "Davis and Sons",
+        "Robinson-Garcia"
+      ],
+      "supportNeededOnLokachakra": [
+        "Better startup discovery",
+        "Legal sync tools"
+      ]
+    },
+    {
+      "wallet": "0x52524d9bc55dc1711c4a7fb73778bf509fe82f46",
+      "role": "investor",
+      "name": "Cheryl Mendez",
+      "organization": "Blair Inc",
+      "investorType": "Angel",
+      "ticketSizeUSD": [
+        72393,
+        88033
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "Web3",
+        "AI"
+      ],
+      "geography": [
+        "Europe",
+        "India"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "SPV",
+        "Syndicate"
+      ],
+      "involvementLevel": [
+        "Active Mentorship",
+        "Passive"
+      ],
+      "evaluationCriteria": [
+        "Traction",
+        "Team",
+        "TAM"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "NPS",
+        "Retention",
+        "ARR"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "Strategic acquisition interest",
+        "Steady revenue"
+      ],
+      "dealDiscovery": "Both",
+      "toolsUsed": [
+        "Crunchbase",
+        "Carta"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "Ad-hoc",
+      "portfolio": [
+        "Garcia-Gutierrez",
+        "Williams Inc"
+      ],
+      "supportNeededOnLokachakra": [
+        "Due diligence workflows",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0x0ac78ba7bc853777b62d14d2de769f06fe950c40",
+      "role": "investor",
+      "name": "Alfred Hendricks",
+      "organization": "Dixon, Cameron and Armstrong",
+      "investorType": "PE",
+      "ticketSizeUSD": [
+        31614,
+        82320
+      ],
+      "stageFocus": [
+        "Pre-seed",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "Fintech",
+        "Web3"
+      ],
+      "geography": [
+        "Europe",
+        "USA"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "SPV",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "CAC",
+        "Team",
+        "TAM"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "Retention",
+        "CAC",
+        "NPS"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "No founder-market fit",
+        "Lack of product clarity"
+      ],
+      "exitReadinessSignals": [
+        "High growth rate",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Carta",
+        "Docsend"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Barker, Smith and Collins",
+        "Burch-Hall"
+      ],
+      "supportNeededOnLokachakra": [
+        "Better startup discovery",
+        "Due diligence workflows"
+      ]
+    },
+    {
+      "wallet": "0x4f5b8f2cd8e2c8f8335a6bc6b752aad7360540c4",
+      "role": "investor",
+      "name": "Peter Williams",
+      "organization": "Ponce, Rubio and Baird",
+      "investorType": "VC",
+      "ticketSizeUSD": [
+        37246,
+        53269
+      ],
+      "stageFocus": [
+        "Pre-seed",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "Web3",
+        "AI"
+      ],
+      "geography": [
+        "USA",
+        "Europe"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Direct",
+        "Syndicate"
+      ],
+      "involvementLevel": [
+        "Board Seat",
+        "Passive"
+      ],
+      "evaluationCriteria": [
+        "LTV",
+        "CAC",
+        "Team"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "ARR",
+        "CAC",
+        "Retention"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "Strategic acquisition interest",
+        "Steady revenue"
+      ],
+      "dealDiscovery": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "Docsend"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "Ad-hoc",
+      "portfolio": [
+        "Ellis-Smith",
+        "Woods-Bell"
+      ],
+      "supportNeededOnLokachakra": [
+        "Better startup discovery",
+        "Due diligence workflows"
+      ]
+    },
+    {
+      "wallet": "0xead523ecd9a7fabf5fcf805c746cdf0a0938c3dd",
+      "role": "investor",
+      "name": "Jonathan Perez",
+      "organization": "Patterson-Dudley",
+      "investorType": "Family Office",
+      "ticketSizeUSD": [
+        56519,
+        28023
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "AI",
+        "HealthTech"
+      ],
+      "geography": [
+        "India",
+        "Europe"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "SPV",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "Traction",
+        "LTV",
+        "TAM"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "Retention",
+        "NPS",
+        "CAC"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Outbound",
+      "toolsUsed": [
+        "Crunchbase",
+        "Docsend"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "1-2 per quarter",
+      "portfolio": [
+        "Thomas, Johnson and Silva",
+        "Austin-Gonzalez"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Due diligence workflows"
+      ]
+    },
+    {
+      "wallet": "0x5a5f41cfbef9f4aafb10511129243a3c14659d87",
+      "role": "investor",
+      "name": "Mrs. Robyn Berry DDS",
+      "organization": "Berger Inc",
+      "investorType": "VC",
+      "ticketSizeUSD": [
+        74255,
+        55543
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "HealthTech",
+        "Web3"
+      ],
+      "geography": [
+        "Asia",
+        "Europe"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Syndicate",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Active Mentorship"
+      ],
+      "evaluationCriteria": [
+        "Traction",
+        "Team",
+        "TAM"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "Retention",
+        "ARR",
+        "CAC"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "Lack of product clarity",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "High growth rate"
+      ],
+      "dealDiscovery": "Outbound",
+      "toolsUsed": [
+        "Docsend",
+        "Pitchbook"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "Ad-hoc",
+      "portfolio": [
+        "Cook, Cunningham and Blackwell",
+        "Beard-Phillips"
+      ],
+      "supportNeededOnLokachakra": [
+        "Better startup discovery",
+        "Legal sync tools"
+      ]
+    },
+    {
+      "wallet": "0x844ce3b4c84fb0b78626ef2d3b03cb2205d80b87",
+      "role": "investor",
+      "name": "Jennifer Sanchez DDS",
+      "organization": "Alvarez-Rivera",
+      "investorType": "PE",
+      "ticketSizeUSD": [
+        39623,
+        85904
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "AI",
+        "Fintech"
+      ],
+      "geography": [
+        "India",
+        "Asia"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "SPV",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "TAM",
+        "CAC",
+        "LTV"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "NPS",
+        "LTV",
+        "CAC"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Docsend",
+        "Crunchbase"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1-2 per quarter",
+      "portfolio": [
+        "Bush, Cruz and Craig",
+        "Garza Group"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0xb6736efea3b71802c05271b1f9bcb7cfc6f9ebb0",
+      "role": "investor",
+      "name": "Cindy Nicholson",
+      "organization": "Chen LLC",
+      "investorType": "Angel",
+      "ticketSizeUSD": [
+        49533,
+        94561
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "HealthTech",
+        "Web3"
+      ],
+      "geography": [
+        "USA",
+        "India"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "Syndicate",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "TAM",
+        "Team",
+        "LTV"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "CAC",
+        "Retention",
+        "LTV"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Unrealistic projections",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Carta",
+        "Crunchbase"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Perry-Allen",
+        "Aguilar-Johnson"
+      ],
+      "supportNeededOnLokachakra": [
+        "Due diligence workflows",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0xf9c9320a7b1677cbfa0dad367e6cf3d1f39ebe84",
+      "role": "investor",
+      "name": "Sean Jimenez",
+      "organization": "Martin-Weiss",
+      "investorType": "PE",
+      "ticketSizeUSD": [
+        66005,
+        44850
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "HealthTech",
+        "Fintech"
+      ],
+      "geography": [
+        "USA",
+        "Europe"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "Syndicate",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Active Mentorship"
+      ],
+      "evaluationCriteria": [
+        "Team",
+        "Traction",
+        "LTV"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "ARR",
+        "NPS",
+        "Retention"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "No founder-market fit",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "High growth rate",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Both",
+      "toolsUsed": [
+        "Carta",
+        "Pitchbook"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Rivera Ltd",
+        "Pacheco-Mclaughlin"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Due diligence workflows"
+      ]
+    },
+    {
+      "wallet": "0x6e04836d46be4429545f89ef215283f579e7b4e8",
+      "role": "investor",
+      "name": "Maria Dixon",
+      "organization": "Nelson PLC",
+      "investorType": "Family Office",
+      "ticketSizeUSD": [
+        66464,
+        92647
+      ],
+      "stageFocus": [
+        "Seed",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "Fintech",
+        "AI"
+      ],
+      "geography": [
+        "Asia",
+        "India"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Direct",
+        "SPV"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "LTV",
+        "TAM",
+        "Traction"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "NPS",
+        "CAC",
+        "ARR"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "High growth rate"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Carta",
+        "Docsend"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Leblanc Ltd",
+        "Salazar-Smith"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0x9f85b66d953bbad35920eb07f41dc7efa8d423b6",
+      "role": "investor",
+      "name": "Antonio Fisher",
+      "organization": "Rodriguez, Hill and Blevins",
+      "investorType": "VC",
+      "ticketSizeUSD": [
+        72746,
+        49799
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "Web3",
+        "Fintech"
+      ],
+      "geography": [
+        "Europe",
+        "USA"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Syndicate",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Active Mentorship"
+      ],
+      "evaluationCriteria": [
+        "Traction",
+        "TAM",
+        "LTV"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "LTV",
+        "Retention",
+        "ARR"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "Lack of product clarity",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "High growth rate",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Both",
+      "toolsUsed": [
+        "Carta",
+        "Pitchbook"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "1-2 per quarter",
+      "portfolio": [
+        "Watkins Ltd",
+        "Williams Ltd"
+      ],
+      "supportNeededOnLokachakra": [
+        "Due diligence workflows",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0xeb8b2de808d44f4c076c986265b75f90ae5fbf05",
+      "role": "investor",
+      "name": "Jacqueline Frost",
+      "organization": "Torres-Poole",
+      "investorType": "PE",
+      "ticketSizeUSD": [
+        52075,
+        77752
+      ],
+      "stageFocus": [
+        "Pre-seed",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "Web3",
+        "AI"
+      ],
+      "geography": [
+        "India",
+        "USA"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Direct",
+        "Syndicate"
+      ],
+      "involvementLevel": [
+        "Active Mentorship",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "CAC",
+        "Traction",
+        "TAM"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "LTV",
+        "ARR",
+        "Retention"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "No founder-market fit",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "Strategic acquisition interest",
+        "High growth rate"
+      ],
+      "dealDiscovery": "Both",
+      "toolsUsed": [
+        "Docsend",
+        "Carta"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Powers, Taylor and Gray",
+        "Hopkins Ltd"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0xb516adc79eb6e3700dfbf65e02f51d55dd3ed5e2",
+      "role": "investor",
+      "name": "Jasmine Powell",
+      "organization": "Summers, Long and Walsh",
+      "investorType": "Angel",
+      "ticketSizeUSD": [
+        72444,
+        87741
+      ],
+      "stageFocus": [
+        "Pre-seed",
+        "Series A+"
+      ],
+      "sectorFocus": [
+        "Fintech",
+        "AI"
+      ],
+      "geography": [
+        "India",
+        "USA"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "Syndicate",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Active Mentorship",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "TAM",
+        "LTV",
+        "CAC"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "Retention",
+        "ARR",
+        "NPS"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "Unrealistic projections",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "High growth rate",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "Docsend"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Green, Smith and Rojas",
+        "Sanchez, Rogers and Martin"
+      ],
+      "supportNeededOnLokachakra": [
+        "Better startup discovery",
+        "Legal sync tools"
+      ]
+    },
+    {
+      "wallet": "0x3f8c65b4c523da6bff1573cef49ac331e2bea06d",
+      "role": "investor",
+      "name": "Jill Welch",
+      "organization": "Brown-Watson",
+      "investorType": "Family Office",
+      "ticketSizeUSD": [
+        57519,
+        63351
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "HealthTech",
+        "Web3"
+      ],
+      "geography": [
+        "Asia",
+        "Europe"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "SPV",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Active Mentorship"
+      ],
+      "evaluationCriteria": [
+        "CAC",
+        "LTV",
+        "TAM"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "NPS",
+        "Retention",
+        "LTV"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "No founder-market fit",
+        "Lack of product clarity"
+      ],
+      "exitReadinessSignals": [
+        "Strategic acquisition interest",
+        "Steady revenue"
+      ],
+      "dealDiscovery": "Outbound",
+      "toolsUsed": [
+        "Carta",
+        "Crunchbase"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Taylor, Holt and Love",
+        "Michael, Wilson and Weeks"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Due diligence workflows"
+      ]
+    },
+    {
+      "wallet": "0x32c20ecd2ac80c9fdcaf3eb65382f069e00338fe",
+      "role": "investor",
+      "name": "Kendra Morrow",
+      "organization": "Ramos, Vasquez and Wallace",
+      "investorType": "VC",
+      "ticketSizeUSD": [
+        74136,
+        48733
+      ],
+      "stageFocus": [
+        "Seed",
+        "Series A+"
+      ],
+      "sectorFocus": [
+        "AI",
+        "Web3"
+      ],
+      "geography": [
+        "India",
+        "USA"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "SPV",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Board Seat",
+        "Active Mentorship"
+      ],
+      "evaluationCriteria": [
+        "LTV",
+        "Traction",
+        "TAM"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "LTV",
+        "ARR",
+        "Retention"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "High growth rate"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Carta",
+        "Docsend"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "Ad-hoc",
+      "portfolio": [
+        "Bailey Group",
+        "Wilson Group"
+      ],
+      "supportNeededOnLokachakra": [
+        "Due diligence workflows",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0x3f2b59a30bc41867e18a5a4b5336474d05021af7",
+      "role": "investor",
+      "name": "Stephanie Bentley",
+      "organization": "Gray-Decker",
+      "investorType": "Angel",
+      "ticketSizeUSD": [
+        72646,
+        26839
+      ],
+      "stageFocus": [
+        "Later-stage",
+        "Seed"
+      ],
+      "sectorFocus": [
+        "Fintech",
+        "AI"
+      ],
+      "geography": [
+        "Asia",
+        "USA"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "SPV",
+        "Direct"
+      ],
+      "involvementLevel": [
+        "Active Mentorship",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "Traction",
+        "CAC",
+        "Team"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "ARR",
+        "LTV",
+        "CAC"
+      ],
+      "impactAlignment": true,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "No founder-market fit",
+        "Lack of product clarity"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "High growth rate"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Docsend",
+        "Carta"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Collier-Dillon",
+        "Garcia LLC"
+      ],
+      "supportNeededOnLokachakra": [
+        "Due diligence workflows",
+        "Legal sync tools"
+      ]
+    },
+    {
+      "wallet": "0xf5bfe09539226ecc0d97db9a6e59c5c532188574",
+      "role": "investor",
+      "name": "Stephanie Smith MD",
+      "organization": "Barajas-Guerrero",
+      "investorType": "Family Office",
+      "ticketSizeUSD": [
+        48854,
+        45740
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "HealthTech",
+        "AI"
+      ],
+      "geography": [
+        "Europe",
+        "USA"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "SPV",
+        "Syndicate"
+      ],
+      "involvementLevel": [
+        "Board Seat",
+        "Active Mentorship"
+      ],
+      "evaluationCriteria": [
+        "TAM",
+        "Traction",
+        "LTV"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "CAC",
+        "LTV",
+        "Retention"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "Unrealistic projections",
+        "Lack of product clarity"
+      ],
+      "exitReadinessSignals": [
+        "High growth rate",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Outbound",
+      "toolsUsed": [
+        "Carta",
+        "Pitchbook"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Scott-Swanson",
+        "Walter Inc"
+      ],
+      "supportNeededOnLokachakra": [
+        "Due diligence workflows",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0x6828c9d1e67cab78a431d93786cfa0e37824d8af",
+      "role": "investor",
+      "name": "Kristen Lee",
+      "organization": "Moore, Lynch and Schmidt",
+      "investorType": "Family Office",
+      "ticketSizeUSD": [
+        52375,
+        93614
+      ],
+      "stageFocus": [
+        "Series A+",
+        "Pre-seed"
+      ],
+      "sectorFocus": [
+        "AI",
+        "HealthTech"
+      ],
+      "geography": [
+        "Asia",
+        "USA"
+      ],
+      "openToCoInvestment": false,
+      "coInvestmentType": [
+        "Direct",
+        "SPV"
+      ],
+      "involvementLevel": [
+        "Active Mentorship",
+        "Passive"
+      ],
+      "evaluationCriteria": [
+        "LTV",
+        "Team",
+        "TAM"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "Retention",
+        "CAC",
+        "NPS"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "Lack of product clarity",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "Strategic acquisition interest",
+        "Steady revenue"
+      ],
+      "dealDiscovery": "Both",
+      "toolsUsed": [
+        "Carta",
+        "Crunchbase"
+      ],
+      "legalPartnerModel": "With Legal Partners",
+      "dealFrequency": "1 per month",
+      "portfolio": [
+        "Jackson Inc",
+        "Rodriguez, Morris and Boyd"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Better startup discovery"
+      ]
+    },
+    {
+      "wallet": "0xaa667d35ccb6a1e2ace146e27e1a9c5b5bef5fdb",
+      "role": "investor",
+      "name": "Andrew Day",
+      "organization": "Watson-Hill",
+      "investorType": "Angel",
+      "ticketSizeUSD": [
+        78349,
+        65796
+      ],
+      "stageFocus": [
+        "Pre-seed",
+        "Seed"
+      ],
+      "sectorFocus": [
+        "Web3",
+        "HealthTech"
+      ],
+      "geography": [
+        "Europe",
+        "Asia"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Direct",
+        "SPV"
+      ],
+      "involvementLevel": [
+        "Passive",
+        "Board Seat"
+      ],
+      "evaluationCriteria": [
+        "Team",
+        "TAM",
+        "LTV"
+      ],
+      "mentoringInterest": false,
+      "advisoryInterest": false,
+      "metricsTracked": [
+        "Retention",
+        "LTV",
+        "NPS"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": false,
+      "redFlags": [
+        "Unrealistic projections",
+        "No founder-market fit"
+      ],
+      "exitReadinessSignals": [
+        "High growth rate",
+        "Steady revenue"
+      ],
+      "dealDiscovery": "Outbound",
+      "toolsUsed": [
+        "Docsend",
+        "Pitchbook"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "Ad-hoc",
+      "portfolio": [
+        "Jackson-Weaver",
+        "Gray Group"
+      ],
+      "supportNeededOnLokachakra": [
+        "Better startup discovery",
+        "Due diligence workflows"
+      ]
+    },
+    {
+      "wallet": "0xb285508d2a0546316e894a04888897ad5e9a8e21",
+      "role": "investor",
+      "name": "Christopher Lynn",
+      "organization": "Thomas-Wilson",
+      "investorType": "Angel",
+      "ticketSizeUSD": [
+        33687,
+        88930
+      ],
+      "stageFocus": [
+        "Pre-seed",
+        "Later-stage"
+      ],
+      "sectorFocus": [
+        "HealthTech",
+        "Fintech"
+      ],
+      "geography": [
+        "Europe",
+        "USA"
+      ],
+      "openToCoInvestment": true,
+      "coInvestmentType": [
+        "Syndicate",
+        "SPV"
+      ],
+      "involvementLevel": [
+        "Board Seat",
+        "Passive"
+      ],
+      "evaluationCriteria": [
+        "Traction",
+        "Team",
+        "CAC"
+      ],
+      "mentoringInterest": true,
+      "advisoryInterest": true,
+      "metricsTracked": [
+        "Retention",
+        "NPS",
+        "CAC"
+      ],
+      "impactAlignment": false,
+      "openToImpactMatches": true,
+      "redFlags": [
+        "Lack of product clarity",
+        "Unrealistic projections"
+      ],
+      "exitReadinessSignals": [
+        "Steady revenue",
+        "Strategic acquisition interest"
+      ],
+      "dealDiscovery": "Inbound",
+      "toolsUsed": [
+        "Crunchbase",
+        "Docsend"
+      ],
+      "legalPartnerModel": "In-house Legal",
+      "dealFrequency": "Ad-hoc",
+      "portfolio": [
+        "Lozano-Crawford",
+        "Hurst, Barber and Cruz"
+      ],
+      "supportNeededOnLokachakra": [
+        "Legal sync tools",
+        "Better startup discovery"
+      ]
+    }
+  ],
+  "accelerator": [
+    {
+      "wallet": "0x959b0188fbf4a81b6f76f720aed74d42ec7fe237",
+      "role": "accelerator",
+      "name": "Bryan and Sons",
+      "startupTypes": [
+        "AI",
+        "FinTech"
+      ],
+      "servicesOffered": [
+        "Office Space",
+        "Legal",
+        "Funding"
+      ],
+      "intakeSize": 36,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Outside approach ok.",
+      "programDuration": "6 months",
+      "stageFocus": [
+        "Idea",
+        "MVP"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Institution use act own politics.",
+      "fundingOrMentorship": "Funding",
+      "affiliations": [
+        "Govt Body",
+        "University"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Particularly respond cup pretty since.",
+      "openToPartnerships": [
+        "Government",
+        "Experts"
+      ]
+    },
+    {
+      "wallet": "0x63213df38738f5c55797ff9975002f142555b3bb",
+      "role": "accelerator",
+      "name": "Poole-Mooney",
+      "startupTypes": [
+        "FinTech",
+        "Social Impact"
+      ],
+      "servicesOffered": [
+        "Funding",
+        "Mentorship",
+        "Networking"
+      ],
+      "intakeSize": 39,
+      "batchFrequency": "Annual",
+      "rejectCriteria": "Spend blue action left.",
+      "programDuration": "6 months",
+      "stageFocus": [
+        "MVP",
+        "Scaling"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Theory you effect cover throw career.",
+      "fundingOrMentorship": "Mentorship",
+      "affiliations": [
+        "Govt Body",
+        "Corporate"
+      ],
+      "deliveryMode": "Virtual",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Wall clearly season night present.",
+      "openToPartnerships": [
+        "Experts",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0x3318f51b4effa2607540f626fa1b21535828855b",
+      "role": "accelerator",
+      "name": "Rogers, Harrison and Johnson",
+      "startupTypes": [
+        "Tech",
+        "Social Impact"
+      ],
+      "servicesOffered": [
+        "Office Space",
+        "Networking",
+        "Mentorship"
+      ],
+      "intakeSize": 26,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Husband avoid finish little car.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Early revenue",
+        "Idea"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Then blue citizen cause along society PM.",
+      "fundingOrMentorship": "Funding",
+      "affiliations": [
+        "Govt Body",
+        "Corporate"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Spend outside thus plan pay.",
+      "openToPartnerships": [
+        "Investors",
+        "Government"
+      ]
+    },
+    {
+      "wallet": "0x289ffb25d1576b7113c67dc72b523a47330bb651",
+      "role": "accelerator",
+      "name": "Jones LLC",
+      "startupTypes": [
+        "AI",
+        "FinTech"
+      ],
+      "servicesOffered": [
+        "Networking",
+        "Legal",
+        "Mentorship"
+      ],
+      "intakeSize": 36,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Language find condition.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Scaling",
+        "MVP"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Finally stage as case.",
+      "fundingOrMentorship": "Mentorship",
+      "affiliations": [
+        "Govt Body",
+        "Corporate"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Business employee social.",
+      "openToPartnerships": [
+        "Experts",
+        "Government"
+      ]
+    },
+    {
+      "wallet": "0x0f0602b72db17e323deaa5d0632cbeb3b59f6f65",
+      "role": "accelerator",
+      "name": "Potts LLC",
+      "startupTypes": [
+        "Social Impact",
+        "AI"
+      ],
+      "servicesOffered": [
+        "Mentorship",
+        "Office Space",
+        "Funding"
+      ],
+      "intakeSize": 42,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Feel buy truth development.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Idea",
+        "Early revenue"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Degree each year many laugh.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Govt Body",
+        "University"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": false,
+      "onboardingMatchHelp": "Pass usually civil.",
+      "openToPartnerships": [
+        "Government",
+        "Experts"
+      ]
+    },
+    {
+      "wallet": "0x90c03b3d6b178afeb81d52d6bc772c43c0995a5f",
+      "role": "accelerator",
+      "name": "Martin, Campbell and Kelley",
+      "startupTypes": [
+        "FinTech",
+        "AI"
+      ],
+      "servicesOffered": [
+        "Networking",
+        "Legal",
+        "Funding"
+      ],
+      "intakeSize": 26,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Second sure try.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Early revenue",
+        "MVP"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Current yes page me.",
+      "fundingOrMentorship": "Mentorship",
+      "affiliations": [
+        "Govt Body",
+        "University"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": false,
+      "onboardingMatchHelp": "Interesting build career garden.",
+      "openToPartnerships": [
+        "Experts",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0xb3ee7461b537957baf4964875d40ec4b88f8432d",
+      "role": "accelerator",
+      "name": "Padilla and Sons",
+      "startupTypes": [
+        "AI",
+        "FinTech"
+      ],
+      "servicesOffered": [
+        "Legal",
+        "Mentorship",
+        "Networking"
+      ],
+      "intakeSize": 39,
+      "batchFrequency": "Annual",
+      "rejectCriteria": "Factor arm less body.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Scaling",
+        "Early revenue"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Clear try small every.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Govt Body",
+        "University"
+      ],
+      "deliveryMode": "Virtual",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Enter million power ready.",
+      "openToPartnerships": [
+        "Experts",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0x91dd4db0ca5cb732736c02b8e68b125c7c064e57",
+      "role": "accelerator",
+      "name": "Caldwell-Cook",
+      "startupTypes": [
+        "Social Impact",
+        "Tech"
+      ],
+      "servicesOffered": [
+        "Legal",
+        "Funding",
+        "Mentorship"
+      ],
+      "intakeSize": 23,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Up matter prepare.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Scaling",
+        "Early revenue"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Resource perform opportunity stay although spring.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Govt Body",
+        "University"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": false,
+      "onboardingMatchHelp": "Page number about each democratic.",
+      "openToPartnerships": [
+        "Experts",
+        "Government"
+      ]
+    },
+    {
+      "wallet": "0xd9c14555670e4ef52c5581701d7383b74f13afae",
+      "role": "accelerator",
+      "name": "Brock, Lawrence and Smith",
+      "startupTypes": [
+        "FinTech",
+        "Social Impact"
+      ],
+      "servicesOffered": [
+        "Office Space",
+        "Funding",
+        "Legal"
+      ],
+      "intakeSize": 41,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Me list green society.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Scaling",
+        "Early revenue"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "White lose sense eat big prevent.",
+      "fundingOrMentorship": "Funding",
+      "affiliations": [
+        "University",
+        "Govt Body"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Medical until policy interesting chance yet specific.",
+      "openToPartnerships": [
+        "Experts",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0xc08936659ef0a3e32c97dd3a0802ac2e7030be46",
+      "role": "accelerator",
+      "name": "Krueger-Walker",
+      "startupTypes": [
+        "FinTech",
+        "AI"
+      ],
+      "servicesOffered": [
+        "Networking",
+        "Office Space",
+        "Mentorship"
+      ],
+      "intakeSize": 25,
+      "batchFrequency": "Annual",
+      "rejectCriteria": "Like decide get stuff.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Early revenue",
+        "MVP"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Final easy particular present.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Govt Body",
+        "University"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Wrong body treat south full keep.",
+      "openToPartnerships": [
+        "Experts",
+        "Government"
+      ]
+    },
+    {
+      "wallet": "0xc1123ad2a3416b771efa49efe0888ec2293a1944",
+      "role": "accelerator",
+      "name": "Shaw, Hill and Henry",
+      "startupTypes": [
+        "FinTech",
+        "Tech"
+      ],
+      "servicesOffered": [
+        "Mentorship",
+        "Legal",
+        "Funding"
+      ],
+      "intakeSize": 31,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Rather far whole opportunity performance.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Scaling",
+        "MVP"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Range car tend those.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "University",
+        "Corporate"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Hospital allow build suggest.",
+      "openToPartnerships": [
+        "Investors",
+        "Experts"
+      ]
+    },
+    {
+      "wallet": "0x501c7b85b20f1944b4e7ba4feccc6af82c1b4acf",
+      "role": "accelerator",
+      "name": "Jackson, Schneider and Hunt",
+      "startupTypes": [
+        "Social Impact",
+        "AI"
+      ],
+      "servicesOffered": [
+        "Office Space",
+        "Funding",
+        "Networking"
+      ],
+      "intakeSize": 18,
+      "batchFrequency": "Annual",
+      "rejectCriteria": "Billion join share yet easy.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Early revenue",
+        "MVP"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Among almost claim half whole.",
+      "fundingOrMentorship": "Mentorship",
+      "affiliations": [
+        "Corporate",
+        "University"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Either hair history simple listen.",
+      "openToPartnerships": [
+        "Government",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0xa178d40f933c7a15ee5457a9c0aea4327350123c",
+      "role": "accelerator",
+      "name": "Jackson, Pena and Atkins",
+      "startupTypes": [
+        "FinTech",
+        "Social Impact"
+      ],
+      "servicesOffered": [
+        "Mentorship",
+        "Funding",
+        "Networking"
+      ],
+      "intakeSize": 6,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Anything move point physical.",
+      "programDuration": "3 months",
+      "stageFocus": [
+        "Scaling",
+        "Idea"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Clearly week consider direction write.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "University",
+        "Corporate"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": false,
+      "onboardingMatchHelp": "More act level into resource.",
+      "openToPartnerships": [
+        "Experts",
+        "Government"
+      ]
+    },
+    {
+      "wallet": "0x380791fad7763a74c660487422f27a79e25ed543",
+      "role": "accelerator",
+      "name": "Morgan Group",
+      "startupTypes": [
+        "Social Impact",
+        "FinTech"
+      ],
+      "servicesOffered": [
+        "Networking",
+        "Office Space",
+        "Legal"
+      ],
+      "intakeSize": 42,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Other bit country.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Early revenue",
+        "MVP"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Federal across thought before gun new.",
+      "fundingOrMentorship": "Funding",
+      "affiliations": [
+        "University",
+        "Corporate"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": true,
+      "onboardingMatchHelp": "American hot poor total word over.",
+      "openToPartnerships": [
+        "Investors",
+        "Experts"
+      ]
+    },
+    {
+      "wallet": "0x119e9f9f94a866a48add82a2cb8584ffb0f8b467",
+      "role": "accelerator",
+      "name": "Chapman, Craig and Hoffman",
+      "startupTypes": [
+        "FinTech",
+        "AI"
+      ],
+      "servicesOffered": [
+        "Funding",
+        "Mentorship",
+        "Networking"
+      ],
+      "intakeSize": 33,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "I star soon consumer not.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Scaling",
+        "MVP"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Energy prevent several section structure surface prevent hope.",
+      "fundingOrMentorship": "Mentorship",
+      "affiliations": [
+        "University",
+        "Corporate"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": false,
+      "onboardingMatchHelp": "Treat institution sign four chair democratic.",
+      "openToPartnerships": [
+        "Government",
+        "Experts"
+      ]
+    },
+    {
+      "wallet": "0xeb69281d0755c459317fbb3f05945b69f8d572cb",
+      "role": "accelerator",
+      "name": "Horn, Hall and Escobar",
+      "startupTypes": [
+        "Tech",
+        "Social Impact"
+      ],
+      "servicesOffered": [
+        "Office Space",
+        "Funding",
+        "Networking"
+      ],
+      "intakeSize": 8,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Situation the five.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Scaling",
+        "Early revenue"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Phone coach positive her.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Corporate",
+        "Govt Body"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": false,
+      "onboardingMatchHelp": "Exist goal employee send feeling imagine trip.",
+      "openToPartnerships": [
+        "Government",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0x941bb91b522ba4bfeaa96923811faae19002c47a",
+      "role": "accelerator",
+      "name": "Mason-Shea",
+      "startupTypes": [
+        "FinTech",
+        "Tech"
+      ],
+      "servicesOffered": [
+        "Funding",
+        "Networking",
+        "Mentorship"
+      ],
+      "intakeSize": 7,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Allow group move.",
+      "programDuration": "6 months",
+      "stageFocus": [
+        "Early revenue",
+        "Scaling"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Pressure more window them time.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Corporate",
+        "Govt Body"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Inside indicate lay always.",
+      "openToPartnerships": [
+        "Investors",
+        "Government"
+      ]
+    },
+    {
+      "wallet": "0x560b455713a97a730848659e9e52c4d50d49c04b",
+      "role": "accelerator",
+      "name": "Jones Group",
+      "startupTypes": [
+        "FinTech",
+        "AI"
+      ],
+      "servicesOffered": [
+        "Funding",
+        "Networking",
+        "Mentorship"
+      ],
+      "intakeSize": 49,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Music success think guess.",
+      "programDuration": "6 months",
+      "stageFocus": [
+        "Scaling",
+        "Early revenue"
+      ],
+      "equityTaken": true,
+      "selectionCriteria": "Stay course bag.",
+      "fundingOrMentorship": "Funding",
+      "affiliations": [
+        "Govt Body",
+        "Corporate"
+      ],
+      "deliveryMode": "Virtual",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Story describe listen ever.",
+      "openToPartnerships": [
+        "Government",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0x90e6dd22b18a378c8b6ebc5c371fc1dcb563a62e",
+      "role": "accelerator",
+      "name": "Velazquez, Maddox and Smith",
+      "startupTypes": [
+        "AI",
+        "FinTech"
+      ],
+      "servicesOffered": [
+        "Office Space",
+        "Networking",
+        "Mentorship"
+      ],
+      "intakeSize": 23,
+      "batchFrequency": "Quarterly",
+      "rejectCriteria": "Blood under long.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Early revenue",
+        "Scaling"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Despite exactly responsibility window.",
+      "fundingOrMentorship": "Funding",
+      "affiliations": [
+        "Govt Body",
+        "Corporate"
+      ],
+      "deliveryMode": "In-person",
+      "crossBorder": false,
+      "onboardingMatchHelp": "Small guy room specific court decision.",
+      "openToPartnerships": [
+        "Experts",
+        "Investors"
+      ]
+    },
+    {
+      "wallet": "0x2e67d06b339e47a145b0e7dc604b52acd4be56c3",
+      "role": "accelerator",
+      "name": "Gutierrez and Sons",
+      "startupTypes": [
+        "FinTech",
+        "Social Impact"
+      ],
+      "servicesOffered": [
+        "Mentorship",
+        "Legal",
+        "Funding"
+      ],
+      "intakeSize": 48,
+      "batchFrequency": "Bi-annual",
+      "rejectCriteria": "Use without my none street begin.",
+      "programDuration": "1 year",
+      "stageFocus": [
+        "Scaling",
+        "MVP"
+      ],
+      "equityTaken": false,
+      "selectionCriteria": "Prevent maintain budget inside million.",
+      "fundingOrMentorship": "Both",
+      "affiliations": [
+        "Corporate",
+        "Govt Body"
+      ],
+      "deliveryMode": "Hybrid",
+      "crossBorder": true,
+      "onboardingMatchHelp": "Well course area happen pick they.",
+      "openToPartnerships": [
+        "Experts",
+        "Government"
+      ]
+    }
+  ],
+  "executive": [
+    {
+      "wallet": "0xd3c804d54e27b56f02ab2ba899b598bb976c04c4",
+      "role": "executive",
+      "name": "Paul Willis",
+      "currentRole": "COO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Retention",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Meet down term.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Talent",
+        "Advisors"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Direction every dream.",
+      "delegateAreas": [
+        "Tech",
+        "Marketing"
+      ],
+      "budgetMandate": "$231981"
+    },
+    {
+      "wallet": "0xf8c0b16bdecbaa8b9ed79d97996b1f9cb9f5905f",
+      "role": "executive",
+      "name": "James Lewis",
+      "currentRole": "CTO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Revenue Growth",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Woman myself media perhaps maybe hospital.",
+      "strategicPriorities": [
+        "Expansion",
+        "Innovation"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Buy lay hot today.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$328027"
+    },
+    {
+      "wallet": "0xf4762503ea9270302c8462bbd03c466526873ea2",
+      "role": "executive",
+      "name": "Kent Pham",
+      "currentRole": "CPO",
+      "organizationType": "Enterprise",
+      "KPIs": [
+        "Retention",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Member draw significant imagine.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "AI",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Advisors"
+      ],
+      "investMentorInterest": [
+        "Mentoring"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Hear conference task.",
+      "delegateAreas": [
+        "HR",
+        "Marketing"
+      ],
+      "budgetMandate": "$265086"
+    },
+    {
+      "wallet": "0x3bfec23f2bfcc59534c0e12581dceda7275c5074",
+      "role": "executive",
+      "name": "Alexander Higgins",
+      "currentRole": "CPO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Retention",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Than just should figure.",
+      "strategicPriorities": [
+        "Expansion",
+        "Innovation"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Several present soon company management.",
+      "delegateAreas": [
+        "Tech",
+        "HR"
+      ],
+      "budgetMandate": "$138364"
+    },
+    {
+      "wallet": "0x20c7a9d3ec1e97e695a824707704f19f379a976d",
+      "role": "executive",
+      "name": "Jeremy Larson",
+      "currentRole": "COO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Revenue Growth",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Key house probably son street study mention.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "AI",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Advisors"
+      ],
+      "investMentorInterest": [
+        "Mentoring"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Speech whatever six operation smile exactly.",
+      "delegateAreas": [
+        "HR",
+        "Marketing"
+      ],
+      "budgetMandate": "$382361"
+    },
+    {
+      "wallet": "0x0eed2a5eff2ae2ef982eec2847e42b750de86934",
+      "role": "executive",
+      "name": "Daniel Ramirez",
+      "currentRole": "CEO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "Retention",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Must edge case coach who.",
+      "strategicPriorities": [
+        "Expansion",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Cloud",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Oil only north trip expect.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$460281"
+    },
+    {
+      "wallet": "0x4043ecb18f4d65c5b8663ea6fa43567c6660c7fa",
+      "role": "executive",
+      "name": "Aaron Griffin",
+      "currentRole": "CTO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "Retention",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Lose nation truth summer baby expect.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "AI"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Mentoring"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Song total give.",
+      "delegateAreas": [
+        "HR",
+        "Marketing"
+      ],
+      "budgetMandate": "$443812"
+    },
+    {
+      "wallet": "0xbd9da1f86a9bca3296e80d6aa89ef80762ba178f",
+      "role": "executive",
+      "name": "Jason Reeves",
+      "currentRole": "CMO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Retention",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "As age financial.",
+      "strategicPriorities": [
+        "Innovation",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Talent",
+        "Tech Partners"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Real language concern recognize.",
+      "delegateAreas": [
+        "Tech",
+        "HR"
+      ],
+      "budgetMandate": "$143049"
+    },
+    {
+      "wallet": "0xebea9e51c505bb96e460c9be34650e5b58fb711f",
+      "role": "executive",
+      "name": "Jimmy Burch",
+      "currentRole": "CTO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "Retention",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Nor season need more.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Expansion"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "AI"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Argue organization fly use.",
+      "delegateAreas": [
+        "Tech",
+        "Marketing"
+      ],
+      "budgetMandate": "$402648"
+    },
+    {
+      "wallet": "0xe9d0f8fd95e875ab0f7c1c165b9c49ad250220a8",
+      "role": "executive",
+      "name": "Marcus Williams",
+      "currentRole": "CPO",
+      "organizationType": "Enterprise",
+      "KPIs": [
+        "User Acquisition",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Her gas dream purpose would affect.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Expansion"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "AI",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Analysis professor miss establish.",
+      "delegateAreas": [
+        "Tech",
+        "HR"
+      ],
+      "budgetMandate": "$165622"
+    },
+    {
+      "wallet": "0xbdeea5a3541b10154569b1f425b7c881dc4e5ee3",
+      "role": "executive",
+      "name": "Sean Mcguire",
+      "currentRole": "COO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "User Acquisition",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Network heavy born area kid.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Expansion"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Advisors"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "From memory current arrive live range.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$198242"
+    },
+    {
+      "wallet": "0x7d7aadbf705653cfcea4afd7bc4710680020b082",
+      "role": "executive",
+      "name": "Michelle Higgins",
+      "currentRole": "CMO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "Revenue Growth",
+        "Retention"
+      ],
+      "partnerFinding": "South citizen only bad it process.",
+      "strategicPriorities": [
+        "Innovation",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "AI",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Talent",
+        "Tech Partners"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Event late trade happy remember stuff.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$278627"
+    },
+    {
+      "wallet": "0x68bd5fdd50b4ea90e1d5a2f58eaeed160023eabd",
+      "role": "executive",
+      "name": "William Alvarez",
+      "currentRole": "CMO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Revenue Growth",
+        "Retention"
+      ],
+      "partnerFinding": "Task will miss you page.",
+      "strategicPriorities": [
+        "Innovation",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Cloud",
+        "AI"
+      ],
+      "seekingRoles": [
+        "Talent",
+        "Tech Partners"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Whom happen at agree cultural our.",
+      "delegateAreas": [
+        "HR",
+        "Tech"
+      ],
+      "budgetMandate": "$420526"
+    },
+    {
+      "wallet": "0x11e3190b8af0ed5827fbce7bfb15ca87328a8c01",
+      "role": "executive",
+      "name": "Melissa Brown",
+      "currentRole": "CTO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "Revenue Growth",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Item consider sit hospital trip.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Expansion"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Cloud",
+        "AI"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Tech Partners"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Indeed operation mission wish.",
+      "delegateAreas": [
+        "HR",
+        "Tech"
+      ],
+      "budgetMandate": "$175979"
+    },
+    {
+      "wallet": "0xe16c364d30693aad7e5471f8c84944bcf67a7d25",
+      "role": "executive",
+      "name": "Emily Bailey",
+      "currentRole": "CMO",
+      "organizationType": "NGO",
+      "KPIs": [
+        "Retention",
+        "Revenue Growth"
+      ],
+      "partnerFinding": "Daughter ever just appear reflect score analysis community.",
+      "strategicPriorities": [
+        "Innovation",
+        "Expansion"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "AI",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Mentoring"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Rock language room idea.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$183392"
+    },
+    {
+      "wallet": "0xd4ca4e6a277db855d65d6f1ed2bc639d25c9e0b9",
+      "role": "executive",
+      "name": "Steven Kennedy",
+      "currentRole": "CMO",
+      "organizationType": "Enterprise",
+      "KPIs": [
+        "User Acquisition",
+        "Retention"
+      ],
+      "partnerFinding": "Become those build stand.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Blockchain",
+        "Cloud"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Rather instead prove Mr exist protect.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$85097"
+    },
+    {
+      "wallet": "0x91418f2915524b8566a46f8b7249f73e865d15ec",
+      "role": "executive",
+      "name": "Matthew Black",
+      "currentRole": "CEO",
+      "organizationType": "Enterprise",
+      "KPIs": [
+        "Retention",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Indeed make provide over.",
+      "strategicPriorities": [
+        "Expansion",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "AI",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Mentoring"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Mother exactly ability.",
+      "delegateAreas": [
+        "Marketing",
+        "Tech"
+      ],
+      "budgetMandate": "$409807"
+    },
+    {
+      "wallet": "0xd8382581a9241592ae718f5b7ba62b6b8e018dd9",
+      "role": "executive",
+      "name": "Christopher Coleman",
+      "currentRole": "CTO",
+      "organizationType": "Enterprise",
+      "KPIs": [
+        "Revenue Growth",
+        "User Acquisition"
+      ],
+      "partnerFinding": "Coach first black leg.",
+      "strategicPriorities": [
+        "Expansion",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "AI",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Tech Partners",
+        "Talent"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Startups",
+      "industryChallenges": "Message country name garden either rule.",
+      "delegateAreas": [
+        "HR",
+        "Tech"
+      ],
+      "budgetMandate": "$170971"
+    },
+    {
+      "wallet": "0xf30f7310af2b4465e4dcdeb011b280787a2f0687",
+      "role": "executive",
+      "name": "Richard Collins",
+      "currentRole": "CPO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "User Acquisition",
+        "Retention"
+      ],
+      "partnerFinding": "Civil middle clearly this.",
+      "strategicPriorities": [
+        "Efficiency",
+        "Innovation"
+      ],
+      "exploring": [
+        "Acquisitions"
+      ],
+      "techInterests": [
+        "Cloud",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Talent",
+        "Advisors"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Mr money simply federal cultural.",
+      "delegateAreas": [
+        "HR",
+        "Tech"
+      ],
+      "budgetMandate": "$242370"
+    },
+    {
+      "wallet": "0x4a336cad829db564b6dfc4e3012b0ce39f281ac1",
+      "role": "executive",
+      "name": "Kelly Berry",
+      "currentRole": "CMO",
+      "organizationType": "Startup",
+      "KPIs": [
+        "User Acquisition",
+        "Retention"
+      ],
+      "partnerFinding": "Offer skill everyone.",
+      "strategicPriorities": [
+        "Innovation",
+        "Efficiency"
+      ],
+      "exploring": [
+        "Partnerships"
+      ],
+      "techInterests": [
+        "AI",
+        "Blockchain"
+      ],
+      "seekingRoles": [
+        "Advisors",
+        "Tech Partners"
+      ],
+      "investMentorInterest": [
+        "Investing"
+      ],
+      "firmPreference": "Established",
+      "industryChallenges": "Economic lose data the several.",
+      "delegateAreas": [
+        "Marketing",
+        "HR"
+      ],
+      "budgetMandate": "$432830"
+    }
+  ],
+  "legal": [
+    {
+      "wallet": "0x92ee9519caad9d1191d6b38097ccb87a31c4d9b2",
+      "role": "legal",
+      "name": "Cheryl Herrera",
+      "currentRole": "Auditor",
+      "specialization": [
+        "Crypto Compliance",
+        "IP"
+      ],
+      "toolsUsed": [
+        "Custom ERP",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Tech",
+        "Health"
+      ],
+      "engagementMode": "Retainer",
+      "mentorshipAvailability": true,
+      "commonChallenges": "Happen range feel baby yes.",
+      "updateChannels": [
+        "Webinars",
+        "Newsletters"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Startups"
+      ],
+      "privacyConcerns": "Manager popular candidate because peace."
+    },
+    {
+      "wallet": "0xd6341f30172681d712153217f61d09d3fe64874b",
+      "role": "legal",
+      "name": "Aaron Jones",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "IP",
+        "M&A"
+      ],
+      "toolsUsed": [
+        "Custom ERP",
+        "Westlaw"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Health",
+        "Finance"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Close population manage whom window.",
+      "updateChannels": [
+        "Papers",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Corporates"
+      ],
+      "privacyConcerns": "Tough off be president."
+    },
+    {
+      "wallet": "0xa79f9e4a94e5fa1a4c156c0220e9cec36748e64b",
+      "role": "legal",
+      "name": "Eric Mcdonald",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "IP",
+        "Crypto Compliance"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Westlaw"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Health",
+        "Tech"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Exist you look sure back without card.",
+      "updateChannels": [
+        "Papers",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Startups"
+      ],
+      "privacyConcerns": "Others performance a attorney."
+    },
+    {
+      "wallet": "0x7c8533f93517db9b3628bc21654f19b22dcd78c2",
+      "role": "legal",
+      "name": "Alexandra Rodriguez",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "M&A",
+        "Taxation"
+      ],
+      "toolsUsed": [
+        "Custom ERP",
+        "Westlaw"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Finance",
+        "Health"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Bill since travel among throw nor middle.",
+      "updateChannels": [
+        "Papers",
+        "Newsletters"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Govt"
+      ],
+      "privacyConcerns": "Because window exist."
+    },
+    {
+      "wallet": "0x9bba7c683e4de3f004e01a5a57be3a285bb1c096",
+      "role": "legal",
+      "name": "Thomas Johnson",
+      "currentRole": "Compliance Officer",
+      "specialization": [
+        "Crypto Compliance",
+        "IP"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Finance",
+        "Tech"
+      ],
+      "engagementMode": "Freelance",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Member reality room.",
+      "updateChannels": [
+        "Papers",
+        "Newsletters"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Corporates"
+      ],
+      "privacyConcerns": "Important bank pick sell who pull purpose."
+    },
+    {
+      "wallet": "0xed958434dba22ef0b6f973a9d5e557e2ac43a966",
+      "role": "legal",
+      "name": "Melissa Rowe",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "Taxation",
+        "IP"
+      ],
+      "toolsUsed": [
+        "Custom ERP",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Finance",
+        "Tech"
+      ],
+      "engagementMode": "Freelance",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Father letter Democrat natural crime.",
+      "updateChannels": [
+        "Newsletters",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Startups"
+      ],
+      "privacyConcerns": "Particular leg team evening story."
+    },
+    {
+      "wallet": "0x317bfa1644806d04bb73fb29a5ebc1d6d6e8cdd7",
+      "role": "legal",
+      "name": "Anthony Carter",
+      "currentRole": "Auditor",
+      "specialization": [
+        "IP",
+        "Crypto Compliance"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Health",
+        "Tech"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Sense standard lawyer husband main successful.",
+      "updateChannels": [
+        "Webinars",
+        "Newsletters"
+      ],
+      "clientTypes": [
+        "Govt",
+        "Corporates"
+      ],
+      "privacyConcerns": "Ask song scene."
+    },
+    {
+      "wallet": "0xf763a2e50b74fc71fcac1d786c9228a3175ded9f",
+      "role": "legal",
+      "name": "John Holloway",
+      "currentRole": "Auditor",
+      "specialization": [
+        "Taxation",
+        "Crypto Compliance"
+      ],
+      "toolsUsed": [
+        "Westlaw",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Tech",
+        "Finance"
+      ],
+      "engagementMode": "Retainer",
+      "mentorshipAvailability": true,
+      "commonChallenges": "Security recent one.",
+      "updateChannels": [
+        "Papers",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Govt",
+        "Startups"
+      ],
+      "privacyConcerns": "In behavior industry career such many."
+    },
+    {
+      "wallet": "0x793e93dbdc89b99d6e1f68fdadc6ba77442b3555",
+      "role": "legal",
+      "name": "Alyssa Bradley",
+      "currentRole": "Auditor",
+      "specialization": [
+        "M&A",
+        "IP"
+      ],
+      "toolsUsed": [
+        "Westlaw",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Tech",
+        "Finance"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Oil rise decide tree billion.",
+      "updateChannels": [
+        "Newsletters",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Govt"
+      ],
+      "privacyConcerns": "Probably environment plan."
+    },
+    {
+      "wallet": "0x8605d843a104022ffe581ff3c9027c09e2c06350",
+      "role": "legal",
+      "name": "Sheila Miller",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "M&A",
+        "Crypto Compliance"
+      ],
+      "toolsUsed": [
+        "Westlaw",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Health",
+        "Tech"
+      ],
+      "engagementMode": "Freelance",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Option born image season consider their reason.",
+      "updateChannels": [
+        "Newsletters",
+        "Papers"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Govt"
+      ],
+      "privacyConcerns": "Sit part a on international smile serve."
+    },
+    {
+      "wallet": "0x4212e59922dbd9374fd9fd40dfc6a03def8b531c",
+      "role": "legal",
+      "name": "David Dixon",
+      "currentRole": "Auditor",
+      "specialization": [
+        "IP",
+        "Taxation"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Tech",
+        "Health"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": true,
+      "commonChallenges": "Owner less value natural letter with.",
+      "updateChannels": [
+        "Webinars",
+        "Papers"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Startups"
+      ],
+      "privacyConcerns": "Onto marriage marriage once forget participant."
+    },
+    {
+      "wallet": "0x1faff6f4b1d15b365e8b2f29fc9ea4494620fd83",
+      "role": "legal",
+      "name": "Kimberly Johnson",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "Crypto Compliance",
+        "Taxation"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Westlaw"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Health",
+        "Tech"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "By race ever affect account all traditional.",
+      "updateChannels": [
+        "Webinars",
+        "Papers"
+      ],
+      "clientTypes": [
+        "Govt",
+        "Startups"
+      ],
+      "privacyConcerns": "President beautiful every site space that."
+    },
+    {
+      "wallet": "0x2a0e710819ca54a8a8b0d143bf73a2dcf4c5a803",
+      "role": "legal",
+      "name": "Heather Myers",
+      "currentRole": "Auditor",
+      "specialization": [
+        "Crypto Compliance",
+        "Taxation"
+      ],
+      "toolsUsed": [
+        "Westlaw",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Health",
+        "Finance"
+      ],
+      "engagementMode": "Retainer",
+      "mentorshipAvailability": true,
+      "commonChallenges": "International others space week street effect agency.",
+      "updateChannels": [
+        "Papers",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Corporates"
+      ],
+      "privacyConcerns": "Some whose allow performance."
+    },
+    {
+      "wallet": "0xa26f3359eb1ffeb289bef11954462fd8a52954a2",
+      "role": "legal",
+      "name": "Christopher Conley",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "M&A",
+        "IP"
+      ],
+      "toolsUsed": [
+        "Westlaw",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Health",
+        "Finance"
+      ],
+      "engagementMode": "Retainer",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Return teach yet Republican tree wait.",
+      "updateChannels": [
+        "Newsletters",
+        "Papers"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Corporates"
+      ],
+      "privacyConcerns": "Business blood enough color be serve."
+    },
+    {
+      "wallet": "0x32098690cb73aff933347bc5a9a88e90aaf88f7b",
+      "role": "legal",
+      "name": "Anthony Medina",
+      "currentRole": "Auditor",
+      "specialization": [
+        "M&A",
+        "Crypto Compliance"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Collaboration"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Tech",
+        "Finance"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Cut within cause give trip treat.",
+      "updateChannels": [
+        "Papers",
+        "Newsletters"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Govt"
+      ],
+      "privacyConcerns": "About suggest pay cup his technology their."
+    },
+    {
+      "wallet": "0xe76f78e3fc4c3e56528964ecb7caedbbc4235074",
+      "role": "legal",
+      "name": "Sherri Andrews",
+      "currentRole": "Compliance Officer",
+      "specialization": [
+        "M&A",
+        "IP"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Custom ERP"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Health",
+        "Tech"
+      ],
+      "engagementMode": "Freelance",
+      "mentorshipAvailability": true,
+      "commonChallenges": "Much toward health administration group thank risk.",
+      "updateChannels": [
+        "Papers",
+        "Newsletters"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Corporates"
+      ],
+      "privacyConcerns": "Skill audience he page compare now down third."
+    },
+    {
+      "wallet": "0xf065edfca3d1502f0e55586b21e56473968ed65f",
+      "role": "legal",
+      "name": "Austin Price",
+      "currentRole": "Auditor",
+      "specialization": [
+        "IP",
+        "Taxation"
+      ],
+      "toolsUsed": [
+        "Westlaw",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": true,
+      "industrySectors": [
+        "Tech",
+        "Finance"
+      ],
+      "engagementMode": "Retainer",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Republican people fast hospital arm change.",
+      "updateChannels": [
+        "Newsletters",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Startups"
+      ],
+      "privacyConcerns": "Successful despite set one where whatever popular."
+    },
+    {
+      "wallet": "0xa3fb0868de8b9bb1a298e7cb513c96086c4e19aa",
+      "role": "legal",
+      "name": "Mr. Edward Crawford",
+      "currentRole": "Compliance Officer",
+      "specialization": [
+        "IP",
+        "M&A"
+      ],
+      "toolsUsed": [
+        "LexisNexis",
+        "Westlaw"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Tech",
+        "Health"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "Water response cut world none fall.",
+      "updateChannels": [
+        "Papers",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Corporates",
+        "Startups"
+      ],
+      "privacyConcerns": "Protect account fine remain interview student kitchen provide."
+    },
+    {
+      "wallet": "0xa9ddce9fda2a38abac3cc8e869866206bbd9774f",
+      "role": "legal",
+      "name": "Emily Woods",
+      "currentRole": "Compliance Officer",
+      "specialization": [
+        "IP",
+        "Taxation"
+      ],
+      "toolsUsed": [
+        "Custom ERP",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Tech",
+        "Health"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": true,
+      "commonChallenges": "Be next ok.",
+      "updateChannels": [
+        "Newsletters",
+        "Papers"
+      ],
+      "clientTypes": [
+        "Govt",
+        "Startups"
+      ],
+      "privacyConcerns": "Just share cold expert sport ask difficult."
+    },
+    {
+      "wallet": "0x34935daed9440a641732df6692f2cbc604a6ddf5",
+      "role": "legal",
+      "name": "Alexander Gutierrez",
+      "currentRole": "Lawyer",
+      "specialization": [
+        "Taxation",
+        "M&A"
+      ],
+      "toolsUsed": [
+        "Custom ERP",
+        "LexisNexis"
+      ],
+      "lookingToOffer": [
+        "Services"
+      ],
+      "startupAdvisoryExp": false,
+      "industrySectors": [
+        "Finance",
+        "Health"
+      ],
+      "engagementMode": "Consult",
+      "mentorshipAvailability": false,
+      "commonChallenges": "These two left decide.",
+      "updateChannels": [
+        "Newsletters",
+        "Webinars"
+      ],
+      "clientTypes": [
+        "Startups",
+        "Govt"
+      ],
+      "privacyConcerns": "Different throw front too name and detail."
+    }
+  ],
+  "government": [
+    {
+      "wallet": "0x22ad36b690a8df1fb07295648f7691f9f306e4ae",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Healthcare",
+        "Cybersecurity"
+      ],
+      "orgType": "Agency",
+      "position": "Head",
+      "yearsActive": 1,
+      "pastChallenges": "Kitchen later lot eye billion sort.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Policy-making",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Like him child series room.",
+      "partnershipConstraints": "Fast technology follow."
+    },
+    {
+      "wallet": "0x582f23a05b7338f1dc3b4183e231451ecc2954de",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Healthcare",
+        "Environment"
+      ],
+      "orgType": "Government Dept",
+      "position": "Officer",
+      "yearsActive": 9,
+      "pastChallenges": "Since end pattern child prepare.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Policy-making",
+      "collabStyle": "Open Network",
+      "startTimeline": "6+ months",
+      "impactEval": "Hard both source.",
+      "partnershipConstraints": "Choose participant force end sport."
+    },
+    {
+      "wallet": "0x44bc8d2cd8c62e38e5e44266102b32925a011ed4",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Environment",
+        "Healthcare"
+      ],
+      "orgType": "Regulatory Body",
+      "position": "Director",
+      "yearsActive": 9,
+      "pastChallenges": "Night continue size question.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Policy-making",
+      "collabStyle": "Structured",
+      "startTimeline": "1-3 months",
+      "impactEval": "Page simply star.",
+      "partnershipConstraints": "Computer relationship television into."
+    },
+    {
+      "wallet": "0x3007e195badfeff3857fc4aedc6f654e094788f3",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Healthcare",
+        "Cybersecurity"
+      ],
+      "orgType": "Government Dept",
+      "position": "Officer",
+      "yearsActive": 2,
+      "pastChallenges": "Name day heart hard bad day employee.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "NGOs",
+        "Startups"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Environmental usually campaign.",
+      "partnershipConstraints": "Travel collection east."
+    },
+    {
+      "wallet": "0x930d320a0f07333f552643bde0d1ae545b553b56",
+      "role": "authority",
+      "department": "Policy",
+      "domainRegulated": [
+        "Cybersecurity",
+        "Healthcare"
+      ],
+      "orgType": "Agency",
+      "position": "Officer",
+      "yearsActive": 16,
+      "pastChallenges": "So course economy now another wall suggest.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Think Tanks",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Open Network",
+      "startTimeline": "Immediate",
+      "impactEval": "Interview interview all live.",
+      "partnershipConstraints": "Cut plan maintain industry enjoy laugh final."
+    },
+    {
+      "wallet": "0x6c467163a659cb95a8759cd34f85aa6f2af20528",
+      "role": "authority",
+      "department": "Policy",
+      "domainRegulated": [
+        "Environment",
+        "Cybersecurity"
+      ],
+      "orgType": "Agency",
+      "position": "Director",
+      "yearsActive": 20,
+      "pastChallenges": "Analysis control gas huge address race understand.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Compliance",
+      "collabStyle": "Structured",
+      "startTimeline": "1-3 months",
+      "impactEval": "Design third teach continue program wide.",
+      "partnershipConstraints": "Collection heart them authority."
+    },
+    {
+      "wallet": "0xeb2565ed2e63a0dcaa08efba8d392db1e6b29c5e",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Healthcare",
+        "Environment"
+      ],
+      "orgType": "Government Dept",
+      "position": "Officer",
+      "yearsActive": 1,
+      "pastChallenges": "Compare I health keep represent.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Compliance",
+      "collabStyle": "Structured",
+      "startTimeline": "Immediate",
+      "impactEval": "Position mother community meeting southern.",
+      "partnershipConstraints": "Indicate fight the choose."
+    },
+    {
+      "wallet": "0x38322f03f3119f18cb7c809b903f15e5114b7c4a",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Cybersecurity",
+        "Healthcare"
+      ],
+      "orgType": "Government Dept",
+      "position": "Head",
+      "yearsActive": 13,
+      "pastChallenges": "Until well food quite say well.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Compliance",
+      "collabStyle": "Structured",
+      "startTimeline": "1-3 months",
+      "impactEval": "Wide writer right leave.",
+      "partnershipConstraints": "Act decide remain wide single."
+    },
+    {
+      "wallet": "0x743892e121d06e6a4b4d40e6a45e103907ae7f0c",
+      "role": "authority",
+      "department": "Policy",
+      "domainRegulated": [
+        "Environment",
+        "Healthcare"
+      ],
+      "orgType": "Agency",
+      "position": "Head",
+      "yearsActive": 5,
+      "pastChallenges": "Around son left mouth administration bad half.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "NGOs",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Against although protect then turn.",
+      "partnershipConstraints": "Water tend news first hot simply."
+    },
+    {
+      "wallet": "0xca7a7ee5e50e0ced084a0edabc0f846c2343a9b7",
+      "role": "authority",
+      "department": "Policy",
+      "domainRegulated": [
+        "Environment",
+        "Cybersecurity"
+      ],
+      "orgType": "Regulatory Body",
+      "position": "Head",
+      "yearsActive": 5,
+      "pastChallenges": "Fly military structure teach morning sure still.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Key ten activity cup grow right.",
+      "partnershipConstraints": "Music social expert shoulder memory."
+    },
+    {
+      "wallet": "0x34156ad6486265f5a5f9a3904a6bae5e1352f81b",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Environment",
+        "Cybersecurity"
+      ],
+      "orgType": "Government Dept",
+      "position": "Director",
+      "yearsActive": 10,
+      "pastChallenges": "Unit all hand spend.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Enforcement",
+      "collabStyle": "Structured",
+      "startTimeline": "6+ months",
+      "impactEval": "Decade approach election.",
+      "partnershipConstraints": "Simply risk compare late."
+    },
+    {
+      "wallet": "0x2917418302714e5840e5cca6c5682b0295f7f6ed",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Cybersecurity",
+        "Healthcare"
+      ],
+      "orgType": "Regulatory Body",
+      "position": "Head",
+      "yearsActive": 13,
+      "pastChallenges": "Assume live security goal director.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Open Network",
+      "startTimeline": "Immediate",
+      "impactEval": "Conference surface main unit.",
+      "partnershipConstraints": "Adult million try compare mind these."
+    },
+    {
+      "wallet": "0x791e9aa6abc04319ad7f2c2d08904ebd3bba09b3",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Healthcare",
+        "Cybersecurity"
+      ],
+      "orgType": "Agency",
+      "position": "Director",
+      "yearsActive": 6,
+      "pastChallenges": "Couple region economy power easy ahead number.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "NGOs",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Increase create affect.",
+      "partnershipConstraints": "Woman student sort cover act represent."
+    },
+    {
+      "wallet": "0x1ccafcb06f9e978c962d50c8b60a859bcb47fad1",
+      "role": "authority",
+      "department": "Policy",
+      "domainRegulated": [
+        "Environment",
+        "Healthcare"
+      ],
+      "orgType": "Regulatory Body",
+      "position": "Director",
+      "yearsActive": 4,
+      "pastChallenges": "Parent treat hotel above prove significant.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Policy-making",
+      "collabStyle": "Open Network",
+      "startTimeline": "6+ months",
+      "impactEval": "Drive let bad free.",
+      "partnershipConstraints": "Standard check laugh."
+    },
+    {
+      "wallet": "0x60aca2608cb533a82ebd1591be907e7897e2d724",
+      "role": "authority",
+      "department": "Grant Body",
+      "domainRegulated": [
+        "Cybersecurity",
+        "Environment"
+      ],
+      "orgType": "Government Dept",
+      "position": "Head",
+      "yearsActive": 7,
+      "pastChallenges": "White Congress throughout pass.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Think Tanks",
+        "Startups"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Enforcement",
+      "collabStyle": "Structured",
+      "startTimeline": "Immediate",
+      "impactEval": "Beat operation wind.",
+      "partnershipConstraints": "Project energy want simply."
+    },
+    {
+      "wallet": "0xff6f0cf0d1cca78503ee44a9f0a18d42b4bffb17",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Cybersecurity",
+        "Environment"
+      ],
+      "orgType": "Regulatory Body",
+      "position": "Director",
+      "yearsActive": 14,
+      "pastChallenges": "Protect leave sport kid magazine.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Custom Dashboard"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Policy-making",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Look cost attack exactly discuss enter.",
+      "partnershipConstraints": "Support break series."
+    },
+    {
+      "wallet": "0x04eddf4410aae3a57491f223c00aded08917ae3c",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Environment",
+        "Healthcare"
+      ],
+      "orgType": "Government Dept",
+      "position": "Head",
+      "yearsActive": 16,
+      "pastChallenges": "Capital item short road population forward statement hospital.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Compliance",
+      "collabStyle": "Open Network",
+      "startTimeline": "1-3 months",
+      "impactEval": "Dog glass describe.",
+      "partnershipConstraints": "Power rise make."
+    },
+    {
+      "wallet": "0x8510d4a6881155ff663bbbdcab94335af60f9cfb",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Environment",
+        "Cybersecurity"
+      ],
+      "orgType": "Government Dept",
+      "position": "Head",
+      "yearsActive": 8,
+      "pastChallenges": "Across entire hand arrive.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "NGOs"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": false,
+      "focusArea": "Enforcement",
+      "collabStyle": "Structured",
+      "startTimeline": "1-3 months",
+      "impactEval": "Sort well hour meeting follow.",
+      "partnershipConstraints": "Mind body training bed."
+    },
+    {
+      "wallet": "0xe969240f7e5cc4f2fa97c84d105232f6ed43d699",
+      "role": "authority",
+      "department": "Regulatory",
+      "domainRegulated": [
+        "Cybersecurity",
+        "Healthcare"
+      ],
+      "orgType": "Regulatory Body",
+      "position": "Director",
+      "yearsActive": 13,
+      "pastChallenges": "Common friend physical population theory media site.",
+      "innovationInterest": false,
+      "collabOrgs": [
+        "Startups",
+        "Think Tanks"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Compliance",
+      "collabStyle": "Structured",
+      "startTimeline": "6+ months",
+      "impactEval": "Even job behavior.",
+      "partnershipConstraints": "Measure number institution."
+    },
+    {
+      "wallet": "0xa8fa8207e00b04d26765d826880851030634c699",
+      "role": "authority",
+      "department": "Policy",
+      "domainRegulated": [
+        "Environment",
+        "Healthcare"
+      ],
+      "orgType": "Agency",
+      "position": "Head",
+      "yearsActive": 1,
+      "pastChallenges": "Each spring any.",
+      "innovationInterest": true,
+      "collabOrgs": [
+        "NGOs",
+        "Startups"
+      ],
+      "dashboardsUsed": [
+        "Govt Portal"
+      ],
+      "policyResearchMatch": true,
+      "focusArea": "Compliance",
+      "collabStyle": "Open Network",
+      "startTimeline": "Immediate",
+      "impactEval": "Girl network reveal onto number.",
+      "partnershipConstraints": "Will Democrat special road."
+    }
+  ],
+  "cybersecurity": [
+    {
+      "wallet": "0x70f493a6446702aebecec714a6ca009e523bbd07",
+      "role": "cybersecurity",
+      "name": "John Knight",
+      "specializationAreas": [
+        "DevOps",
+        "Security Audits"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Learn",
+        "Share Expertise"
+      ],
+      "toolsFrameworks": [
+        "Nmap",
+        "Metasploit"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "AWS Sec",
+        "OSCP"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Access control"
+    },
+    {
+      "wallet": "0x12a3ee50eba04e4408f862b3dc4bd922c6e64d41",
+      "role": "cybersecurity",
+      "name": "Annette Sullivan",
+      "specializationAreas": [
+        "DevOps",
+        "Security Audits"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Share Expertise",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "Nmap",
+        "Metasploit"
+      ],
+      "updateMethod": "Threat Feeds",
+      "logAccessNeed": false,
+      "mentorshipInterest": true,
+      "certifications": [
+        "AWS Sec",
+        "CEH"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Alert fatigue"
+    },
+    {
+      "wallet": "0x78217df01cfa66dd264aa02b797d53b3f98afb2c",
+      "role": "cybersecurity",
+      "name": "Julie Silva",
+      "specializationAreas": [
+        "Security Audits",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Enterprise"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Share Expertise",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "Burp Suite",
+        "Metasploit"
+      ],
+      "updateMethod": "CVE Lists",
+      "logAccessNeed": true,
+      "mentorshipInterest": true,
+      "certifications": [
+        "AWS Sec",
+        "CEH"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Informal",
+      "biggestChallenge": "API scaling"
+    },
+    {
+      "wallet": "0x19aed839d827b4e221b03c80b14ecc8a51736b98",
+      "role": "cybersecurity",
+      "name": "Shannon Roberts",
+      "specializationAreas": [
+        "DevOps",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Share Expertise",
+        "Build Partnerships"
+      ],
+      "toolsFrameworks": [
+        "Metasploit",
+        "AWS"
+      ],
+      "updateMethod": "Threat Feeds",
+      "logAccessNeed": false,
+      "mentorshipInterest": true,
+      "certifications": [
+        "CEH",
+        "OSCP"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Patch management"
+    },
+    {
+      "wallet": "0x55163d7a0a3ad85ad71fe40ad172e2c7f600a5e3",
+      "role": "cybersecurity",
+      "name": "Elizabeth Vargas",
+      "specializationAreas": [
+        "DevOps",
+        "Security Audits"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Learn",
+        "Co-create"
+      ],
+      "toolsFrameworks": [
+        "Burp Suite",
+        "AWS"
+      ],
+      "updateMethod": "Threat Feeds",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "AWS Sec"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Patch management"
+    },
+    {
+      "wallet": "0x47fbe6af6d445f429219726abcf87fca498e239a",
+      "role": "cybersecurity",
+      "name": "Michael Thomas",
+      "specializationAreas": [
+        "Security Audits",
+        "DevOps"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Share Expertise",
+        "Co-create"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Nmap"
+      ],
+      "updateMethod": "CVE Lists",
+      "logAccessNeed": true,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "AWS Sec"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Patch management"
+    },
+    {
+      "wallet": "0xf6ed6204391a74bb10bd5c278620498b56c81529",
+      "role": "cybersecurity",
+      "name": "David Matthews",
+      "specializationAreas": [
+        "Infrastructure",
+        "DevOps"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Build Partnerships",
+        "Share Expertise"
+      ],
+      "toolsFrameworks": [
+        "Nmap",
+        "Metasploit"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "OSCP"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Informal",
+      "biggestChallenge": "API scaling"
+    },
+    {
+      "wallet": "0x34db9976c4168dfa73035e0a22c5e2e50f91ff54",
+      "role": "cybersecurity",
+      "name": "April Charles",
+      "specializationAreas": [
+        "Security Audits",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Share Expertise",
+        "Build Partnerships"
+      ],
+      "toolsFrameworks": [
+        "Burp Suite",
+        "Metasploit"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": false,
+      "mentorshipInterest": true,
+      "certifications": [
+        "AWS Sec",
+        "OSCP"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "API scaling"
+    },
+    {
+      "wallet": "0xc0a675663b9e77cedf01df036bc48bd366b385c8",
+      "role": "cybersecurity",
+      "name": "Ryan Yates",
+      "specializationAreas": [
+        "Security Audits",
+        "DevOps"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Build Partnerships",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Nmap"
+      ],
+      "updateMethod": "Threat Feeds",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "OSCP"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Patch management"
+    },
+    {
+      "wallet": "0xe7fd25a99038e4f38b7c20555b937ce596c54904",
+      "role": "cybersecurity",
+      "name": "Craig Hardy",
+      "specializationAreas": [
+        "Security Audits",
+        "DevOps"
+      ],
+      "domain": [
+        "Enterprise"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Share Expertise",
+        "Build Partnerships"
+      ],
+      "toolsFrameworks": [
+        "Metasploit",
+        "Burp Suite"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "AWS Sec",
+        "OSCP"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Alert fatigue"
+    },
+    {
+      "wallet": "0xa61a581301f3f732cf0cef5af7d578ba29ff275d",
+      "role": "cybersecurity",
+      "name": "Jason Daugherty",
+      "specializationAreas": [
+        "Security Audits",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Enterprise"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Co-create",
+        "Build Partnerships"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Nmap"
+      ],
+      "updateMethod": "Threat Feeds",
+      "logAccessNeed": false,
+      "mentorshipInterest": true,
+      "certifications": [
+        "AWS Sec",
+        "CEH"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Access control"
+    },
+    {
+      "wallet": "0x694f72d945f6750a3dc271db1090423f70d34006",
+      "role": "cybersecurity",
+      "name": "Tyler Singh",
+      "specializationAreas": [
+        "Infrastructure",
+        "Security Audits"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Learn",
+        "Build Partnerships"
+      ],
+      "toolsFrameworks": [
+        "Metasploit",
+        "AWS"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": true,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "OSCP"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Access control"
+    },
+    {
+      "wallet": "0xb5b6ea386e325f9d9266baefa6c882d4162e13a7",
+      "role": "cybersecurity",
+      "name": "Alexandra Craig",
+      "specializationAreas": [
+        "Security Audits",
+        "DevOps"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Build Partnerships",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "Metasploit",
+        "Burp Suite"
+      ],
+      "updateMethod": "CVE Lists",
+      "logAccessNeed": false,
+      "mentorshipInterest": true,
+      "certifications": [
+        "OSCP",
+        "AWS Sec"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Access control"
+    },
+    {
+      "wallet": "0x123731ec5e346822bb1cd9808f1427ce9e9705c6",
+      "role": "cybersecurity",
+      "name": "Kyle Adams",
+      "specializationAreas": [
+        "DevOps",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Build Partnerships",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "Nmap",
+        "Metasploit"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": true,
+      "mentorshipInterest": true,
+      "certifications": [
+        "OSCP",
+        "CEH"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "API scaling"
+    },
+    {
+      "wallet": "0xff3621c4859797b6c64a6d8991ab9d3947da0ef9",
+      "role": "cybersecurity",
+      "name": "Michael Richmond",
+      "specializationAreas": [
+        "Security Audits",
+        "DevOps"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Share Expertise",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "Nmap",
+        "Burp Suite"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "OSCP"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Regulatory compliance"
+    },
+    {
+      "wallet": "0x9f2a60da2648f79744a31fe4a8ae608e2f964eaa",
+      "role": "cybersecurity",
+      "name": "Roberto Bright",
+      "specializationAreas": [
+        "Infrastructure",
+        "Security Audits"
+      ],
+      "domain": [
+        "Web3"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Co-create",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "Metasploit",
+        "AWS"
+      ],
+      "updateMethod": "CVE Lists",
+      "logAccessNeed": false,
+      "mentorshipInterest": false,
+      "certifications": [
+        "CEH",
+        "OSCP"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Alert fatigue"
+    },
+    {
+      "wallet": "0xa6db8857ed4e1ff909f85707a65c09cd9f06d6a2",
+      "role": "cybersecurity",
+      "name": "Cheryl Jennings",
+      "specializationAreas": [
+        "DevOps",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Enterprise"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Co-create",
+        "Build Partnerships"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Nmap"
+      ],
+      "updateMethod": "CVE Lists",
+      "logAccessNeed": true,
+      "mentorshipInterest": false,
+      "certifications": [
+        "OSCP",
+        "AWS Sec"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Patch management"
+    },
+    {
+      "wallet": "0xfd6ee1664ddfe9525bc29d300a1c132c445cc2bc",
+      "role": "cybersecurity",
+      "name": "Erin Leach MD",
+      "specializationAreas": [
+        "Security Audits",
+        "Infrastructure"
+      ],
+      "domain": [
+        "Cloud"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Learn",
+        "Co-create"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Nmap"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": false,
+      "mentorshipInterest": true,
+      "certifications": [
+        "AWS Sec",
+        "CEH"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Informal",
+      "biggestChallenge": "Alert fatigue"
+    },
+    {
+      "wallet": "0x6f150e487dca743e69a9e6f66c89d76aa26fd1ab",
+      "role": "cybersecurity",
+      "name": "Donna Barnes",
+      "specializationAreas": [
+        "Security Audits",
+        "DevOps"
+      ],
+      "domain": [
+        "Enterprise"
+      ],
+      "gigPref": "Long-term Strategy",
+      "objectives": [
+        "Share Expertise",
+        "Learn"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Metasploit"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": true,
+      "mentorshipInterest": false,
+      "certifications": [
+        "OSCP",
+        "CEH"
+      ],
+      "teamPref": "Team-based",
+      "partnershipType": "Formal MoU",
+      "biggestChallenge": "Alert fatigue"
+    },
+    {
+      "wallet": "0x371c69fe060d409e76b2d0521246927247a99f32",
+      "role": "cybersecurity",
+      "name": "Brian Odonnell PhD",
+      "specializationAreas": [
+        "DevOps",
+        "Security Audits"
+      ],
+      "domain": [
+        "Enterprise"
+      ],
+      "gigPref": "Short-term",
+      "objectives": [
+        "Build Partnerships",
+        "Share Expertise"
+      ],
+      "toolsFrameworks": [
+        "AWS",
+        "Burp Suite"
+      ],
+      "updateMethod": "Conferences",
+      "logAccessNeed": true,
+      "mentorshipInterest": true,
+      "certifications": [
+        "CEH",
+        "AWS Sec"
+      ],
+      "teamPref": "Independent",
+      "partnershipType": "Informal",
+      "biggestChallenge": "API scaling"
+    }
+  ],
+  "freelancer": [
+    {
+      "wallet": "0x387c16c9dbaf4803bf3a51c211c794588886687f",
+      "role": "freelancer",
+      "name": "Carol Curry",
+      "expertiseArea": "Writing",
+      "preferredClients": [
+        "Startups",
+        "Government"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Junior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Upwork",
+        "Lokachakra"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Strategy from."
+    },
+    {
+      "wallet": "0x9bb1ef38327f2759562499eeddf6536894c5f280",
+      "role": "freelancer",
+      "name": "Cindy Cooper",
+      "expertiseArea": "Tech",
+      "preferredClients": [
+        "Startups",
+        "Researchers"
+      ],
+      "workMode": "Full-time",
+      "experienceLevel": "Senior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Freelancer.com"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Solo",
+      "cryptoGigs": false,
+      "verificationPref": "Send reflect store team trade."
+    },
+    {
+      "wallet": "0x18a6bbe4d6d98182daee641b9fb49ca0fc522f80",
+      "role": "freelancer",
+      "name": "Tracey Price",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Government",
+        "Researchers"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Junior",
+      "projectTimeline": "3-6 months",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Freelancer.com"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Solo",
+      "cryptoGigs": false,
+      "verificationPref": "Yet recently start smile."
+    },
+    {
+      "wallet": "0x5a2b13b92f4c9875d5acf5d5f8855fa74ec588dd",
+      "role": "freelancer",
+      "name": "Tim Potts",
+      "expertiseArea": "Tech",
+      "preferredClients": [
+        "Researchers",
+        "Government"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Senior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Freelancer.com"
+      ],
+      "commStyle": "Agile",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Process investment price executive."
+    },
+    {
+      "wallet": "0xcd0819da001524d4892ff1789bc3d0f266bf2015",
+      "role": "freelancer",
+      "name": "James Rush",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Startups",
+        "Government"
+      ],
+      "workMode": "Full-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Upwork",
+        "Freelancer.com"
+      ],
+      "commStyle": "Agile",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Ago their at wife."
+    },
+    {
+      "wallet": "0x8bb6945a289e110d05f19c886949bb1618e24db5",
+      "role": "freelancer",
+      "name": "Brittany Mitchell",
+      "expertiseArea": "Design",
+      "preferredClients": [
+        "Startups",
+        "Researchers"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Senior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Freelancer.com",
+        "Lokachakra"
+      ],
+      "commStyle": "Agile",
+      "teamWork": "Solo",
+      "cryptoGigs": true,
+      "verificationPref": "Worker activity early agree measure."
+    },
+    {
+      "wallet": "0x2bcde16a5e14e10fbe6e107383f9b68f82a9e4da",
+      "role": "freelancer",
+      "name": "Noah Gaines",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Researchers",
+        "Government"
+      ],
+      "workMode": "Full-time",
+      "experienceLevel": "Junior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Freelancer.com"
+      ],
+      "commStyle": "Agile",
+      "teamWork": "Team",
+      "cryptoGigs": true,
+      "verificationPref": "Sound address find."
+    },
+    {
+      "wallet": "0xfcbbcbb9ea207aa9cdc7071607b459322fdf8dce",
+      "role": "freelancer",
+      "name": "Michael Roth",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Startups",
+        "Researchers"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "1-3 months",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Freelancer.com"
+      ],
+      "commStyle": "Agile",
+      "teamWork": "Team",
+      "cryptoGigs": true,
+      "verificationPref": "Charge clear drive admit claim."
+    },
+    {
+      "wallet": "0x999ef203311d56c3f03e1abf78be0e3f64499d22",
+      "role": "freelancer",
+      "name": "Kristi Willis",
+      "expertiseArea": "Tech",
+      "preferredClients": [
+        "Government",
+        "Startups"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Junior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Upwork"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Team",
+      "cryptoGigs": true,
+      "verificationPref": "Business possible turn purpose way."
+    },
+    {
+      "wallet": "0xbfc90b0bc38f52064e0fdf9482d8fe8fcc1033d3",
+      "role": "freelancer",
+      "name": "Elizabeth Olson",
+      "expertiseArea": "Design",
+      "preferredClients": [
+        "Researchers",
+        "Startups"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Upwork",
+        "Freelancer.com"
+      ],
+      "commStyle": "Agile",
+      "teamWork": "Team",
+      "cryptoGigs": true,
+      "verificationPref": "Discover staff."
+    },
+    {
+      "wallet": "0xea238e4696ed28e6df3c6c28fcf138c70a24450b",
+      "role": "freelancer",
+      "name": "Heidi Mendoza",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Researchers",
+        "Startups"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Senior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Upwork",
+        "Lokachakra"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Solo",
+      "cryptoGigs": true,
+      "verificationPref": "Join his receive card."
+    },
+    {
+      "wallet": "0x4689b654042ae1e000e79f1bfdc436a255de5c17",
+      "role": "freelancer",
+      "name": "Melissa Hunter",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Researchers",
+        "Startups"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "3-6 months",
+      "findingPlatforms": [
+        "Upwork",
+        "Freelancer.com"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Responsibility keep tax brother."
+    },
+    {
+      "wallet": "0x8a73c52e0ea849911b51c8270e60b4ed94bec9ed",
+      "role": "freelancer",
+      "name": "Joshua Robinson",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Researchers",
+        "Startups"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Upwork"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Prove be able during."
+    },
+    {
+      "wallet": "0xe24eb0a2f3e4673ce21345c769e8135357b03743",
+      "role": "freelancer",
+      "name": "Emily Howard",
+      "expertiseArea": "Tech",
+      "preferredClients": [
+        "Government",
+        "Researchers"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Junior",
+      "projectTimeline": "3-6 months",
+      "findingPlatforms": [
+        "Upwork",
+        "Freelancer.com"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Solo",
+      "cryptoGigs": false,
+      "verificationPref": "Our radio."
+    },
+    {
+      "wallet": "0x33cd5995c9c7d4cfc7d4c235a0b5433ae9c05cd6",
+      "role": "freelancer",
+      "name": "Tiffany Johnson",
+      "expertiseArea": "Design",
+      "preferredClients": [
+        "Government",
+        "Researchers"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Freelancer.com"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Suffer various five buy."
+    },
+    {
+      "wallet": "0x85d1281848b9063b240d54830777d71e907b9b96",
+      "role": "freelancer",
+      "name": "Collin Hickman",
+      "expertiseArea": "Writing",
+      "preferredClients": [
+        "Government",
+        "Researchers"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "1-3 months",
+      "findingPlatforms": [
+        "Upwork",
+        "Lokachakra"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Solo",
+      "cryptoGigs": true,
+      "verificationPref": "In home."
+    },
+    {
+      "wallet": "0x11163f5f0f05121b06984b61f1455f45da91c68f",
+      "role": "freelancer",
+      "name": "Glenn Hernandez",
+      "expertiseArea": "Design",
+      "preferredClients": [
+        "Government",
+        "Startups"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "1-3 months",
+      "findingPlatforms": [
+        "Freelancer.com",
+        "Upwork"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Movement weight street area move."
+    },
+    {
+      "wallet": "0x893266c0a13eec0b7415423d4248c4d93d7229bd",
+      "role": "freelancer",
+      "name": "Brittany Pope",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Startups",
+        "Government"
+      ],
+      "workMode": "Full-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "1-3 months",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Upwork"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Team",
+      "cryptoGigs": true,
+      "verificationPref": "Design others result."
+    },
+    {
+      "wallet": "0x8d7400a4c3e7806ed4e71090cb5f5b6374f51bb3",
+      "role": "freelancer",
+      "name": "Christopher Murray",
+      "expertiseArea": "Marketing",
+      "preferredClients": [
+        "Startups",
+        "Government"
+      ],
+      "workMode": "Full-time",
+      "experienceLevel": "Mid",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Upwork",
+        "Freelancer.com"
+      ],
+      "commStyle": "Async",
+      "teamWork": "Team",
+      "cryptoGigs": false,
+      "verificationPref": "Million believe."
+    },
+    {
+      "wallet": "0x7d47b173f7fd55ee5711585812c212221c8a3552",
+      "role": "freelancer",
+      "name": "Ryan Rivera",
+      "expertiseArea": "Design",
+      "preferredClients": [
+        "Researchers",
+        "Government"
+      ],
+      "workMode": "Part-time",
+      "experienceLevel": "Junior",
+      "projectTimeline": "Ongoing",
+      "findingPlatforms": [
+        "Lokachakra",
+        "Upwork"
+      ],
+      "commStyle": "Regular Syncs",
+      "teamWork": "Solo",
+      "cryptoGigs": true,
+      "verificationPref": "Item for in dog."
+    }
+  ],
+  "mentor_research": [
+    {
+      "wallet": "0x3936ee8f8f1849f4da76df908d9bbcdc422b1991",
+      "role": "mentor_researcher",
+      "name": "Kelsey Thomas",
+      "primaryField": "Policy",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "1:1",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Policy Recs",
+        "Papers"
+      ],
+      "desiredImpact": "Year field little federal.",
+      "researchStage": "Data Collection",
+      "collaboratorsWanted": [
+        "Students",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Feedback",
+        "Pilots"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "TensorFlow"
+      ],
+      "availability": "Monthly",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Early choice unit.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Own people total within situation thousand.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x2f32270fc676dd568f61bdbb195c9caecc98246e",
+      "role": "mentor_researcher",
+      "name": "Ashley Flores",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "1:1",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Policy Recs",
+        "Papers"
+      ],
+      "desiredImpact": "Central week control at lead.",
+      "researchStage": "Publication",
+      "collaboratorsWanted": [
+        "Peers",
+        "Startups"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Pilots"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "Scopus"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Video",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Herself material tax true.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Rich rule responsibility maintain decision.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0xc573ab8b56628dda2a91d661d47b7b1f79ea15f0",
+      "role": "mentor_researcher",
+      "name": "Robert Wallace",
+      "primaryField": "ML",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "1:1",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Difference likely question.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Students",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "GitHub"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Video",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "In natural black soldier perform.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Ahead worker generation ball.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0x8663733609868312fd0d8af65672fe100b304069",
+      "role": "mentor_researcher",
+      "name": "Kristine Gregory",
+      "primaryField": "Economics",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "1:1",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Papers",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Bank up try father.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Startups",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Feedback",
+        "Publishing"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "GitHub"
+      ],
+      "availability": "Project-based",
+      "commWithMentees": "Video",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Receive news alone.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Choose religious response anything.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x72a0116561d5e15df57da5c7894c5615e3793425",
+      "role": "mentor_researcher",
+      "name": "Angelica Perez",
+      "primaryField": "ML",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "1:1",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Memory push point type view.",
+      "researchStage": "Data Collection",
+      "collaboratorsWanted": [
+        "Startups",
+        "Students"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "TensorFlow"
+      ],
+      "availability": "Project-based",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Time since national.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Quality training once wrong well yard.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0xe12348ffc159593a7652cb214f2d17448f39d6db",
+      "role": "mentor_researcher",
+      "name": "Shawn Olsen",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "1:1",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Papers",
+        "Field Studies"
+      ],
+      "desiredImpact": "Different south of reduce population strong.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Students",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "Scopus",
+        "GitHub"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Email",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Could themselves air rise or.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Get develop chair black.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0x5fda969af3c1593084a73aa95f025cf295c11a91",
+      "role": "mentor_researcher",
+      "name": "Heather Zimmerman DDS",
+      "primaryField": "Policy",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "Webinars",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Common serve court prevent whether.",
+      "researchStage": "Data Collection",
+      "collaboratorsWanted": [
+        "Students",
+        "Startups"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Pilots"
+      ],
+      "toolsDatasets": [
+        "Scopus",
+        "GitHub"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Gas test of program money.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Conference should mother season hospital senior.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0x0c01aa423b543011bf4ced48f551f8bc93b95e74",
+      "role": "mentor_researcher",
+      "name": "Tracy Munoz",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "1:1",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Papers"
+      ],
+      "desiredImpact": "Research response push.",
+      "researchStage": "Data Collection",
+      "collaboratorsWanted": [
+        "Students",
+        "Startups"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Pilots"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "GitHub"
+      ],
+      "availability": "Project-based",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Blood when successful.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Number listen become about.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x29e8b741f665391c6642a0668b95d50e271891c9",
+      "role": "mentor_researcher",
+      "name": "Mary Simmons",
+      "primaryField": "Economics",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Webinars",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Point nor maintain explain.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Startups",
+        "Students"
+      ],
+      "jointProjectsInterest": [
+        "Feedback",
+        "Publishing"
+      ],
+      "toolsDatasets": [
+        "Scopus",
+        "TensorFlow"
+      ],
+      "availability": "Project-based",
+      "commWithMentees": "Email",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Method adult movement officer.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Wife mention huge.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0xb150f08cf2ced00d7941de940a94f37653e35474",
+      "role": "mentor_researcher",
+      "name": "Elizabeth Page",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Group",
+        "1:1"
+      ],
+      "researchOutputs": [
+        "Papers",
+        "Field Studies"
+      ],
+      "desiredImpact": "Cell him who drop minute finally.",
+      "researchStage": "Publication",
+      "collaboratorsWanted": [
+        "Startups",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Feedback",
+        "Publishing"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "TensorFlow"
+      ],
+      "availability": "Monthly",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Two here business.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Class adult what federal four position.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0x16cbf21e0ef04999e42dda22d53d5a6f360d926b",
+      "role": "mentor_researcher",
+      "name": "Rodney Vasquez",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Webinars",
+        "1:1"
+      ],
+      "researchOutputs": [
+        "Papers",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Able side break agree.",
+      "researchStage": "Data Collection",
+      "collaboratorsWanted": [
+        "Students",
+        "Startups"
+      ],
+      "jointProjectsInterest": [
+        "Pilots",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "Scopus"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Email",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Its morning your condition.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Next send road just collection.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x2f38f1817e2c8c7fb3c13f9e6cdd7782e83e2ecf",
+      "role": "mentor_researcher",
+      "name": "Omar Torres",
+      "primaryField": "Policy",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Group",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Policy Recs",
+        "Field Studies"
+      ],
+      "desiredImpact": "Fight reflect analysis.",
+      "researchStage": "Publication",
+      "collaboratorsWanted": [
+        "Startups",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Pilots",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "Scopus",
+        "GitHub"
+      ],
+      "availability": "Project-based",
+      "commWithMentees": "Email",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Major mission name theory.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Each sell glass.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x61e42e11596b43c76e2bf4cd288e4a762f3c5af3",
+      "role": "mentor_researcher",
+      "name": "Alex Gallagher",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Group",
+        "1:1"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Papers"
+      ],
+      "desiredImpact": "Group street note share figure.",
+      "researchStage": "Publication",
+      "collaboratorsWanted": [
+        "Peers",
+        "Startups"
+      ],
+      "jointProjectsInterest": [
+        "Feedback",
+        "Pilots"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "Scopus"
+      ],
+      "availability": "Monthly",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Trouble day future watch relationship.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Product but officer explain local.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x85defd380090c949285bccd88011097c346403c3",
+      "role": "mentor_researcher",
+      "name": "Michael Ellis",
+      "primaryField": "ML",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "1:1",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Papers",
+        "Field Studies"
+      ],
+      "desiredImpact": "News need start sound.",
+      "researchStage": "Publication",
+      "collaboratorsWanted": [
+        "Startups",
+        "Students"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Pilots"
+      ],
+      "toolsDatasets": [
+        "Scopus",
+        "GitHub"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Trade crime strong sit individual.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Technology fly political military company suggest.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0xa8df06d071c843210c329e4b2b5da5ac329a4246",
+      "role": "mentor_researcher",
+      "name": "Jodi Gray",
+      "primaryField": "Economics",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Group",
+        "1:1"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Statement fish many tend.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Students",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Pilots",
+        "Publishing"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "Scopus"
+      ],
+      "availability": "Monthly",
+      "commWithMentees": "Video",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Million conference place happy.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Machine shake up.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x50157c2167c0214c04f2bc825fa7e292981a5af7",
+      "role": "mentor_researcher",
+      "name": "Ashley Roberts",
+      "primaryField": "Policy",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "Webinars",
+        "1:1"
+      ],
+      "researchOutputs": [
+        "Policy Recs",
+        "Papers"
+      ],
+      "desiredImpact": "Act maintain understand.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Students",
+        "Peers"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "GitHub",
+        "Scopus"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Video",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Read whatever accept here.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Return employee sell others interest use.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0x1f56b0ad7c419752445b60649c5b7bfb4874cdf5",
+      "role": "mentor_researcher",
+      "name": "Angela Diaz",
+      "primaryField": "ML",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "1:1",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Papers"
+      ],
+      "desiredImpact": "Current suffer represent.",
+      "researchStage": "Data Collection",
+      "collaboratorsWanted": [
+        "Peers",
+        "Startups"
+      ],
+      "jointProjectsInterest": [
+        "Pilots",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "GitHub"
+      ],
+      "availability": "Monthly",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Paid",
+      "trackMenteeGrowth": "Exist anything look west.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "System benefit cut.",
+      "valuesMatchInterest": false
+    },
+    {
+      "wallet": "0x6025c077017505ba69ce7d50e0adc80efd8de0dc",
+      "role": "mentor_researcher",
+      "name": "Thomas Smith",
+      "primaryField": "ML",
+      "mentorshipOpen": "Individuals",
+      "styleOptions": [
+        "Group",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Policy Recs",
+        "Papers"
+      ],
+      "desiredImpact": "Indeed put attention same situation defense.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Peers",
+        "Students"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "GitHub"
+      ],
+      "availability": "Weekly",
+      "commWithMentees": "Email",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Big someone world.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Role inside population role.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0x289600946cf2092bb5a6071ffaf7520052978814",
+      "role": "mentor_researcher",
+      "name": "Megan Hall",
+      "primaryField": "Biotech",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "Webinars",
+        "Group"
+      ],
+      "researchOutputs": [
+        "Papers",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Good take become.",
+      "researchStage": "Concept",
+      "collaboratorsWanted": [
+        "Peers",
+        "Students"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "Scopus",
+        "GitHub"
+      ],
+      "availability": "Monthly",
+      "commWithMentees": "Email",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Detail price.",
+      "networkMemberships": [
+        "MentorNet"
+      ],
+      "mentorChallenges": "Yes language level back.",
+      "valuesMatchInterest": true
+    },
+    {
+      "wallet": "0xb7e3addc20a9df4ec49d17a337e91c6c1f3f5203",
+      "role": "mentor_researcher",
+      "name": "Michele Cole",
+      "primaryField": "Economics",
+      "mentorshipOpen": "Startups",
+      "styleOptions": [
+        "1:1",
+        "Webinars"
+      ],
+      "researchOutputs": [
+        "Field Studies",
+        "Policy Recs"
+      ],
+      "desiredImpact": "Interest party next fine responsibility artist.",
+      "researchStage": "Publication",
+      "collaboratorsWanted": [
+        "Peers",
+        "Students"
+      ],
+      "jointProjectsInterest": [
+        "Publishing",
+        "Feedback"
+      ],
+      "toolsDatasets": [
+        "TensorFlow",
+        "GitHub"
+      ],
+      "availability": "Project-based",
+      "commWithMentees": "Chat",
+      "paidOrVoluntary": "Voluntary",
+      "trackMenteeGrowth": "Perhaps camera.",
+      "networkMemberships": [
+        "AcceleratorX"
+      ],
+      "mentorChallenges": "Worker discover play away theory ever.",
+      "valuesMatchInterest": false
+    }
+  ],
+  "exit_planner": [
+    {
+      "wallet": "0xfb679ec53b8f7636e23ca769f4ff2f159cc6949a",
+      "role": "exit_planner",
+      "name": "Natasha Brewer",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        233782,
+        2370685
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Business Dev",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Pipeline"
+      ],
+      "operatingSectors": [
+        "Health",
+        "Manufacturing"
+      ],
+      "redFlags": "Leave six me short.",
+      "readinessValidation": "Hope sign study customer onto.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Pattern difficult become music cup."
+    },
+    {
+      "wallet": "0x1da8f8e63e163ed87bb2b74433b28e5d62a236e8",
+      "role": "exit_planner",
+      "name": "Stephanie Escobar",
+      "focusSide": "Sell-side",
+      "dealSizeRange": [
+        213143,
+        994890
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Legal Experts",
+        "Tax"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Pipeline"
+      ],
+      "operatingSectors": [
+        "Manufacturing",
+        "Health"
+      ],
+      "redFlags": "Similar recent wall nature firm.",
+      "readinessValidation": "Final design challenge moment usually.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Monthly",
+      "lokachakraSupport": "Represent program administration while save large both."
+    },
+    {
+      "wallet": "0xec17eea43c3429edd79ca70fe9c5d1e6eb292c3e",
+      "role": "exit_planner",
+      "name": "Wesley Medina",
+      "focusSide": "Sell-side",
+      "dealSizeRange": [
+        185384,
+        4278817
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Business Dev",
+        "Legal Experts"
+      ],
+      "transactionType": [
+        "Knowledge Exchange",
+        "Pipeline"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Health"
+      ],
+      "redFlags": "Several sign image type.",
+      "readinessValidation": "Claim large bank.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Wide dark per else identify student."
+    },
+    {
+      "wallet": "0xd955b052f20abeb0563ce5ec10e9d2063dfa5544",
+      "role": "exit_planner",
+      "name": "Sharon Thomas",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        196345,
+        1887832
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Legal Experts",
+        "Business Dev"
+      ],
+      "transactionType": [
+        "Knowledge Exchange",
+        "Immediate"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Manufacturing"
+      ],
+      "redFlags": "Use perform activity.",
+      "readinessValidation": "Memory anyone field already window.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Annually",
+      "lokachakraSupport": "Drive also senior without usually."
+    },
+    {
+      "wallet": "0x8eeb94cf7fbda65eaf376a18e357beb0860e817c",
+      "role": "exit_planner",
+      "name": "Ryan Johnson",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        392609,
+        2659303
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Valuation",
+        "Tax"
+      ],
+      "transactionType": [
+        "Knowledge Exchange",
+        "Immediate"
+      ],
+      "operatingSectors": [
+        "Health",
+        "Manufacturing"
+      ],
+      "redFlags": "Local look performance.",
+      "readinessValidation": "Affect research political summer with.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Annually",
+      "lokachakraSupport": "Part quickly fact center every politics as entire."
+    },
+    {
+      "wallet": "0x2dd8a49c26ee20fcf5b7b54eee2b17f6ae0e38ae",
+      "role": "exit_planner",
+      "name": "Patricia Herrera",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        338059,
+        2944202
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Legal Experts",
+        "Business Dev"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Manufacturing"
+      ],
+      "redFlags": "Best try light.",
+      "readinessValidation": "Difficult room blood air half room.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Together rule south catch standard item."
+    },
+    {
+      "wallet": "0x5b2189de5593ca17fe4cff21073a7ecca49b0799",
+      "role": "exit_planner",
+      "name": "Lisa Gordon",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        499038,
+        1025426
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Legal Experts",
+        "Tax"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Manufacturing",
+        "Health"
+      ],
+      "redFlags": "Matter once total through.",
+      "readinessValidation": "Throw each money his senior so.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Reflect staff perhaps performance."
+    },
+    {
+      "wallet": "0x106dd23b25295356a87360d908968e8da11605e2",
+      "role": "exit_planner",
+      "name": "Jason Martin",
+      "focusSide": "Sell-side",
+      "dealSizeRange": [
+        162631,
+        1821647
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Business Dev",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Pipeline",
+        "Immediate"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Health"
+      ],
+      "redFlags": "Age box box.",
+      "readinessValidation": "Between social wife.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Annually",
+      "lokachakraSupport": "Share board sell interest population sell law."
+    },
+    {
+      "wallet": "0x28d4b50da2ae23ce63be7d68b0fd1cf49fc7eee0",
+      "role": "exit_planner",
+      "name": "Whitney Blanchard",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        373785,
+        1585095
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Legal Experts",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Pipeline",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Health"
+      ],
+      "redFlags": "Too prevent trouble.",
+      "readinessValidation": "Goal sometimes what kid war recent.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Else carry many."
+    },
+    {
+      "wallet": "0x28b733793e47c43bcacef4a98a0c43af43608e5e",
+      "role": "exit_planner",
+      "name": "Louis Moore",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        424716,
+        4083739
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Business Dev",
+        "Tax"
+      ],
+      "transactionType": [
+        "Pipeline",
+        "Immediate"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Health"
+      ],
+      "redFlags": "Push five while.",
+      "readinessValidation": "Remain this open.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Annually",
+      "lokachakraSupport": "Same rather source teach heart institution."
+    },
+    {
+      "wallet": "0x7598a581d8d0e8f35424daedf65c48a0a554f8da",
+      "role": "exit_planner",
+      "name": "Ashley Osborne",
+      "focusSide": "Sell-side",
+      "dealSizeRange": [
+        199368,
+        995837
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Business Dev",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Health",
+        "Tech"
+      ],
+      "redFlags": "Bill because since son test.",
+      "readinessValidation": "Firm accept very from trade.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Monthly",
+      "lokachakraSupport": "He scientist place room office central."
+    },
+    {
+      "wallet": "0x8696127be966546c82fc8663a0cc69d76e60f09c",
+      "role": "exit_planner",
+      "name": "Briana Rosales",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        445980,
+        1847742
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Valuation",
+        "Legal Experts"
+      ],
+      "transactionType": [
+        "Pipeline",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Manufacturing",
+        "Tech"
+      ],
+      "redFlags": "Them kid rather size.",
+      "readinessValidation": "Themselves it still fine phone view.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Detail agree different would either sign hundred."
+    },
+    {
+      "wallet": "0xe062f51783f6d53f14b91ec1366b70f99e050aaf",
+      "role": "exit_planner",
+      "name": "Jennifer Mcdaniel",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        334834,
+        4638641
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Tax",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Pipeline",
+        "Immediate"
+      ],
+      "operatingSectors": [
+        "Health",
+        "Tech"
+      ],
+      "redFlags": "On kind.",
+      "readinessValidation": "Material letter wife environment voice.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Guy up here second beautiful understand many."
+    },
+    {
+      "wallet": "0x28b4858be156861f2b481b58655890b4176a0151",
+      "role": "exit_planner",
+      "name": "Tristan Sweeney",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        357872,
+        2676407
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Legal Experts",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Knowledge Exchange",
+        "Pipeline"
+      ],
+      "operatingSectors": [
+        "Health",
+        "Tech"
+      ],
+      "redFlags": "Student share reason within.",
+      "readinessValidation": "Social spend activity environment yourself nice.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Learn against force case."
+    },
+    {
+      "wallet": "0xecf19c948e68995164a250c5d4a5b591d2720399",
+      "role": "exit_planner",
+      "name": "Brandon Strong",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        227450,
+        1058437
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Business Dev",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Pipeline"
+      ],
+      "operatingSectors": [
+        "Manufacturing",
+        "Tech"
+      ],
+      "redFlags": "High single plan decide study.",
+      "readinessValidation": "Notice eye ready everything himself whom.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Option gas sure performance could movie."
+    },
+    {
+      "wallet": "0x36ac398fb3f7eadc4bd043902b9f8ea5ba274482",
+      "role": "exit_planner",
+      "name": "Mary Landry",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        233679,
+        1273108
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Valuation",
+        "Business Dev"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Manufacturing"
+      ],
+      "redFlags": "Which American room Congress.",
+      "readinessValidation": "Answer tree cost capital democratic.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Monthly",
+      "lokachakraSupport": "Thousand spend us federal represent eight."
+    },
+    {
+      "wallet": "0x57bcb9fe9b177208cff5913ca6d5199f1e25d24a",
+      "role": "exit_planner",
+      "name": "Mary Martinez",
+      "focusSide": "Buy-side",
+      "dealSizeRange": [
+        430931,
+        4635422
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Legal Experts",
+        "Business Dev"
+      ],
+      "transactionType": [
+        "Knowledge Exchange",
+        "Immediate"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Health"
+      ],
+      "redFlags": "Go relate.",
+      "readinessValidation": "Smile others far usually.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Annually",
+      "lokachakraSupport": "Clear few million father spring catch fast activity."
+    },
+    {
+      "wallet": "0x73fadcd6cc595730f54285f1caf83e6c14a9610a",
+      "role": "exit_planner",
+      "name": "Jonathan Watson",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        462595,
+        991710
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Business Dev",
+        "Valuation"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Manufacturing",
+        "Health"
+      ],
+      "redFlags": "Notice site stay.",
+      "readinessValidation": "Prepare week discussion.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "Pitchbook",
+        "CapIQ"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Monthly",
+      "lokachakraSupport": "Whom mouth well free."
+    },
+    {
+      "wallet": "0x24ab0895f4e55f4094c0bd511cc83a0789080fa9",
+      "role": "exit_planner",
+      "name": "Maria Wiley",
+      "focusSide": "Both",
+      "dealSizeRange": [
+        494856,
+        1187630
+      ],
+      "teamStructure": "Independent",
+      "supportNeeded": [
+        "Valuation",
+        "Tax"
+      ],
+      "transactionType": [
+        "Pipeline",
+        "Knowledge Exchange"
+      ],
+      "operatingSectors": [
+        "Manufacturing",
+        "Tech"
+      ],
+      "redFlags": "Success east where.",
+      "readinessValidation": "Exist school myself left.",
+      "discoveryPref": "Outbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": false,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Mother ahead bill call."
+    },
+    {
+      "wallet": "0x59d9796e137e9da9c49987e2bbb3c7fc1f3f9f6c",
+      "role": "exit_planner",
+      "name": "Lisa Reese",
+      "focusSide": "Sell-side",
+      "dealSizeRange": [
+        366790,
+        1970469
+      ],
+      "teamStructure": "Firm",
+      "supportNeeded": [
+        "Valuation",
+        "Tax"
+      ],
+      "transactionType": [
+        "Immediate",
+        "Pipeline"
+      ],
+      "operatingSectors": [
+        "Tech",
+        "Manufacturing"
+      ],
+      "redFlags": "Mention technology along source.",
+      "readinessValidation": "Street she wrong remain crime.",
+      "discoveryPref": "Inbound",
+      "toolsUsed": [
+        "CapIQ",
+        "Pitchbook"
+      ],
+      "partneredWork": true,
+      "freqDeals": "Quarterly",
+      "lokachakraSupport": "Though house back really."
+    }
+  ]
+}

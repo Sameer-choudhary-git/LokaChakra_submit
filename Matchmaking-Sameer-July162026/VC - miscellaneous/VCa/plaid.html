@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plaid KYC Verification</title>
+</head>
+<body>
+
+    <h2>KYC Verification Demo</h2>
+    <p>Click the button below to verify your identity.</p>
+    <button id="link-button">Verify Identity</button>
+
+    <script src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
+    <script type="text/javascript">
+        const linkButton = document.getElementById('link-button');
+
+        const createLinkToken = async () => {
+            // Fetch the link_token from your backend
+            const response = await fetch('http://localhost:3001/api/create_link_token', {
+                method: 'POST',
+            });
+            const { link_token } = await response.json();
+            return link_token;
+        };
+
+        const handler = Plaid.create({
+            token: null, // Will be set after fetching
+            onSuccess: (public_token, metadata) => {
+                console.log('Plaid Link flow successful!');
+                // For Identity Verification, the main result is sent via webhook or
+                // can be fetched using the link_token from the initial response.
+                alert('Verification process submitted! Check server console for status.');
+            },
+            onLoad: () => {},
+            onExit: (err, metadata) => {
+                if (err != null) {
+                    console.error('Plaid Link exited with error:', err);
+                }
+                console.log('Exit metadata:', metadata);
+            },
+            onEvent: (eventName, metadata) => {
+                console.log('Event:', eventName);
+                console.log('Metadata:', metadata);
+            },
+        });
+
+        linkButton.addEventListener('click', async (event) => {
+            const linkToken = await createLinkToken();
+            handler.open({ token: linkToken });
+        });
+
+    </script>
+</body>
+</html>

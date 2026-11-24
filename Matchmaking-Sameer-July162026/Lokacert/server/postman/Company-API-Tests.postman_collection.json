@@ -1,0 +1,305 @@
+{
+  "info": {
+    "_postman_id": "unique-id",
+    "name": "Onchain Certificate - Company API Tests",
+    "description": "API tests for company-related endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Company",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('companyPDA');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing fields\", function () {",
+              "    const noFieldsRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(noFieldsRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyId\": \"test-company\",\n    \"companyDetails\": {\n        \"name\": \"Test Company\",\n        \"description\": \"Test Description\"\n    },\n    \"authorityPubkey\": \"{{authorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/createCompany",
+          "host": ["{{baseUrl}}"],
+          "path": ["createCompany"]
+        },
+        "description": "Create a new company with the given details"
+      }
+    },
+    {
+      "name": "Get Company by ID",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has company data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('company');",
+              "    pm.expect(response.company).to.have.property('authority');",
+              "    pm.expect(response.company).to.have.property('createdAt');",
+              "    pm.expect(response.company).to.have.property('totalEmployees');",
+              "});",
+              "",
+              "pm.test(\"404 on invalid company ID\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('companyId'), 'invalid-id'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/company/{{companyId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["company", "{{companyId}}"]
+        },
+        "description": "Get company details by company ID"
+      }
+    },
+    {
+      "name": "Get Company by Pubkey",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has company data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('company');",
+              "    pm.expect(response.company).to.have.property('authority');",
+              "});",
+              "",
+              "pm.test(\"404 on invalid pubkey\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('companyPubkey'), 'invalid-pubkey'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/company/pubkey/{{companyPubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["company", "pubkey", "{{companyPubkey}}"]
+        },
+        "description": "Get company details by public key"
+      }
+    },
+    {
+      "name": "Update Company",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has transaction\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing required fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyDetails\": {",
+              "                    \"name\": \"Updated Company\"",
+              "                }",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"authorityPubkey\": \"{{authorityPubkey}}\",\n    \"companyDetails\": {\n        \"name\": \"Updated Company Name\",\n        \"description\": \"Updated Description\"\n    },\n    \"isActive\": true\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/updateCompany",
+          "host": ["{{baseUrl}}"],
+          "path": ["updateCompany"]
+        },
+        "description": "Update company details"
+      }
+    },
+    {
+      "name": "Get All Employees",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has employees array\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('count');",
+              "    pm.expect(response).to.have.property('employees').that.is.an('array');",
+              "});",
+              "",
+              "pm.test(\"Employee data structure is correct\", function () {",
+              "    const response = pm.response.json();",
+              "    if (response.employees.length > 0) {",
+              "        const employee = response.employees[0];",
+              "        pm.expect(employee).to.have.property('pubkey');",
+              "        pm.expect(employee).to.have.property('data');",
+              "        pm.expect(employee.data).to.have.property('wallet');",
+              "        pm.expect(employee.data).to.have.property('company');",
+              "        pm.expect(employee.data).to.have.property('status');",
+              "    }",
+              "});",
+              "",
+              "pm.test(\"Error on missing company pubkey\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().split('?')[0],",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/allemployees?companyPubkey={{companyPubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["allemployees"],
+          "query": [
+            {
+              "key": "companyPubkey",
+              "value": "{{companyPubkey}}"
+            }
+          ]
+        },
+        "description": "Get all employees of a company"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api"
+    },
+    {
+      "key": "companyId",
+      "value": "test-company-id"
+    },
+    {
+      "key": "companyPubkey",
+      "value": "your-company-pubkey"
+    },
+    {
+      "key": "authorityPubkey",
+      "value": "your-authority-pubkey"
+    }
+  ]
+}

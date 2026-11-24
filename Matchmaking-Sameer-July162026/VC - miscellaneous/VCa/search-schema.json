@@ -1,0 +1,586 @@
+{
+  "searchSchema": {
+    "prompt": {
+      "basicSearchFilters": {
+        "targetRole": {
+          "type": "string",
+          "required": true,
+          "enum": [
+            "founder",
+            "investor", 
+            "accelerator",
+            "executive",
+            "legal",
+            "government",
+            "cybersecurity",
+            "freelancer",
+            "mentor_research",
+            "exit_planner"
+          ],
+          "description": "The type of professional being searched for"
+        },
+        "searchQuery": {
+          "type": "string",
+          "required": false,
+          "description": "Free text search query for semantic matching"
+        },
+        "purpose": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "funding",
+            "partnership",
+            "mentoring",
+            "advisory",
+            "collaboration",
+            "hiring",
+            "networking",
+            "investment",
+            "exit_planning"
+          ],
+          "description": "Primary purpose of the connection"
+        },
+        "location": {
+          "type": "string",
+          "required": false,
+          "description": "Geographic location preference (e.g., 'San Francisco, CA', 'USA', 'Global')"
+        },
+        "experience": {
+          "type": "string",
+          "required": false,
+          "enum": [
+            "0-2",
+            "2-5",
+            "5-10",
+            "10-15",
+            "15+"
+          ],
+          "description": "Years of experience range"
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "required": false,
+          "description": "Required or preferred skills"
+        }
+      },
+      "advancedFilters": {
+        "workType": {
+          "type": "string",
+          "enum": [
+            "full-time",
+            "part-time",
+            "contract",
+            "consulting",
+            "advisory",
+            "project-based"
+          ],
+          "required": false,
+          "description": "Type of work engagement"
+        },
+        "availability": {
+          "type": "string",
+          "enum": [
+            "immediate",
+            "within-1-month",
+            "within-3-months",
+            "flexible",
+            "not-available"
+          ],
+          "required": false,
+          "description": "Availability timeline"
+        },
+        "urgency": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "critical"
+          ],
+          "required": false,
+          "description": "Urgency level of the search"
+        },
+        "remotePreference": {
+          "type": "string",
+          "enum": [
+            "remote-only",
+            "hybrid",
+            "onsite",
+            "flexible"
+          ],
+          "required": false,
+          "description": "Remote work preference"
+        },
+        "collaborationType": {
+          "type": "string",
+          "enum": [
+            "individual",
+            "team",
+            "mixed",
+            "flexible"
+          ],
+          "required": false,
+          "description": "Preferred collaboration style"
+        },
+        "timeZone": {
+          "type": "string",
+          "required": false,
+          "description": "Preferred timezone compatibility (e.g., 'PST', 'EST', 'UTC', 'flexible')"
+        }
+      },
+      "targetRoleBasedFilters": {
+        "investor": {
+          "investorType": {
+            "type": "string",
+            "enum": ["VC", "Angel", "PE", "Family Office"],
+            "description": "Type of investor"
+          },
+          "ticketSizeRange": {
+            "type": "object",
+            "properties": {
+              "min": {"type": "number"},
+              "max": {"type": "number"}
+            },
+            "description": "Investment amount range in USD"
+          },
+          "stageFocus": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["pre-seed", "seed", "series-a", "series-b", "series-c", "growth", "late-stage"]
+            },
+            "description": "Startup stages they invest in"
+          },
+          "sectorFocus": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industry sectors of interest"
+          },
+          "dealFrequency": {
+            "type": "string",
+            "enum": ["1-2 per quarter", "1 per month", "2-3 per month", "ad-hoc"],
+            "description": "How frequently they make investments"
+          },
+          "involvementLevel": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["board-seat", "passive", "active-mentorship", "hands-on", "advisory"]
+            },
+            "description": "Level of involvement with portfolio companies"
+          },
+          "mentoringInterest": {
+            "type": "boolean",
+            "description": "Whether they offer mentoring services"
+          },
+          "geography": {
+            "type": "string",
+            "description": "Geographic investment focus"
+          },
+          "openToCoInvestment": {
+            "type": "boolean",
+            "description": "Whether they co-invest with others"
+          },
+          "evaluationCriteria": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Key factors they evaluate in investments"
+          },
+          "impactAlignment": {
+            "type": "boolean",
+            "description": "Whether they focus on impact/ESG investments"
+          }
+        },
+        "founder": {
+          "startupStage": {
+            "type": "string",
+            "enum": ["idea", "mvp", "revenue-generating", "scaling"],
+            "description": "Current stage of the startup"
+          },
+          "fundraisingStage": {
+            "type": "string",
+            "enum": ["pre-seed", "seed", "series-a", "series-b", "later-stage", "not-fundraising"],
+            "description": "Current fundraising status"
+          },
+          "industry": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industry domains"
+          },
+          "fundingNeeded": {
+            "type": "number",
+            "description": "Amount of funding needed in USD"
+          },
+          "productType": {
+            "type": "string",
+            "enum": ["saas", "marketplace", "tokenized-app", "hardware", "service"],
+            "description": "Type of product/service"
+          },
+          "techStack": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Technologies used"
+          },
+          "seeking": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["investment", "partnerships", "mentoring", "advisors", "co-founder", "talent"]
+            },
+            "description": "What they are currently seeking"
+          },
+          "biggestChallenge": {
+            "type": "string",
+            "description": "Current biggest challenge"
+          },
+          "interestedInAccel": {
+            "type": "boolean",
+            "description": "Interest in accelerator programs"
+          }
+        },
+        "accelerator": {
+          "programType": {
+            "type": "string",
+            "enum": ["traditional", "corporate", "university", "government", "vertical-specific"],
+            "description": "Type of accelerator program"
+          },
+          "focusAreas": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industry or technology focus areas"
+          },
+          "programDuration": {
+            "type": "string",
+            "enum": ["3-months", "6-months", "12-months", "ongoing"],
+            "description": "Duration of accelerator program"
+          },
+          "stageFocus": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Startup stages they accept"
+          },
+          "geography": {
+            "type": "string",
+            "description": "Geographic focus of the program"
+          },
+          "fundingProvided": {
+            "type": "boolean",
+            "description": "Whether they provide funding"
+          }
+        },
+        "legal": {
+          "specialization": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["corporate", "ip", "securities", "employment", "regulatory", "litigation", "contracts"]
+            },
+            "description": "Legal specialization areas"
+          },
+          "clientTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["startups", "enterprises", "investors", "government", "individuals"]
+            },
+            "description": "Types of clients they serve"
+          },
+          "jurisdiction": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Legal jurisdictions they operate in"
+          },
+          "cryptoExperience": {
+            "type": "boolean",
+            "description": "Experience with crypto/blockchain legal matters"
+          }
+        },
+        "cybersecurity": {
+          "specialization": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["penetration-testing", "security-audit", "compliance", "incident-response", "blockchain-security", "cloud-security"]
+            },
+            "description": "Cybersecurity specialization areas"
+          },
+          "certifications": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Professional certifications held"
+          },
+          "industries": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industries they have experience in"
+          },
+          "serviceType": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["consulting", "auditing", "training", "implementation", "monitoring"]
+            },
+            "description": "Types of services offered"
+          }
+        },
+        "freelancer": {
+          "profession": {
+            "type": "string",
+            "enum": ["developer", "designer", "writer", "marketer", "consultant", "analyst"],
+            "description": "Professional area"
+          },
+          "expertiseArea": {
+            "type": "string",
+            "description": "Specific area of expertise"
+          },
+          "rateRange": {
+            "type": "object",
+            "properties": {
+              "min": {"type": "number"},
+              "max": {"type": "number"},
+              "currency": {"type": "string", "default": "USD"},
+              "period": {"type": "string", "enum": ["hour", "day", "week", "month", "project"]}
+            },
+            "description": "Rate range and billing structure"
+          },
+          "preferredClients": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Types of clients preferred"
+          },
+          "projectTimeline": {
+            "type": "string",
+            "enum": ["short-term", "medium-term", "long-term", "ongoing"],
+            "description": "Preferred project duration"
+          },
+          "cryptoGigs": {
+            "type": "boolean",
+            "description": "Open to cryptocurrency/blockchain projects"
+          },
+          "platforms": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Platforms they typically find work on"
+          }
+        },
+        "mentor_research": {
+          "researchAreas": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Areas of research expertise"
+          },
+          "mentoringExperience": {
+            "type": "string",
+            "enum": ["0-2", "2-5", "5-10", "10+"],
+            "description": "Years of mentoring experience"
+          },
+          "institutionAffiliation": {
+            "type": "string",
+            "description": "Academic or research institution"
+          },
+          "publications": {
+            "type": "boolean",
+            "description": "Whether they have relevant publications"
+          },
+          "menteeTypes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["students", "entrepreneurs", "researchers", "professionals"]
+            },
+            "description": "Types of mentees they prefer"
+          }
+        },
+        "exit_planner": {
+          "specialization": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["ipo", "acquisition", "merger", "management-buyout", "strategic-sale"]
+            },
+            "description": "Exit strategy specializations"
+          },
+          "dealSize": {
+            "type": "object",
+            "properties": {
+              "min": {"type": "number"},
+              "max": {"type": "number"}
+            },
+            "description": "Deal size range in USD"
+          },
+          "services": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["valuation", "due-diligence", "negotiation", "legal-support", "tax-planning", "post-exit-planning"]
+            },
+            "description": "Services offered"
+          },
+          "industries": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industry experience"
+          },
+          "exitHistory": {
+            "type": "boolean",
+            "description": "Whether they have successful exit history"
+          }
+        },
+        "executive": {
+          "executiveLevel": {
+            "type": "string",
+            "enum": ["c-level", "vp", "director", "senior-manager"],
+            "description": "Executive level"
+          },
+          "functionalArea": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["ceo", "cto", "cfo", "cmo", "coo", "sales", "product", "engineering", "operations"]
+            },
+            "description": "Functional expertise areas"
+          },
+          "companyStage": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["startup", "growth", "enterprise", "public"]
+            },
+            "description": "Company stages they have experience with"
+          },
+          "industries": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industry experience"
+          },
+          "teamSize": {
+            "type": "string",
+            "enum": ["1-10", "10-50", "50-200", "200-1000", "1000+"],
+            "description": "Team sizes they have managed"
+          },
+          "availabilityType": {
+            "type": "string",
+            "enum": ["full-time", "advisory", "consulting", "interim"],
+            "description": "Type of engagement they're available for"
+          }
+        },
+        "government": {
+          "department": {
+            "type": "string",
+            "description": "Government department or agency"
+          },
+          "focusAreas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["innovation", "regulation", "funding", "policy", "procurement", "partnerships"]
+            },
+            "description": "Areas of focus or responsibility"
+          },
+          "programs": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Government programs they manage or participate in"
+          },
+          "jurisdiction": {
+            "type": "string",
+            "enum": ["federal", "state", "local", "international"],
+            "description": "Level of government"
+          },
+          "industries": {
+            "type": "array",
+            "items": {"type": "string"},
+            "description": "Industries they work with"
+          }
+        }
+      }
+    }
+  },
+  "matchingRules": {
+    "roleCompatibility": {
+      "founder": ["investor", "accelerator", "executive", "legal", "mentor_research", "cybersecurity", "freelancer"],
+      "investor": ["founder", "accelerator", "exit_planner", "legal"],
+      "accelerator": ["founder", "investor", "mentor_research"],
+      "executive": ["founder", "investor", "accelerator", "freelancer"],
+      "legal": ["founder", "investor", "accelerator", "executive", "government"],
+      "government": ["founder", "legal", "accelerator", "cybersecurity"],
+      "cybersecurity": ["founder", "executive", "government", "freelancer"],
+      "freelancer": ["founder", "executive", "cybersecurity"],
+      "mentor_research": ["founder", "accelerator", "executive"],
+      "exit_planner": ["founder", "investor", "executive"]
+    },
+    "priorityWeights": {
+      "targetRole": 1.0,
+      "purpose": 0.8,
+      "location": 0.6,
+      "experience": 0.7,
+      "skills": 0.8,
+      "industry": 0.7,
+      "availability": 0.5,
+      "roleSpecificMatch": 0.9
+    },
+    "mustHaveFilters": ["targetRole"],
+    "niceToHaveFilters": ["experience", "skills", "purpose", "workType", "location"]
+  },
+  "examples": {
+    "searchingForInvestor": {
+      "prompt": {
+        "basicSearchFilters": {
+          "targetRole": "investor",
+          "searchQuery": "seed funding fintech blockchain",
+          "purpose": "funding",
+          "location": "USA",
+          "experience": "5-10"
+        },
+        "advancedFilters": {
+          "urgency": "high",
+          "timeZone": "PST"
+        },
+        "targetRoleBasedFilters": {
+          "investor": {
+            "investorType": "VC",
+            "ticketSizeRange": {
+              "min": 100000,
+              "max": 500000
+            },
+            "stageFocus": ["seed"],
+            "sectorFocus": ["fintech", "blockchain"],
+            "mentoringInterest": true
+          }
+        }
+      }
+    },
+    "searchingForFreelancer": {
+      "prompt": {
+        "basicSearchFilters": {
+          "targetRole": "freelancer",
+          "searchQuery": "react developer web3",
+          "purpose": "hiring",
+          "skills": ["React", "JavaScript", "Web3", "Solidity"]
+        },
+        "advancedFilters": {
+          "workType": "contract",
+          "availability": "within-1-month",
+          "remotePreference": "remote-only"
+        },
+        "targetRoleBasedFilters": {
+          "freelancer": {
+            "profession": "developer",
+            "expertiseArea": "Frontend Development",
+            "rateRange": {
+              "min": 50,
+              "max": 100,
+              "currency": "USD",
+              "period": "hour"
+            },
+            "cryptoGigs": true,
+            "projectTimeline": "medium-term"
+          }
+        }
+      }
+    }
+  }
+}

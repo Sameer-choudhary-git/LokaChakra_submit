@@ -1,0 +1,495 @@
+{
+  "user_profile_schema": {
+    "description": "Comprehensive schema for all user roles in the web3 matchmaking platform",
+    "last_updated": "2025-01-09",
+    "roles": {
+      "founder": {
+        "required_fields": [
+          "name",
+          "role",
+          "startupName",
+          "stage",
+          "domain",
+          "biggestChallenge",
+          "collaboratorsNeeded",
+          "seeking",
+          "growthGoals12m",
+          "preferredModel",
+          "techStack",
+          "hiringNeeds",
+          "fundingNeededUSD",
+          "location",
+          "productType",
+          "fundraisingStage",
+          "tractionSummary"
+        ],
+        "optional_fields": [
+          "interestedInAccel",
+          "previousSupportUsed",
+          "coFounderNeed"
+        ],
+        "field_types": {
+          "name": "string",
+          "role": "string",
+          "startupName": "string",
+          "stage": "enum ['Idea', 'MVP', 'Revenue-generating', 'Scaling']",
+          "domain": "array",
+          "biggestChallenge": "string",
+          "collaboratorsNeeded": "array",
+          "seeking": "string",
+          "growthGoals12m": "text",
+          "interestedInAccel": "boolean",
+          "preferredModel": "string",
+          "techStack": "array",
+          "hiringNeeds": "array",
+          "fundingNeededUSD": "number",
+          "location": "string",
+          "previousSupportUsed": "array",
+          "productType": "string",
+          "coFounderNeed": "boolean",
+          "fundraisingStage": "string",
+          "tractionSummary": "text"
+        }
+      },
+      "investor": {
+        "required_fields": [
+          "name",
+          "organization",
+          "investorType",
+          "ticketSizeUSD",
+          "stageFocus",
+          "sectorFocus",
+          "geography",
+          "openToCoInvestment",
+          "involvementLevel",
+          "evaluationCriteria",
+          "dealDiscovery",
+          "dealFrequency",
+          "mentoringInterest",
+          "advisoryInterest",
+          "metricsTracked",
+          "investmentPhilosophy"
+        ],
+        "optional_fields": [
+          "coInvestmentType",
+          "toolsUsed",
+          "legalPartnerModel",
+          "portfolio",
+          "impactAlignment"
+        ],
+        "field_types": {
+          "name": "string",
+          "organization": "string",
+          "investorType": "enum ['VC', 'Angel', 'PE', 'Family Office']",
+          "ticketSizeUSD": "array[number]",
+          "stageFocus": "string",
+          "sectorFocus": "array",
+          "geography": "string",
+          "openToCoInvestment": "boolean",
+          "coInvestmentType": "array",
+          "involvementLevel": "array",
+          "evaluationCriteria": "array",
+          "dealDiscovery": "string",
+          "toolsUsed": "array",
+          "legalPartnerModel": "string",
+          "dealFrequency": "string",
+          "portfolio": "array",
+          "mentoringInterest": "boolean",
+          "advisoryInterest": "boolean",
+          "metricsTracked": "array",
+          "impactAlignment": "boolean",
+          "investmentPhilosophy": "text"
+        }
+      },
+      "accelerator": {
+        "required_fields": [
+          "name",
+          "startupTypes",
+          "servicesOffered",
+          "intakeSize",
+          "batchFrequency",
+          "programDuration",
+          "stageFocus",
+          "selectionCriteria",
+          "primaryFocus",
+          "deliveryMode"
+        ],
+        "optional_fields": [
+          "equityTaken",
+          "rejectCriteria",
+          "affiliations",
+          "crossBorderOps",
+          "onboardingHelp"
+        ],
+        "field_types": {
+          "name": "string",
+          "startupTypes": "array",
+          "servicesOffered": "array",
+          "intakeSize": "number",
+          "batchFrequency": "enum ['Quarterly', 'Bi-annual', 'Annual']",
+          "programDuration": "string",
+          "stageFocus": "array",
+          "equityTaken": "boolean",
+          "rejectCriteria": "text",
+          "selectionCriteria": "text",
+          "primaryFocus": "string",
+          "deliveryMode": "enum ['In-person', 'Remote', 'Hybrid']",
+          "affiliations": "array",
+          "crossBorderOps": "boolean",
+          "onboardingHelp": "text"
+        }
+      },
+      "executive": {
+        "required_fields": [
+          "name",
+          "role",
+          "orgType",
+          "keyKPIs",
+          "exploring",
+          "techInterests",
+          "seeking",
+          "investMentorInterest",
+          "firmPref",
+          "delegateAreas",
+          "budgetMandate"
+        ],
+        "optional_fields": [
+          "partnerFindingApproach",
+          "challenges"
+        ],
+        "field_types": {
+          "name": "string",
+          "role": "string",
+          "orgType": "enum ['Startup', 'Corporation', 'Non-profit']",
+          "keyKPIs": "array",
+          "partnerFindingApproach": "text",
+          "exploring": "array",
+          "techInterests": "array",
+          "seeking": "array",
+          "investMentorInterest": "array",
+          "firmPref": "string",
+          "challenges": "text",
+          "delegateAreas": "array",
+          "budgetMandate": "number"
+        }
+      },
+      "government": {
+        "required_fields": [
+          "role",
+          "department",
+          "domain",
+          "orgType",
+          "position",
+          "yearsActive",
+          "focus"
+        ],
+        "optional_fields": [
+          "challenges",
+          "collabOrgs",
+          "dashboardsUsed",
+          "policyResearchInterest",
+          "collabStyle",
+          "timeline",
+          "impactEvaluation",
+          "constraints"
+        ],
+        "field_types": {
+          "role": "string",
+          "department": "string",
+          "domain": "array",
+          "orgType": "string",
+          "position": "string",
+          "yearsActive": "number",
+          "challenges": "text",
+          "collabOrgs": "array",
+          "dashboardsUsed": "array",
+          "policyResearchInterest": "boolean",
+          "focus": "string",
+          "collabStyle": "string",
+          "timeline": "string",
+          "impactEvaluation": "text",
+          "constraints": "text"
+        }
+      },
+      "legal": {
+        "required_fields": [
+          "name",
+          "role",
+          "specialization",
+          "engagementMode"
+        ],
+        "optional_fields": [
+          "toolsUsed",
+          "offerings",
+          "startupExperience",
+          "industries",
+          "mentorshipAvailable",
+          "clientTypes",
+          "challenges",
+          "updateChannels",
+          "privacyConcerns"
+        ],
+        "field_types": {
+          "name": "string",
+          "role": "string",
+          "specialization": "array",
+          "toolsUsed": "array",
+          "offerings": "array",
+          "startupExperience": "boolean",
+          "industries": "array",
+          "engagementMode": "string",
+          "mentorshipAvailable": "boolean",
+          "clientTypes": "array",
+          "challenges": "text",
+          "updateChannels": "array",
+          "privacyConcerns": "text"
+        }
+      },
+      "cybersecurity": {
+        "required_fields": [
+          "role",
+          "name",
+          "specializationAreas",
+          "domain",
+          "gigPref",
+          "objectives",
+          "toolsFrameworks",
+          "updateMethod",
+          "certifications",
+          "teamPref",
+          "partnershipType"
+        ],
+        "optional_fields": [
+          "logAccessNeed",
+          "mentorshipInterest",
+          "biggestChallenge"
+        ],
+        "field_types": {
+          "role": "string",
+          "name": "string",
+          "specializationAreas": "array",
+          "domain": "array",
+          "gigPref": "string",
+          "objectives": "array",
+          "toolsFrameworks": "array",
+          "updateMethod": "string",
+          "logAccessNeed": "boolean",
+          "mentorshipInterest": "boolean",
+          "certifications": "array",
+          "teamPref": "string",
+          "partnershipType": "string",
+          "biggestChallenge": "text"
+        }
+      },
+      "freelancer": {
+        "required_fields": [
+          "role",
+          "name",
+          "expertiseArea",
+          "preferredClients",
+          "workMode",
+          "experienceLevel",
+          "projectTimeline",
+          "findingPlatforms",
+          "teamWork"
+        ],
+        "optional_fields": [
+          "commStyle",
+          "cryptoGigs",
+          "verificationPref"
+        ],
+        "field_types": {
+          "role": "string",
+          "name": "string",
+          "expertiseArea": "string",
+          "preferredClients": "array",
+          "workMode": "string",
+          "experienceLevel": "string",
+          "projectTimeline": "string",
+          "findingPlatforms": "array",
+          "commStyle": "string",
+          "teamWork": "string",
+          "cryptoGigs": "boolean",
+          "verificationPref": "text"
+        }
+      },
+      "mentor_research": {
+        "required_fields": [
+          "name",
+          "role",
+          "field",
+          "mentorshipOpenTo",
+          "mentoringStyle",
+          "availability",
+          "compensation"
+        ],
+        "optional_fields": [
+          "researchOutputs",
+          "impact",
+          "collabWanted",
+          "projectInterest",
+          "toolsDatasets",
+          "commStyle",
+          "growthTracking",
+          "challenges"
+        ],
+        "field_types": {
+          "name": "string",
+          "role": "string",
+          "field": "string",
+          "mentorshipOpenTo": "array",
+          "mentoringStyle": "array",
+          "researchOutputs": "array",
+          "impact": "text",
+          "collabWanted": "array",
+          "projectInterest": "array",
+          "toolsDatasets": "array",
+          "availability": "string",
+          "commStyle": "string",
+          "compensation": "enum ['Paid', 'Voluntary', 'Both']",
+          "growthTracking": "text",
+          "challenges": "text"
+        }
+      },
+      "exit_planner": {
+        "required_fields": [
+          "role",
+          "name",
+          "focus",
+          "dealSizeUSD",
+          "teamStructure",
+          "supportNeeded",
+          "transactionType",
+          "sectors",
+          "dealDiscovery",
+          "tools"
+        ],
+        "optional_fields": [
+          "redFlags",
+          "readinessValidation",
+          "partnershipWork",
+          "dealFrequency",
+          "platformSupport"
+        ],
+        "field_types": {
+          "role": "string",
+          "name": "string",
+          "focus": "string",
+          "dealSizeUSD": "array[number]",
+          "teamStructure": "string",
+          "supportNeeded": "array",
+          "transactionType": "array",
+          "sectors": "array",
+          "redFlags": "text",
+          "readinessValidation": "text",
+          "dealDiscovery": "string",
+          "tools": "array",
+          "partnershipWork": "boolean",
+          "dealFrequency": "string",
+          "platformSupport": "text"
+        }
+      }
+    },
+    "common_patterns": {
+      "name_fields": ["name", "fullName"],
+      "array_fields": [
+        "domain",
+        "collaboratorsNeeded",
+        "techStack",
+        "hiringNeeds",
+        "sectorFocus",
+        "evaluationCriteria",
+        "startupTypes",
+        "servicesOffered",
+        "stageFocus",
+        "keyKPIs",
+        "exploring",
+        "techInterests",
+        "seeking",
+        "specialization",
+        "toolsUsed",
+        "objectives",
+        "preferredClients",
+        "findingPlatforms",
+        "mentorshipOpenTo",
+        "mentoringStyle",
+        "supportNeeded",
+        "transactionType",
+        "sectors",
+        "tools"
+      ],
+      "boolean_fields": [
+        "interestedInAccel",
+        "coFounderNeed",
+        "openToCoInvestment",
+        "mentoringInterest",
+        "advisoryInterest",
+        "impactAlignment",
+        "equityTaken",
+        "crossBorderOps",
+        "policyResearchInterest",
+        "startupExperience",
+        "mentorshipAvailable",
+        "logAccessNeed",
+        "mentorshipInterest",
+        "cryptoGigs",
+        "partnershipWork"
+      ],
+      "number_fields": [
+        "fundingNeededUSD",
+        "intakeSize",
+        "yearsActive",
+        "budgetMandate"
+      ],
+      "text_fields": [
+        "growthGoals12m",
+        "investmentPhilosophy",
+        "rejectCriteria",
+        "selectionCriteria",
+        "onboardingHelp",
+        "partnerFindingApproach",
+        "challenges",
+        "impactEvaluation",
+        "constraints",
+        "privacyConcerns",
+        "biggestChallenge",
+        "verificationPref",
+        "impact",
+        "growthTracking",
+        "redFlags",
+        "readinessValidation",
+        "platformSupport"
+      ]
+    },
+    "validation_rules": {
+      "required_validation": "All required fields must be filled before form submission",
+      "array_limits": "Most array fields have limits between 5-10 items",
+      "boolean_handling": "Boolean fields should be true/false, not string values",
+      "number_validation": "Number fields should accept only numeric input",
+      "text_length": "Text fields typically allow 3+ rows for adequate input space"
+    },
+    "data_normalization": {
+      "complete_profile_structure": "All profiles include both required and optional fields",
+      "null_handling": "Unfilled optional fields are explicitly set to null",
+      "schema_enforcement": "Profile data is normalized using role schemas before submission",
+      "field_consistency": "Every profile of the same role will have identical field structure"
+    },
+    "form_consistency": {
+      "updated_forms": [
+        "FreelancerForm.jsx",
+        "FounderForm.jsx", 
+        "InvestorForm.jsx",
+        "CybersecurityForm.jsx",
+        "AcceleratorForm.jsx",
+        "ExecutiveForm.jsx",
+        "GovernmentForm.jsx",
+        "LegalForm.jsx",
+        "MentorResearcherForm.jsx",
+        "ExitPlannerForm.jsx"
+      ],
+      "alignment_status": "All form field keys now match users.json schema exactly",
+      "data_flow": "Form submissions → normalizeProfileData() → users.json structure → database storage",
+      "null_policy": "Optional fields that are not filled by users are stored as null values"
+    }
+  }
+}

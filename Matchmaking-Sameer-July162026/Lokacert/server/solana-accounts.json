@@ -1,0 +1,32 @@
+[
+  {
+    "name": "first",
+    "publicKey": "FyUaPDE3JW5seRaaVgtKezAECVP19gUsWSqDbhmsKLZj",
+    "privateKey": "c2256b57fafbbbb7aeb4505e51539872:093d4c5bf866836b2a93b3c51439a5006840ef0017e07bd9394f99c53db8b73323518cc6a138727ae5fbbc7951c065e6e20489c837c7652ed6ee57ac5c5579fcd469278e1a855a25c2b27c48ea181c24aed429944344c981078dfc27a72105b4",
+    "addedAt": "2025-10-21T17:06:13.018Z"
+  },
+  {
+    "name": "employee1",
+    "publicKey": "AnEKdwrLA4S7JvYcuP6cmqSngzsUXxuU1qfZbeDzydJ9",
+    "privateKey": "1066c486d93ad90d98e731592be6d996:dfb6fb5b6d96498ae4ef1b030d36d3620bd1bc508186baf412613a6d0d40574ed9de1eeb11082c5cd7a4d02895d535bef9e17064bf371a007d3545c333c8b0b22b9aaf25363e68afbd043a8b2e5a42ab6a3bd58b78e8dc75ce80461b45964e2c",
+    "addedAt": "2025-10-22T13:31:34.400Z"
+  },
+  {
+    "name": "test-company",
+    "publicKey": "GMxLZxrn3ULeJNpmDevxbT4ikKfeM59WtUegdsYffYZZ",
+    "privateKey": "348edd5ce7de50cb6d1cf68a38b381f4:6eab0825df60022ede07ffdfa38ff39679971e301797a5c3ddd7c13f182ea1fcce27e4c0077a1657a309c0cc6566589e94449974816f314ec261692e904b9c90adae90b4b13c476a7a2e9c477b9cc4008913cc6c0ed83fc47b393170cb73b3f8",
+    "addedAt": "2025-11-03T07:56:08.764Z"
+  },
+  {
+    "name": "c-5",
+    "publicKey": "GMxLZxrn3ULeJNpmDevxbT4ikKfeM59WtUegdsYffYZZ",
+    "privateKey": "2ed234469a92a2fd20765d466c6ca462:2f57530c03666382876c6fcc0bc780beccce6115dc1d71a782113993603dc01bb05d61354600010fcd0ffbd2767312a98cb89dfc81ce03c8653a07ff461de51260640a179b117b41a395da6c5b661e9918486f6fd335b29058fa625daaac91ca",
+    "addedAt": "2025-11-14T13:13:50.461Z"
+  },
+  {
+    "name": "e-5",
+    "publicKey": "74cSKujxa3Bvvh6qbH9NwSUe62tgVMH6pzWAgohfJZYh",
+    "privateKey": "74b804f71269658309136a0e75439d1f:4aca243c68c973fd7e2e7655ac97b67e6905dcc3205eac49a36a3a1baa801d83a94e8793b1eb95c90b86089d9e1d2b7c85e251b652a786100433be0eda66ee8f0f0aa55e3a9142e1c16fb11cd31a2180f30c531fb32f903769d9a1c788761182",
+    "addedAt": "2025-11-14T13:30:06.616Z"
+  }
+]

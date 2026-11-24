@@ -1,0 +1,581 @@
+{
+  "info": {
+    "_postman_id": "unique-id-3",
+    "name": "Onchain Certificate - Certificate API Tests",
+    "description": "API tests for certificate-related endpoints. Follow the order: 1. Create/manage templates, 2. Issue certificates, 3. Verify/manage certificates",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Certificate Template",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing required fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"templateId\": \"TEMPLATE-001\",\n    \"name\": \"Internship Certificate\",\n    \"description\": \"Template for internship completion certificates\",\n    \"metadataUri\": \"https://example.com/template-metadata\",\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/createTemplate",
+          "host": ["{{baseUrl}}"],
+          "path": ["createTemplate"]
+        },
+        "description": "Create a new certificate template"
+      }
+    },
+    {
+      "name": "Get Company Templates",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has templates array\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('templates').that.is.an('array');",
+              "});",
+              "",
+              "pm.test(\"Template structure is correct\", function () {",
+              "    const response = pm.response.json();",
+              "    if (response.templates.length > 0) {",
+              "        const template = response.templates[0];",
+              "        pm.expect(template).to.have.property('templateId');",
+              "        pm.expect(template).to.have.property('name');",
+              "        pm.expect(template).to.have.property('description');",
+              "        pm.expect(template).to.have.property('metadataUri');",
+              "    }",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/templates/{{companyPubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["templates", "{{companyPubkey}}"]
+        },
+        "description": "Get all certificate templates for a company"
+      }
+    },
+    {
+      "name": "Get Template",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has template data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('template');",
+              "    pm.expect(response.template).to.have.property('templateId');",
+              "    pm.expect(response.template).to.have.property('name');",
+              "    pm.expect(response.template).to.have.property('description');",
+              "});",
+              "",
+              "pm.test(\"404 on invalid template\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('templatePubkey'), 'invalid-pubkey'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/template/{{templatePubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["template", "{{templatePubkey}}"]
+        },
+        "description": "Get certificate template details by pubkey"
+      }
+    },
+    {
+      "name": "Update Certificate Template",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"templatePubkey\": \"{{templatePubkey}}\",\n    \"updates\": {\n        \"name\": \"Updated Template Name\",\n        \"description\": \"Updated template description\",\n        \"metadataUri\": \"https://example.com/updated-template\"\n    },\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/updateCertificateTemplate",
+          "host": ["{{baseUrl}}"],
+          "path": ["updateCertificateTemplate"]
+        },
+        "description": "Update an existing certificate template"
+      }
+    },
+    {
+      "name": "Issue Certificate",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('certificatePDA');",
+              "    pm.expect(response).to.have.property('certificateId');",
+              "    pm.expect(response).to.have.property('templateId');",
+              "});",
+              "",
+              "pm.test(\"Error on missing required fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"employeePubkey\": \"{{employeePubkey}}\",\n    \"certificateId\": \"CERT-001\",\n    \"templateId\": \"{{templateId}}\",\n    \"certificateDetails\": {\n        \"title\": \"Software Engineering Certificate\",\n        \"description\": \"Certification of completion\"\n    },\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\",\n    \"expiresAt\": \"1735689600\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/issueCertificate",
+          "host": ["{{baseUrl}}"],
+          "path": ["issueCertificate"]
+        },
+        "description": "Issue a new certificate to an employee"
+      }
+    },
+    {
+      "name": "Revoke Certificate",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('certificateId');",
+              "});",
+              "",
+              "pm.test(\"Error on invalid certificate\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyPubkey\": pm.variables.get('companyPubkey'),",
+              "                \"certificatePubkey\": \"invalid-pubkey\",",
+              "                \"companyAuthorityPubkey\": pm.variables.get('companyAuthorityPubkey')",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"certificatePubkey\": \"{{certificatePubkey}}\",\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/revokeCertificate",
+          "host": ["{{baseUrl}}"],
+          "path": ["revokeCertificate"]
+        },
+        "description": "Revoke an issued certificate"
+      }
+    },
+    {
+      "name": "Verify Certificate",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has verification data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('isValid');",
+              "    pm.expect(response).to.have.property('reasons').that.is.an('array');",
+              "    pm.expect(response).to.have.property('certificatePubkey');",
+              "});",
+              "",
+              "pm.test(\"Certificate data structure is correct\", function () {",
+              "    const response = pm.response.json();",
+              "    if (response.certificate) {",
+              "        pm.expect(response.certificate).to.have.property('certificateId');",
+              "        pm.expect(response.certificate).to.have.property('company');",
+              "        pm.expect(response.certificate).to.have.property('employee');",
+              "        pm.expect(response.certificate).to.have.property('status');",
+              "        pm.expect(response.certificate).to.have.property('statusString');",
+              "    }",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/verify/{{certificateId}}?companyPubkey={{companyPubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["verify", "{{certificateId}}"],
+          "query": [
+            {
+              "key": "companyPubkey",
+              "value": "{{companyPubkey}}"
+            }
+          ]
+        },
+        "description": "Verify a certificate's validity"
+      }
+    },
+    {
+      "name": "Get Certificate",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has certificate data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('certificate');",
+              "    pm.expect(response.certificate).to.have.property('pubkey');",
+              "    pm.expect(response.certificate).to.have.property('certificateId');",
+              "    pm.expect(response.certificate).to.have.property('status');",
+              "    pm.expect(response.certificate).to.have.property('statusString');",
+              "});",
+              "",
+              "pm.test(\"404 on invalid certificate pubkey\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('certificatePubkey'), 'invalid-pubkey'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/certificate/{{certificatePubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["certificate", "{{certificatePubkey}}"]
+        },
+        "description": "Get certificate details by pubkey"
+      }
+    },
+    {
+      "name": "Get Employee Certificates",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has certificates list\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('count');",
+              "    pm.expect(response).to.have.property('employee');",
+              "    pm.expect(response).to.have.property('certificates').that.is.an('array');",
+              "});",
+              "",
+              "pm.test(\"Certificate structure is correct\", function () {",
+              "    const response = pm.response.json();",
+              "    if (response.certificates.length > 0) {",
+              "        const cert = response.certificates[0];",
+              "        pm.expect(cert).to.have.property('pubkey');",
+              "        pm.expect(cert).to.have.property('certificateId');",
+              "        pm.expect(cert).to.have.property('status');",
+              "        pm.expect(cert).to.have.property('statusString');",
+              "    }",
+              "});",
+              "",
+              "pm.test(\"404 on invalid employee pubkey\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('employeePubkey'), 'invalid-pubkey'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/certificates/employee/{{employeePubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["certificates", "employee", "{{employeePubkey}}"]
+        },
+        "description": "Get all certificates of an employee"
+      }
+    },
+    {
+      "name": "Get Company Certificates",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has certificates list\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('count');",
+              "    pm.expect(response).to.have.property('company');",
+              "    pm.expect(response).to.have.property('certificates').that.is.an('array');",
+              "});",
+              "",
+              "pm.test(\"Company data is correct\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response.company).to.have.property('pubkey');",
+              "    pm.expect(response.company).to.have.property('companyId');",
+              "    pm.expect(response.company).to.have.property('isActive');",
+              "});",
+              "",
+              "pm.test(\"404 on invalid company pubkey\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('companyPubkey'), 'invalid-pubkey'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/certificates/company/{{companyPubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["certificates", "company", "{{companyPubkey}}"]
+        },
+        "description": "Get all certificates issued by a company"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api"
+    },
+    {
+      "key": "certificateId",
+      "value": "certificate-id"
+    },
+    {
+      "key": "certificatePubkey",
+      "value": "certificate-pubkey"
+    },
+    {
+      "key": "templateId",
+      "value": "template-id"
+    },
+    {
+      "key": "companyPubkey",
+      "value": "company-pubkey"
+    },
+    {
+      "key": "employeePubkey",
+      "value": "employee-pubkey"
+    },
+    {
+      "key": "companyAuthorityPubkey",
+      "value": "authority-pubkey"
+    }
+  ]
+}

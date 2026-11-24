@@ -1,0 +1,160 @@
+[189,61,9,79,76,176,149,79,87,183,29,210,107,112,68,198,242,96,109,62,145,125,133,102,156,164,205,38,176,42,228,234,204,180,80,38,204,156,159,25,50,203,211,115,170,233,86,133,48,215,188,36,47,176,187,66,167,225,251,10,124,137,243,162]
+
+
+ Starting Connection Request Test on Devnet
+==================================================
+
+1️⃣ Setting up keypairs...
+📁 Loading existing keypair from sender-keypair.json
+📁 Loading existing keypair from user1-keypair.json
+📁 Loading existing keypair from user2-keypair.json
+   Sender: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K
+   User 1: BQKvKSUe8NzRB44DCf3k4wmEJD9cWyWCn2aMYMEB3nCh
+   User 2: 6TCQkwcxiPr3PJ48i5WSYUp3XeQpcWuGNgYyGcHnDoMW
+
+2️⃣ Ensuring sender has funds...
+(node:9772) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+💰 Current balance: 5.0000 SOL
+
+3️⃣ Checking program account...
+   ✅ Program exists, owner: BPFLoaderUpgradeab1e11111111111111111111111
+   📊 Program data length: 36 bytes
+
+4️⃣ Sending first request (Sender → User 1)
+==============================
+
+📤 Sending connection request 1754853934001
+   From: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K
+   To: BQKvKSUe8NzRB44DCf3k4wmEJD9cWyWCn2aMYMEB3nCh
+   CID: QmFirstRequestCID123456789
+   Message: Hello User 1!
+
+🔍 Debugging account states for request 1754853934001
+   Request PDA: 6J2TyBuEXt7nzavZP8neZ1Vp5bzvVT7ruspGqRBBo6sB
+   Receiver Inbox: 2Hy4qVPicEB3Rfv2Bw78RDTwq6FBuW3TRc1B1K4QoWFT
+   Sender Inbox: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy
+   Request exists: false
+   Receiver inbox exists: false
+   Sender inbox exists: false
+   Instruction data length: 88 bytes
+   Accounts (5):
+     0: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K (signer: true, writable: false)       
+     1: 6J2TyBuEXt7nzavZP8neZ1Vp5bzvVT7ruspGqRBBo6sB (signer: false, writable: true)       
+     2: 2Hy4qVPicEB3Rfv2Bw78RDTwq6FBuW3TRc1B1K4QoWFT (signer: false, writable: true)       
+     3: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy (signer: false, writable: true)       
+     4: 11111111111111111111111111111111 (signer: false, writable: false)
+   📝 Transaction created, simulating first...
+   ✅ Simulation successful
+   📋 Simulation logs:
+      Program HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g invoke [1]
+      Program log: Connection Requests: Processing instruction 0
+      Program log: Instruction: SendConnectionRequest
+      Program 11111111111111111111111111111111 invoke [2]
+      Program 11111111111111111111111111111111 success
+      Program log: Expected inbox PDA: 2Hy4qVPicEB3Rfv2Bw78RDTwq6FBuW3TRc1B1K4QoWFT        
+      Program log: Provided inbox account: 2Hy4qVPicEB3Rfv2Bw78RDTwq6FBuW3TRc1B1K4QoWFT    
+      Program log: Creating new inbox for user: BQKvKSUe8NzRB44DCf3k4wmEJD9cWyWCn2aMYMEB3nCh
+      Program 11111111111111111111111111111111 invoke [2]
+      Program 11111111111111111111111111111111 success
+      Program log: Inbox created and initialized successfully
+      Program log: Expected inbox PDA: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy        
+      Program log: Provided inbox account: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy    
+      Program log: Creating new inbox for user: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K
+      Program 11111111111111111111111111111111 invoke [2]
+      Program 11111111111111111111111111111111 success
+      Program log: Inbox created and initialized successfully
+      Program log: Connection request sent successfully: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K -> BQKvKSUe8NzRB44DCf3k4wmEJD9cWyWCn2aMYMEB3nCh, ID: 1754853934001
+      Program HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g consumed 120152 of 200000 compute units
+      Program HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g success
+   📡 Sending transaction...
+   📨 Transaction sent: 45hNgv7vXrJ8QjE7qN8iTVBNdmTXf4sthn6YA9eAMb83rr9yoy6i1jpjbYour8sEi4uxtKmiTxJC65ofFRgs9tPR
+   ✅ Transaction confirmed successfully!
+
+🔍 Debugging account states for request 1754853934001
+   Request PDA: 6J2TyBuEXt7nzavZP8neZ1Vp5bzvVT7ruspGqRBBo6sB
+   Receiver Inbox: 2Hy4qVPicEB3Rfv2Bw78RDTwq6FBuW3TRc1B1K4QoWFT
+   Sender Inbox: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy
+   Request exists: true
+   Receiver inbox exists: true
+   Sender inbox exists: true
+   Request account owner: HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g
+   Request account data length: 708
+✅ First request completed: 45hNgv7vXrJ8QjE7qN8iTVBNdmTXf4sthn6YA9eAMb83rr9yoy6i1jpjbYour8sEi4uxtKmiTxJC65ofFRgs9tPR
+⏳ Waiting 3 seconds...
+
+5️⃣ Sending second request (Sender → User 2)
+==============================
+
+📤 Sending connection request 1754853939992
+   From: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K
+   To: 6TCQkwcxiPr3PJ48i5WSYUp3XeQpcWuGNgYyGcHnDoMW
+   CID: QmSecondRequestCID987654321
+   Message: Hello User 2!
+
+🔍 Debugging account states for request 1754853939992
+   Request PDA: A53rmAPPhttEtX7xWVQXs7N1xxsDutFKrVCWTvLwC9CH
+   Receiver Inbox: AnEouESB1seDJTMTpZjgFWn6Q2ckhXWnXc37n2rfZqop
+   Sender Inbox: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy
+   Request exists: false
+   Receiver inbox exists: false
+   Sender inbox exists: true
+   Instruction data length: 89 bytes
+   Accounts (5):
+     0: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K (signer: true, writable: false)       
+     1: A53rmAPPhttEtX7xWVQXs7N1xxsDutFKrVCWTvLwC9CH (signer: false, writable: true)       
+     2: AnEouESB1seDJTMTpZjgFWn6Q2ckhXWnXc37n2rfZqop (signer: false, writable: true)       
+     3: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy (signer: false, writable: true)       
+     4: 11111111111111111111111111111111 (signer: false, writable: false)
+   📝 Transaction created, simulating first...
+   ✅ Simulation successful
+   📋 Simulation logs:
+      Program HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g invoke [1]
+      Program log: Connection Requests: Processing instruction 0
+      Program log: Instruction: SendConnectionRequest
+      Program 11111111111111111111111111111111 invoke [2]
+      Program 11111111111111111111111111111111 success
+      Program log: Expected inbox PDA: AnEouESB1seDJTMTpZjgFWn6Q2ckhXWnXc37n2rfZqop        
+      Program log: Provided inbox account: AnEouESB1seDJTMTpZjgFWn6Q2ckhXWnXc37n2rfZqop    
+      Program log: Creating new inbox for user: 6TCQkwcxiPr3PJ48i5WSYUp3XeQpcWuGNgYyGcHnDoMW
+      Program 11111111111111111111111111111111 invoke [2]
+      Program 11111111111111111111111111111111 success
+      Program log: Inbox created and initialized successfully
+      Program log: Expected inbox PDA: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy        
+      Program log: Provided inbox account: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy    
+      Program log: Updating existing inbox
+      Program log: Error deserializing existing inbox: Custom { kind: InvalidData, error: "Not all bytes read" }
+      Program log: Inbox data length: 856
+      Program log: Expected inbox for user: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K   
+      Program log: Stored user in inbox: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K      
+      Program log: Reinitializing corrupted inbox
+      Program log: Warning: Request 1754853939992 already in sent list
+      Program log: Inbox updated successfully
+      Program log: Connection request sent successfully: En5e8V7Noy3fVor8tGdEzHER11DkMKGHAiiVJLZLDH1K -> 6TCQkwcxiPr3PJ48i5WSYUp3XeQpcWuGNgYyGcHnDoMW, ID: 1754853939992
+      Program HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g consumed 139937 of 200000 compute units
+      Program HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g success
+   📡 Sending transaction...
+   📨 Transaction sent: 3kYGe4nxNfrqHMuMQwqWWmm9ZAEvNWVfH32hqhbGLd6Bz5YLzBFa5PzrhGLB1gMs9o3cdLrR4Kzukfpy695a56CY
+   ✅ Transaction confirmed successfully!
+
+🔍 Debugging account states for request 1754853939992
+   Request PDA: A53rmAPPhttEtX7xWVQXs7N1xxsDutFKrVCWTvLwC9CH
+   Receiver Inbox: AnEouESB1seDJTMTpZjgFWn6Q2ckhXWnXc37n2rfZqop
+   Sender Inbox: 4CmmsvTZhzuG54X311ZgFQ5ucHxFe22adA4kDnX64PTy
+   Request exists: true
+   Receiver inbox exists: true
+   Sender inbox exists: true
+   Request account owner: HSQ9vGvZtCy6CbUkgMD2RXeMeQ2dgtDZoUZ7EbRAdA1g
+   Request account data length: 708
+✅ Second request completed: 3kYGe4nxNfrqHMuMQwqWWmm9ZAEvNWVfH32hqhbGLd6Bz5YLzBFa5PzrhGLB1gMs9o3cdLrR4Kzukfpy695a56CY
+
+🎉 TEST COMPLETED SUCCESSFULLY!
+==================================================
+   First request (1754853934001): 45hNgv7vXrJ8QjE7qN8iTVBNdmTXf4sthn6YA9eAMb83rr9yoy6i1jpjbYour8sEi4uxtKmiTxJC65ofFRgs9tPR
+   Second request (1754853939992): 3kYGe4nxNfrqHMuMQwqWWmm9ZAEvNWVfH32hqhbGLd6Bz5YLzBFa5PzrhGLB1gMs9o3cdLrR4Kzukfpy695a56CY
+   View on Solana Explorer:
+   https://explorer.solana.com/tx/45hNgv7vXrJ8QjE7qN8iTVBNdmTXf4sthn6YA9eAMb83rr9yoy6i1jpjbYour8sEi4uxtKmiTxJC65ofFRgs9tPR?cluster=devnet
+   https://explorer.solana.com/tx/3kYGe4nxNfrqHMuMQwqWWmm9ZAEvNWVfH32hqhbGLd6Bz5YLzBFa5PzrhGLB1gMs9o3cdLrR4Kzukfpy695a56CY?cluster=devnet
+
+✨ Test script completed
+PS C:\Users\samee\Desktop\Finn\Coding\connect_request> 

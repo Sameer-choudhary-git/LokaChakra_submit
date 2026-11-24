@@ -1,0 +1,60 @@
+[
+  {
+    "role": "CyberSercurity expert",
+    "name": "Sameer",
+    "specializationAreas": [
+      "DevOps",
+      "os",
+      "Linux"
+    ],
+    "domain": [
+      "web 3",
+      "cloude"
+    ],
+    "gigPref": "short-term",
+    "objectives": [
+      "Earning",
+      "learning"
+    ],
+    "toolsFrameworks": [
+      "AWS",
+      "NMAP",
+      "BRUPSUIT"
+    ],
+    "updateMethod": "Calls",
+    "mentorshipInterest": true,
+    "certifications": [
+      "Aws",
+      "decsec"
+    ],
+    "teamPref": "duo or single",
+    "partnershipType": "Formal-contract",
+    "wallet": "J71GRxQaVtWM8KPsTU6EFTsoj6cu2gRJpJxw6Wy8S6SX"
+  },
+  {
+    "role": "Cybersecurtiy expert",
+    "wallet": "5u2vnCNh7MfPJFhKNpc19X3e9zwBZ6SBYZTrXxQJYZxm",
+    "name": "Sameer",
+    "specializationAreas": [
+      "DevOps",
+      "audit"
+    ],
+    "domain": null,
+    "gigPref": "short-term",
+    "objectives": [
+      "learn",
+      "earn"
+    ],
+    "toolsFrameworks": [
+      "AWS",
+      "NMAP"
+    ],
+    "updateMethod": "Meets",
+    "certifications": null,
+    "teamPref": "yes",
+    "partnershipType": "informal",
+    "logAccessNeed": null,
+    "mentorshipInterest": null,
+    "biggestChallenge": null
+  }
+]

@@ -1,0 +1,5855 @@
+{
+  "extractedAt": "2025-07-01T06:36:56.922Z",
+  "programId": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+  "summary": {
+    "total": 201,
+    "valid": 201,
+    "errors": 0,
+    "active": 201,
+    "inactive": 0,
+    "roleCounts": {
+      "founder": 62,
+      "investor": 20,
+      "accelerator": 20,
+      "executive": 20,
+      "legal": 20,
+      "government": 19,
+      "cybersecurity": 20,
+      "freelancer": 20,
+      "mentor_research": 0,
+      "exit_planner": 0
+    },
+    "errorAccounts": []
+  },
+  "profiles": [
+    {
+      "authority": "4BZuFgnfbgyV45w4wHx4VLPETra5o5t1zWdkFdjsRg7G",
+      "isActive": true,
+      "createdAt": 1751318398,
+      "updatedAt": 1751318398,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQuH6BbSoUyTvHgF5Bi9XQKJ9Nq2cyZeZyBrrbzvfWrJD",
+      "accountAddress": "127jo1631odAogWcTq39L5jED5zSoizHbL1sEWp3ZuXN",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:19:58.000Z",
+      "updatedAtFormatted": "2025-06-30T21:19:58.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "2yPx6FEjBjvucAh8AizUbo35ftCMzrsD2BPJbQxHM7bY",
+      "isActive": true,
+      "createdAt": 1751310849,
+      "updatedAt": 1751310849,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTgx7eKLpEyuhvL8MkD7VKPdonjwLgjpmWbKSr9iqjUGj",
+      "accountAddress": "12UePU7GFUfyECgk9PLtWAuWUVT9pUo5NTVssJ9h1YbT",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:14:09.000Z",
+      "updatedAtFormatted": "2025-06-30T19:14:09.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "4njWePQ9vxgbHSqSMxbESxU7mdhCTDLAkKXtvbfnpc7y",
+      "isActive": true,
+      "createdAt": 1751310748,
+      "updatedAt": 1751310748,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmb1ZfJA5H4Vp4aAaXdqo58jAnxJDSfePCCmqx5pQUUbtZ",
+      "accountAddress": "9QCQBqoE1dryc4SxTnHiAJbiwQGnCb3eaZrPjagFdBG",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:12:28.000Z",
+      "updatedAtFormatted": "2025-06-30T19:12:28.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "GUr5hciZwTRd3sD8Js8UU3izN5fB9FtSi2anrqusatrV",
+      "isActive": true,
+      "createdAt": 1751311761,
+      "updatedAt": 1751311761,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbD3UuDitWbs4KUzPfVVxFCzcpYEQmqnMLvpMxGxe8vLf",
+      "accountAddress": "LapYCh3RbfGNpsnfC4ukqtrekpzSehABNox3ea1vELM",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:29:21.000Z",
+      "updatedAtFormatted": "2025-06-30T19:29:21.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "8vu5Z4qFNi6wMkhnGMQ5tL2cJaHG7HGYyooFbwZCfcK5",
+      "isActive": true,
+      "createdAt": 1751314488,
+      "updatedAt": 1751314488,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmdj4xPMqaVLtUWvpf5VKmPewSv7TMFDMJWjJjHR2NiLqP",
+      "accountAddress": "RzfH5dgWxrx9dDcVHSm88pAm11QzvDwuQDKVapoSPqT",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:14:48.000Z",
+      "updatedAtFormatted": "2025-06-30T20:14:48.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "92dWsqXQkr4wH78SZJkQPJYjfJh1sAD4XXRWavRn5PLE",
+      "isActive": true,
+      "createdAt": 1751311305,
+      "updatedAt": 1751311305,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVKLCAqfATibnkjE2kjU7owZTDKVZFYSL6Wz39pUTZYGY",
+      "accountAddress": "edJB89ha742C6UhDWARPmFrTskz8mKdRnA6DmA9y5Mm",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:21:45.000Z",
+      "updatedAtFormatted": "2025-06-30T19:21:45.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "515CKmEcb4Lge6zpsseYmf5xHyZeGLBuXUr9CajNYTP1",
+      "isActive": true,
+      "createdAt": 1751316261,
+      "updatedAt": 1751316261,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWdoXcXLbWPr2m3WWNxLAkzCikU1d3ZijfmNMeFs2vnEC",
+      "accountAddress": "k4w4NRV2AazgPSpGRPDqhQcdAvcMPw6pLWZbCaXc4zR",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:44:21.000Z",
+      "updatedAtFormatted": "2025-06-30T20:44:21.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "8K5qXQVCTXo1U14MHJPVFCznhvfsRomfbZF5cw5SWzTD",
+      "isActive": true,
+      "createdAt": 1751319666,
+      "updatedAt": 1751319666,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmY42FHJCDMZM4TnrSkCV6UfHc1XzVeAS9LpAvToXAjN1i",
+      "accountAddress": "rCWhXvKY72Jq5R8S6H4orwtiUyQcFmDhZWYEdPwBSTU",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:41:06.000Z",
+      "updatedAtFormatted": "2025-06-30T21:41:06.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "7L94xoRnvdPMvQjhT3AUQUa9ayPDmVcjzsxj2fcZiFHA",
+      "isActive": true,
+      "createdAt": 1751318245,
+      "updatedAt": 1751318245,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmR7C5giYFgrZxHW8UXGqvGg2wG7X3GQmbsgcmfj3kaL4i",
+      "accountAddress": "vE4L3WBvSJkG7MWZ3oodQT21aJFs4H8HCDeJHrEK4HL",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:17:25.000Z",
+      "updatedAtFormatted": "2025-06-30T21:17:25.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "AQdBpbY7exYZH2EwboiEeHxgmUyBVEZRHPtRQHb4te2M",
+      "isActive": true,
+      "createdAt": 1751315404,
+      "updatedAt": 1751315404,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmdXqh5rpHitmMbjf1ScW7pFNTjJ6EDcsQ7gqYeAN5zVwF",
+      "accountAddress": "y55MX6r6FXdmgXK3XHo9GKyp9qZZJ9pYaJdRRTvUvqy",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:30:04.000Z",
+      "updatedAtFormatted": "2025-06-30T20:30:04.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "EFzsAEva437cdyUyfVTwNmJiQKJBWuKk237yhs52GV72",
+      "isActive": true,
+      "createdAt": 1751312371,
+      "updatedAt": 1751312371,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVcnXT6swPaePKvYcdEeJdAPkCn7HCpg6GJS7AUBQFkqv",
+      "accountAddress": "218Dsm6BYU1UZhi96WohuZ5MsGKs4iwPeVoS6vUD4ZFk",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:39:31.000Z",
+      "updatedAtFormatted": "2025-06-30T19:39:31.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "B3eFeKHzaWW9PY7waX4mfRzSpBhRyfRbxYQMrSTwejKH",
+      "isActive": true,
+      "createdAt": 1751319716,
+      "updatedAt": 1751319716,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmb4EmptQNVgCsA82PrtergtxxDEmATQ4wPxyFY2b4Qpux",
+      "accountAddress": "227nwdY6fDfMvkjsRi7P8uWfFkbLv4hx6JA34EuzEKDp",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:41:56.000Z",
+      "updatedAtFormatted": "2025-06-30T21:41:56.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "3NYaa62rkgXxgwRmj7NoYu6xU8UQqtYKJnJfqFSiy6XG",
+      "isActive": true,
+      "createdAt": 1751319568,
+      "updatedAt": 1751319568,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcoBNRzk93Vqde4oX4NtPbmM5rg3YFFwyTfG1jDygqdAa",
+      "accountAddress": "2EXM9gnqtLmK2KK8qgo2cbohhVrBFXw6SRZG5mvx2Frk",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:39:28.000Z",
+      "updatedAtFormatted": "2025-06-30T21:39:28.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "BPh4unBxyaTAJyh9GPALz5FLiGYxyefyGhF5Xt9UTGUm",
+      "isActive": true,
+      "createdAt": 1751320226,
+      "updatedAt": 1751320226,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPpotKHCR2pUfjJfAfwz8AyxfrbANDLtcRj6n5RaA24Bx",
+      "accountAddress": "2KPE1EGRRkMT6NELo8yDvwXPw2aFEBGm7sffrYudAtjg",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:50:26.000Z",
+      "updatedAtFormatted": "2025-06-30T21:50:26.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "31aqa6qJr7E8DPYJmwWhNxoQ1WiXT8LfqU1A7GmMSHJS",
+      "isActive": true,
+      "createdAt": 1751313939,
+      "updatedAt": 1751313939,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmat6D3TmofKrCvJb1KpmEGdWwX9kx8qfaqWTAQLXTWvev",
+      "accountAddress": "2PuhJyEoqhhDLmf2CLfaUHSCtAYp9EF8aP1HpDUw2rx9",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:05:39.000Z",
+      "updatedAtFormatted": "2025-06-30T20:05:39.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "5pbtM7WMGZaPCyhwH3co6iun8tEbo4WRLzNVEPWWtjAY",
+      "isActive": true,
+      "createdAt": 1751313739,
+      "updatedAt": 1751313739,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSizFPuQRABozaZ7PcJHs9tRWWvoF5Th8vudsm3mS6DvL",
+      "accountAddress": "2ahggsKTHQdReZ7mHEpJfRRw9JjFJn6aX1MoaEniHnVk",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:02:19.000Z",
+      "updatedAtFormatted": "2025-06-30T20:02:19.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "GghpBHRs6D9PKapjLFj54w7o4s8gf7hWVtXgstKJgFvv",
+      "isActive": true,
+      "createdAt": 1751317888,
+      "updatedAt": 1751317888,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNPsVSGtAcJsD4sXbhKDnAbpi52qVwizbq8mUVkZCAu5R",
+      "accountAddress": "2cJ1DpPZUantkrbXJ8wbqVnepc1zstzRYL9FQ6ytcVyn",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:11:28.000Z",
+      "updatedAtFormatted": "2025-06-30T21:11:28.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "5JYrAiVRTCPn9HNyLotK5CaMDpGYn6pJZKUDkcoZ2MXc",
+      "isActive": true,
+      "createdAt": 1751313588,
+      "updatedAt": 1751313588,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYKrXvniArkujmAGymvMPS9hgQcfHQ93sWAeSZa4VUDCU",
+      "accountAddress": "2fdXM3zJGX5qGns8CaTDBeq1RkQiqbmMXsunsLZ4kJWb",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:59:48.000Z",
+      "updatedAtFormatted": "2025-06-30T19:59:48.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "2V2zRT9tWz1w5XmhBq44kPiZsu5WzQLnmPzNYd6uwoGS",
+      "isActive": true,
+      "createdAt": 1751319263,
+      "updatedAt": 1751319263,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWJhnxTmq3LT5HSqNBV6J9daVUHZcWLwrZLuiyEUGaDh2",
+      "accountAddress": "2iykmmG6w7BVgaDrBmdBS1nHpUWgrjaq5VsvQUsg1mCJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:34:23.000Z",
+      "updatedAtFormatted": "2025-06-30T21:34:23.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "34raV8mFczBXRpXasqaYnXtPUrYVRXM5N31LwTUrqdsB",
+      "isActive": true,
+      "createdAt": 1751309978,
+      "updatedAt": 1751309978,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmb81zJSA4ignisnenpdTcw7uWDXwSeyczcHYDc3ackndr",
+      "accountAddress": "2sQ7EyjK1jvwvsrUEMLAg8RuX22r18Z4B8NbYqp9tDae",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T18:59:38.000Z",
+      "updatedAtFormatted": "2025-06-30T18:59:38.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "AubrZKuuChWuwE2fv3MZXrfPMdhQxNZcuc2kxEJpR9N6",
+      "isActive": true,
+      "createdAt": 1751314540,
+      "updatedAt": 1751314540,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNPcX9iFXhf25KWEiaqWx1hjQJUNz9cNEbqGF5a8X8HjP",
+      "accountAddress": "2vs7e6roindD7WUYMAWvKVztC3PpZp7E26DKFzNXPGBG",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:15:40.000Z",
+      "updatedAtFormatted": "2025-06-30T20:15:40.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "2eHQFNy2KJD3S1tvJRozFMXm9L87PN6bn9hBprGociy8",
+      "isActive": true,
+      "createdAt": 1751311913,
+      "updatedAt": 1751311913,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPG72u5NzzTmDXL2KfuNWPhqoDsJSg7fcUUsAp1xG6JAh",
+      "accountAddress": "369EWNGPLF7GppfemgXKdx5de2iCW4jgfVzZg35DnUid",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:31:53.000Z",
+      "updatedAtFormatted": "2025-06-30T19:31:53.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "8bYwAioqnSff2NQqU4bUvNHjSqJXys3F1nwsUwLy1Bes",
+      "isActive": true,
+      "createdAt": 1751319869,
+      "updatedAt": 1751319869,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVJtooAfuHjc47u8vCyMjQCEfWBxQ9ZEHvTukCYq1PcRW",
+      "accountAddress": "3ZEnqAmr5LPuPyec21ShAxaP1Do3a96rtUUtRfkDSAN3",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:44:29.000Z",
+      "updatedAtFormatted": "2025-06-30T21:44:29.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "36ewwYzQ7M65pUs1CjuFs2Lz6z6dNe5y1dSJRvPqwSf3",
+      "isActive": true,
+      "createdAt": 1751320379,
+      "updatedAt": 1751320379,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaFuKZQn1Rui2vcMjErTNBoYN2Cgv1iFooEPmFX24MRVM",
+      "accountAddress": "3hjPsjkrY9C4aEi7pcft7tDMjCJEZ2fnWt1NJZGZU3VJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:52:59.000Z",
+      "updatedAtFormatted": "2025-06-30T21:52:59.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "8CfMjrdXaB6Mm85j9daT4vfedoSS5w9fdbBvVwuztpbP",
+      "isActive": true,
+      "createdAt": 1751313434,
+      "updatedAt": 1751313434,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaeVTnkKUkfxSmRKzJjwB3oFEyT6LiNjzYYfSUdwhpXyE",
+      "accountAddress": "3ocRmZu6aC9hB6X1gtUBFcrcraGbSAbWm3Fd1ApBVsLL",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:57:14.000Z",
+      "updatedAtFormatted": "2025-06-30T19:57:14.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "DJYaoPTcgTxu3Bzz59CBzQtkh5phvM9uknXLvwofngyd",
+      "isActive": true,
+      "createdAt": 1751318194,
+      "updatedAt": 1751318194,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYz5bubgsZMXPA7kVPt3LMn3MSLbMobQov4iYD7b6xYj4",
+      "accountAddress": "3przQSPaNup3K2kftyyPt6UsP5YrcwdUp6qMSVF9VJ57",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:16:34.000Z",
+      "updatedAtFormatted": "2025-06-30T21:16:34.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "4Mui5fzbszk9v8GMMHHRxgDG2852Z8rD349NrmFvN7LB",
+      "isActive": true,
+      "createdAt": 1751315506,
+      "updatedAt": 1751315506,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmdbu5KrSMaxsWrge665LNRPNDXAHwSEDV1cJERHiwDjo9",
+      "accountAddress": "3tUQkbZ2TkfG8ALdXYfZ3ux79s2vacG7uHaEM6b15bg4",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:31:46.000Z",
+      "updatedAtFormatted": "2025-06-30T20:31:46.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "GtbkDFZhdVguTJHqb8PWF1kayrpEfYXCDJq4314KAbYF",
+      "isActive": true,
+      "createdAt": 1751318093,
+      "updatedAt": 1751318093,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmceeUchj6zxCo4mA8XQDxZwBUR8AcYiZdxAodagmk4cg8",
+      "accountAddress": "3wVcygenJq1t2q4n92GWjyDxMadjW83ni7UmaTEKsg45",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:14:53.000Z",
+      "updatedAtFormatted": "2025-06-30T21:14:53.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "AFDY8q61vZcKDdKwUtJui12Jg4fEvUA55sgr6R6zP3kP",
+      "isActive": true,
+      "createdAt": 1751319768,
+      "updatedAt": 1751319768,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNhPtEyH1NJfBA69DN2APzet6TzYbGc9L3z54xq2wWG83",
+      "accountAddress": "3xs5smzi2KcSM85DJi6c1Be4kHwjDLdjZkud3HqSLWdu",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:42:48.000Z",
+      "updatedAtFormatted": "2025-06-30T21:42:48.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "9a75fKJAf7iKK94eh4qEUYQJPyDVUaRuEFLxuVVBjNgQ",
+      "isActive": true,
+      "createdAt": 1751319364,
+      "updatedAt": 1751319364,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmZZAVcE2s65Tsy54ddTEfTS18nkdFWZfW1y56iHR7yfBq",
+      "accountAddress": "45diJMpdbiJiLuS83LHzUVwFPqLRaejP4ndqFkeQkHJq",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:36:04.000Z",
+      "updatedAtFormatted": "2025-06-30T21:36:04.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "DPPzqWZHf6cB61WRjeZWfGU2yp4NkBMsbURyJZCyeBiB",
+      "isActive": true,
+      "createdAt": 1751311001,
+      "updatedAt": 1751311001,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcTHdFDVjZj5Mab24hpqbwL37bLUTxgE8WHJodT8da9kJ",
+      "accountAddress": "47tQzF4fcFofMnmeWCdZfB5cYvKZA3qtYFFuVnzTq6b2",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:16:41.000Z",
+      "updatedAtFormatted": "2025-06-30T19:16:41.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "DJZM8BgiChKYTzNWyhTLqvnF6dV2Cm3Rp5SQ3KBfXvJW",
+      "isActive": true,
+      "createdAt": 1751310798,
+      "updatedAt": 1751310798,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbvpDhDMNqAvvXCyS81RT1oBKqGPGj3MtSwpe2a5px3wZ",
+      "accountAddress": "48y8RP326tFsGGby5cYjmYrcykGFyFZyGuMmhZtSrRbC",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:13:18.000Z",
+      "updatedAtFormatted": "2025-06-30T19:13:18.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "6WUgzFvTHFsBq4n1VcwCjZpsoaGwr2dqFsL6Gpd7KCzN",
+      "isActive": true,
+      "createdAt": 1751317178,
+      "updatedAt": 1751317178,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmarXFu1NrPdaBzi7Mc3DWqfyQTfwQEFDDmeXRCAjndT2J",
+      "accountAddress": "4CZyLX4am9t2FYVtu1BgcHJGZkkCv6HbScWMDLArMR19",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:59:38.000Z",
+      "updatedAtFormatted": "2025-06-30T20:59:38.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "EWDCMDuoGmeSMonD3V1YpiikgnypzP7jUHNBzcM2Yh4e",
+      "isActive": true,
+      "createdAt": 1751316159,
+      "updatedAt": 1751316159,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmfRYJHkqUMSwgNQc1ucmNn9LLzEA2fSfZdcsurqhARdA1",
+      "accountAddress": "4YEVaP3m7TagGnMphP8gonuKC9LuWmc9ccfDypX2MkNr",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:42:39.000Z",
+      "updatedAtFormatted": "2025-06-30T20:42:39.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "2AWEtpU9utZqv2CHgPmXNQweqfCALUn96YsXkgyVYkNW",
+      "isActive": true,
+      "createdAt": 1751312775,
+      "updatedAt": 1751312775,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcGuziai47F8UiG6pcy9hMsw3xNux9ik56H7bFsCLn5Td",
+      "accountAddress": "4km6hwMYPpMW5ZiDo9SojzYSPyN93Q4R3iGMshDpcq3A",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:46:15.000Z",
+      "updatedAtFormatted": "2025-06-30T19:46:15.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "4a5UzDBARP9WAP8BeaUETSzBg8KizYui6ivCbpWkLWZs",
+      "isActive": true,
+      "createdAt": 1751312623,
+      "updatedAt": 1751312623,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmepwrDZaq8j2FBSQqMNzQzXP5NynsDQvpWfRY366DPTFA",
+      "accountAddress": "4osw6hWp5W8WHXt6ihRTPCQ5XEXyMADPYqon9Mfe9Z8D",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:43:43.000Z",
+      "updatedAtFormatted": "2025-06-30T19:43:43.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "BvdFNkMdKVRUEWcNNmikQ6oUsCJmW6H83Q8WVimsdDnR",
+      "isActive": true,
+      "createdAt": 1751313536,
+      "updatedAt": 1751313536,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmP4Mj1fCFJkwhPmjQFo7G4RPKD2erWCy9Nu3gFNekKr82",
+      "accountAddress": "4xuz6PN19HpH2Vj2cxHcdKfNEjtDpvG2EPpMFhLW7tRa",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:58:56.000Z",
+      "updatedAtFormatted": "2025-06-30T19:58:56.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "Es9u4bLoyBzEgy3FfTmFafmKrZZHxxvZB8nERx8DcYz4",
+      "isActive": true,
+      "createdAt": 1751318143,
+      "updatedAt": 1751318143,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcpoqNq864bK7Ataxffn2kXq7C7uLYDyxRqaVeC194sgi",
+      "accountAddress": "59UeqYy39ZwtrepUUd9qzbcVLs3uAadz4zYr5fg7mhsi",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:15:43.000Z",
+      "updatedAtFormatted": "2025-06-30T21:15:43.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "6uPM8Y3ZumXq67TCFE8YoQjnBP2oycw3idVDKj38Zc4T",
+      "isActive": true,
+      "createdAt": 1751318651,
+      "updatedAt": 1751318651,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXGg1MeDDxy8LQUzeWJMzhzQ3hZHTrwRTZfSbUQVKSa6Q",
+      "accountAddress": "5APwmoCN6t3xo7kPY8u3ScsTRAqrQZhNi9fb1rpbKcEr",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:24:11.000Z",
+      "updatedAtFormatted": "2025-06-30T21:24:11.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "CZweCsQ4QLQWEZ8efb1GrvUsddxFHTCAC2Q8KNvmHivu",
+      "isActive": true,
+      "createdAt": 1751316108,
+      "updatedAt": 1751316108,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmdWoKAhRPWQkUinBwbtoo6VZuB64Rw4VbF1X9peCjfp51",
+      "accountAddress": "5Mg9Ac3dJYEjWhVtMmk9Jv2EScvborBUPfFDb2g429A2",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:41:48.000Z",
+      "updatedAtFormatted": "2025-06-30T20:41:48.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "Fd5ieT2tTRSfB5ouY6kXe8pijYkJjGLv3QU2sfiNENog",
+      "isActive": true,
+      "createdAt": 1751311408,
+      "updatedAt": 1751311408,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmdyDyQwQQUMNFHtfRbk6RfZYjNt6qGFfbo4EW93nzcdot",
+      "accountAddress": "5SHt9dBcp922w8jF4ZDa4cESh4gUQdDz1UcESvxzNZPZ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:23:28.000Z",
+      "updatedAtFormatted": "2025-06-30T19:23:28.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "2pmmcqvSjubD84txsJ84PjDRutcaFR1hWMWzmQ4CJW46",
+      "isActive": true,
+      "createdAt": 1751320278,
+      "updatedAt": 1751320278,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQcm6mw8irZdzH26wPXKBjiwX9XTA7uD3N45aiQh8vRw2",
+      "accountAddress": "5UTgfxUVSjMTYqTKTzAAymaNtuWw9sJ93KjSaXqBSd3t",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:51:18.000Z",
+      "updatedAtFormatted": "2025-06-30T21:51:18.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "CWwybEtTqJC13io2kpEVoD6NUGmGMm6sKhJMRk7UgcK",
+      "isActive": true,
+      "createdAt": 1751316820,
+      "updatedAt": 1751316820,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaJSgCrQxGBGmRqcMmwnjbbrX95GmPKdSjKxufbwrFfPJ",
+      "accountAddress": "5X6upRMvZHT2y7WvcLwEe3nCfLiBW7m6SqKsoHQFddEC",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:53:40.000Z",
+      "updatedAtFormatted": "2025-06-30T20:53:40.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "2fWkqJvAnKCKYnu3hM4YxNAy6RdBJxtsyhfusJJXFhC3",
+      "isActive": true,
+      "createdAt": 1751313990,
+      "updatedAt": 1751313990,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSc9wpW4j9BKXPmxeZK1r3mCXbP9CjFFUyzsyrvjz1hCr",
+      "accountAddress": "5Z2HCsJQjV1AoAs1szT1d9N1LjsVbboeLRLnrY6TJAYQ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:06:30.000Z",
+      "updatedAtFormatted": "2025-06-30T20:06:30.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "CDGCnxpd3BEyHZ5LaGKCQmtGh5t6hdcFZDcbq91QNGBG",
+      "isActive": true,
+      "createdAt": 1751315455,
+      "updatedAt": 1751315455,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQg9iRnanw4CYSLAeMNKgTNSzstdtsgaxTbkCmzmEcCgL",
+      "accountAddress": "5q6VAyfxLLciULyrprRUfhCZNQdFp1GwhnkJE4vyoSD3",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:30:55.000Z",
+      "updatedAtFormatted": "2025-06-30T20:30:55.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "2gqfkddKpA7CgtvV4GkVnqX5BsyDQojajNQH7gR6WiyY",
+      "isActive": true,
+      "createdAt": 1751313838,
+      "updatedAt": 1751313838,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQkBc1xESyinyM6tc4Z52YJZScheG142F2MEaMAbLfWXu",
+      "accountAddress": "64jF9N29GDSETefP7Ut42PoQ5zEs3Nhzwq9PUj9fUWxG",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:03:58.000Z",
+      "updatedAtFormatted": "2025-06-30T20:03:58.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "FXSRXWHAY4BmdmyCQW31Lnac7LFvBrCva3DpLtyZenpJ",
+      "isActive": true,
+      "createdAt": 1751314945,
+      "updatedAt": 1751314945,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVKVNdT2NaPFXRKSft5GLh7T8iqt5ZuErepTBKW2rcUcq",
+      "accountAddress": "65Xcnzxk7kps4DLkhHwa15H9GG5EVdWwNnEnqhXyxMfv",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:22:25.000Z",
+      "updatedAtFormatted": "2025-06-30T20:22:25.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "7TJtytYunoN3qVk4BoZ9vLNRGEGm2xXx8Ns7NcpSnjqL",
+      "isActive": true,
+      "createdAt": 1751319619,
+      "updatedAt": 1751319619,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmcob4Us5p8dZsiNJoRwLxh9jPKjVPw1XjXLuztWXqsVHc",
+      "accountAddress": "6ALwazfSNkXUTB2YoY7d81TNqBr6nwM1RyyxjMKjcEi2",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:40:19.000Z",
+      "updatedAtFormatted": "2025-06-30T21:40:19.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "9TmRFURWDMww6edg4rqJKatGxYNTZTAr3fVz6YZMtT2E",
+      "isActive": true,
+      "createdAt": 1751312423,
+      "updatedAt": 1751312423,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQpxsAQJjzg6fre8xZ6MaRtv44dnV18T5ksKKfogQgNsA",
+      "accountAddress": "6F9MyXvCy8BdngvnWBNcGhEBg6Wv5BiFRYK9WtzBKNmN",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:40:23.000Z",
+      "updatedAtFormatted": "2025-06-30T19:40:23.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "Ak6XPBC5quZtB8gS96qcU4eEtn7fGgCFJTJ4WF7kFgEn",
+      "isActive": true,
+      "createdAt": 1751317939,
+      "updatedAt": 1751317939,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQWdRDD85dDKUFpkCkpDCniVb7NNq4NMQswerby5uMzCV",
+      "accountAddress": "6LTzUrEdxYgPJqt2no7nHGuQduYH5N5ZBYjoE8DCPyyr",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:12:19.000Z",
+      "updatedAtFormatted": "2025-06-30T21:12:19.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "AUjwgbLF1uTKpoSCwJYCH3qJSBW4KcK34SQ2QwMaJLZC",
+      "isActive": true,
+      "createdAt": 1751314293,
+      "updatedAt": 1751314293,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaYGJHzHwoWB86nKFqWoa68RU61y7DHjAksdtCbimuarq",
+      "accountAddress": "6PDFmAq6VZPLHQQFht1CXpVSmJe9jMcK57H4hTtDG4us",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:11:33.000Z",
+      "updatedAtFormatted": "2025-06-30T20:11:33.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "Dv6XMQjfUoXxJ3LwJEDBNq7RF3v857p8FrqNYG12jrTs",
+      "isActive": true,
+      "createdAt": 1751320175,
+      "updatedAt": 1751320175,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmdAXn5aqrt1AHaC72kwDCKfpsdma6MR1WmsitxTgn1y1J",
+      "accountAddress": "6aMyTfQQCok7T1m7s1xArqW8WXhxPnAis7XEcw2fUpBX",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:49:35.000Z",
+      "updatedAtFormatted": "2025-06-30T21:49:35.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "C5xpzS7owf9ndjzVo33TXn7nmDDJoehVrN6tEkVNkzF6",
+      "isActive": true,
+      "createdAt": 1751320583,
+      "updatedAt": 1751320583,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQAo9FcZZgRxY2JgNRDxP4C3tPzj5dfy9RBz1A7Y8uDHo",
+      "accountAddress": "6auu34vP4tSowd53EkZoj5pVJPo6ksV4foqAQKkwAEU4",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:56:23.000Z",
+      "updatedAtFormatted": "2025-06-30T21:56:23.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "C4xTJsyyUmUb8EGY8KQM8iCKQ6vKuFdRS3XMrJp89z94",
+      "isActive": true,
+      "createdAt": 1751314589,
+      "updatedAt": 1751314589,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVjrzH63sjWX97L8s9RrnBQi9NoHVmtR5bQf2LKoWFZxa",
+      "accountAddress": "6ihKvEmvvTKBsJAjsMxm43BGERAqAg5FBoT4hkEoXbhR",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:16:29.000Z",
+      "updatedAtFormatted": "2025-06-30T20:16:29.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "7gW82cCFZsjA9hzJYyn9LpdRARqTfmf2mGEeB2rHLX1r",
+      "isActive": true,
+      "createdAt": 1751315761,
+      "updatedAt": 1751315761,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmRg4qYJiBGcyeBzroN7N1oJdQhBE3iXK4srbVVcuMWxWF",
+      "accountAddress": "6jne9531rApgetTawBaBqwUfHZB7NQ2SFjUeVpDiPX9x",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:36:01.000Z",
+      "updatedAtFormatted": "2025-06-30T20:36:01.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "ChHfntnhMDS2UA4D9XzhMwzZNtyfQeBWybXB9W4iYW3u",
+      "isActive": true,
+      "createdAt": 1751314391,
+      "updatedAt": 1751314391,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYkd4gNhSqYAsVoQrZJFn1oFMtd2NWofZkkfBLk6xoSmb",
+      "accountAddress": "6vtJCeYWWTBMVTjxLg2XY5c2UXtM9ZLDdVbj8vXybPgy",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:13:11.000Z",
+      "updatedAtFormatted": "2025-06-30T20:13:11.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "2A6RMwzVhFcvQkpV8f8SMLjpqzJXQTtr54oFCTRKMYfy",
+      "isActive": true,
+      "createdAt": 1751312116,
+      "updatedAt": 1751312116,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmY2cW7ifaiAWjTL3quLRhidsE5PJLNmNYXsEy7mBQmmZE",
+      "accountAddress": "6wWZZtMioqPsjo8ibBM6y181UXc9BXqRNMtZU9fphhVg",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:35:16.000Z",
+      "updatedAtFormatted": "2025-06-30T19:35:16.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "8BwAwNf311QSDscVxafRGxnvNze2Cgv5BBVprWVXbja1",
+      "isActive": true,
+      "createdAt": 1751319518,
+      "updatedAt": 1751319518,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPyXc7YcGFqnArR1esYBE3Y7Jig1mzZ2vSbCeWBNHyNP2",
+      "accountAddress": "73DQw1nqACauaE1PopPvEwMRQhZEGkJaUtwCjy1K2siG",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:38:38.000Z",
+      "updatedAtFormatted": "2025-06-30T21:38:38.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "7SPdkcQLhKPEAxDxqCft72q25M6s9WCGqVKk641LyHuw",
+      "isActive": true,
+      "createdAt": 1751311559,
+      "updatedAt": 1751311559,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXG5uaGF7mezxeYEkRrgRPofmLteGvt9pNJHKwBjWqzqU",
+      "accountAddress": "7C6Bkzsxsy8nE1J1Yw8LiDBUSiPFXcKpM2iBkwACddCi",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:25:59.000Z",
+      "updatedAtFormatted": "2025-06-30T19:25:59.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "EkFkhbYPUVW6aZz42UMDREEv5GbFCNgJqi1SqmcqVQMW",
+      "isActive": true,
+      "createdAt": 1751319313,
+      "updatedAt": 1751319313,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXYw3DDzsDg6Z8o8EWVSyvW956iznN8xhjjazs1TckQb7",
+      "accountAddress": "7CrPsSads62QVwdos5s6LfT8YQLmwYC4Ua2NuagffEfV",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:35:13.000Z",
+      "updatedAtFormatted": "2025-06-30T21:35:13.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "EYEA1nVRE44HiU8UVM3Jyww3ac153wsDGyxRAkrKHdfD",
+      "isActive": true,
+      "createdAt": 1751317535,
+      "updatedAt": 1751317535,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYjVMQSf2BVwUjyNxFZmiZifPCtcJVCKkwkN5QK2zN4o1",
+      "accountAddress": "7EEVxsMV9WBw4d6p1EEWNUM1p7GhHY1uoYTL5Y344BqU",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:05:35.000Z",
+      "updatedAtFormatted": "2025-06-30T21:05:35.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "Cd8qVYMPytRqwZcm85A17wvY2sTou4b5oX4ApUG2HTyk",
+      "isActive": true,
+      "createdAt": 1751311254,
+      "updatedAt": 1751311254,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmZ9x2N6jeWNGj72WTieXWAMpNKE1ZD4deUzBRoP7QtKCn",
+      "accountAddress": "7GACEmLzrfnLfKw5REgqD1E5xm74RjJTMkmtZsJVHaim",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:20:54.000Z",
+      "updatedAtFormatted": "2025-06-30T19:20:54.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "9rzZWWaUMGsFAeS9ujkxzDWVQsz8FUZMUfN8eF7aLUYh",
+      "isActive": true,
+      "createdAt": 1751311203,
+      "updatedAt": 1751311203,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcdYnX3dCHpnpZWTAbY2WmU7QkiKM9fJR4TCuKhUUWEMY",
+      "accountAddress": "7HfQ2suDXqham2BGBAoRQXqcdoATnqhigNnAoGjT2j7P",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:20:03.000Z",
+      "updatedAtFormatted": "2025-06-30T19:20:03.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "47y8aKzzxQiU89coVsCyN5aq3iaZdfdgyJLFJdjh6QNC",
+      "isActive": true,
+      "createdAt": 1751314089,
+      "updatedAt": 1751314089,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWuR2zpYdUds7FYGg2mAiRVqxTihYFYFD3AtLSBDCepTB",
+      "accountAddress": "7J2vwYecM42YYm1h8MZeShF3mXFfGMdReZprYPV1hngk",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:08:09.000Z",
+      "updatedAtFormatted": "2025-06-30T20:08:09.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "J4F3DnQEzortWq5iohkTj7ZUN1Bh6uQ6KGn2mRCPuznj",
+      "isActive": true,
+      "createdAt": 1751311610,
+      "updatedAt": 1751311610,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmRuPgMDB75yQPEkqDba3tb2ZvdBLBn6aE9S1hEXboyAoq",
+      "accountAddress": "7PDWHJLAbCqdRkEj7KWt1VPKxp95r9R5HwPU4GL6xooL",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:26:50.000Z",
+      "updatedAtFormatted": "2025-06-30T19:26:50.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "2k94aQg3W4jpYYpbpE12WB8vYyjEkiRfxs26Sso2BpqA",
+      "isActive": true,
+      "createdAt": 1751313485,
+      "updatedAt": 1751313485,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmcneyov3hSnNRSgpGjtgZYGPDCHgvX9L6CzryRuoMYiXH",
+      "accountAddress": "7VMoVbaMo4U6VpPntBvjEK9p868Rc5St7E3B51Pp8nQS",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:58:05.000Z",
+      "updatedAtFormatted": "2025-06-30T19:58:05.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "27fqafmrBGm2EXivKSj7eAjJj8LyGhfJQc4fHrXtpY8R",
+      "isActive": true,
+      "createdAt": 1751314793,
+      "updatedAt": 1751314793,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVS9tb7UVwgxvjwo7qinwkMAHAYUQfXmaRwVo8oRXcnXx",
+      "accountAddress": "7WuuUfkhQ7Q8hZC5Ay7KUPeRCrMDiBbKQLLrUtpv841J",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:19:53.000Z",
+      "updatedAtFormatted": "2025-06-30T20:19:53.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "Fw6WykuLgXrE9on1UmX26VxV2H8nD6cWzUH8e4dPcHBX",
+      "isActive": true,
+      "createdAt": 1751314140,
+      "updatedAt": 1751314140,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXgAaEyDmKQa7XpDmye5ZaZmyP1X1VKPBs9p3XtG7xE22",
+      "accountAddress": "7XpNTWYJnPHs2Bcm4ZcKpayaG41QWm27PZg4cQHY2Sqr",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:09:00.000Z",
+      "updatedAtFormatted": "2025-06-30T20:09:00.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "4xjAjXwucJ15pVi3fx88fQFRExDY7gwfdgCphFB1gVdP",
+      "isActive": true,
+      "createdAt": 1751312826,
+      "updatedAt": 1751312826,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSiJH2iiiqpjm1ZHS9Qn2UNiMwrRV7qePCMyakakDidoL",
+      "accountAddress": "7XqRcBhgD8G2y6rv27hTqN3M2rJdyhsSqMq91cWTBE4k",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:47:06.000Z",
+      "updatedAtFormatted": "2025-06-30T19:47:06.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "28GuMmLNwDr7HL2XP571AkpXyzueJXmp2ExsigA3Wc9u",
+      "isActive": true,
+      "createdAt": 1751314894,
+      "updatedAt": 1751314894,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmRZMgJC1uRTETvvkuhNFfawvSn1Phi6CrrhQkB68D32wY",
+      "accountAddress": "7g6X7gGGBRfsKbBMY3zonJrSBXaLWPobL15DoKioWBjM",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:21:34.000Z",
+      "updatedAtFormatted": "2025-06-30T20:21:34.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "81kHXftU4UnJxdbm7JhyQdmVmjLBwtEFHcFgSAMHcvoi",
+      "isActive": true,
+      "createdAt": 1751315914,
+      "updatedAt": 1751315914,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmemkSnRheAG396PxjcNYLo4e5SkaMKPcrBDCGL8rPHepu",
+      "accountAddress": "7jM31Lnb5YeUVUymhvs6K9bnz2shgGd1a9fPAyZLmfSU",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:38:34.000Z",
+      "updatedAtFormatted": "2025-06-30T20:38:34.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "8PsneMkxoY2uPavAuroms8vxrjVPHMs9xwtJuvJBSTYe",
+      "isActive": true,
+      "createdAt": 1751316313,
+      "updatedAt": 1751316313,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTcxfBuVdMoQ9hgbmPZWJHg1BbWZDtrFRokFuiMh94J5X",
+      "accountAddress": "7mHrhkCmHeApvnHyzXZvegAchbHq2imF4Dzw3ZLi8JQ3",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:45:13.000Z",
+      "updatedAtFormatted": "2025-06-30T20:45:13.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "5QGdXyR9izj9TKwEUc2sM35m8KUT4Xff1TgjNfCfpy6h",
+      "isActive": true,
+      "createdAt": 1751319109,
+      "updatedAt": 1751319109,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmejdQyd6tNDtjtsnp9FV6qrs3Aoj37NaoeBNo7jMZaEtW",
+      "accountAddress": "7y9mtf4EMuPQN1ad9JGELPiJFQh7nvdHwNQg1GtkPAYv",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:31:49.000Z",
+      "updatedAtFormatted": "2025-06-30T21:31:49.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "J7rXCmwtY5VXW2JqDECCfHYuJvAnfE7vijQPxNBwAtf4",
+      "isActive": true,
+      "createdAt": 1751319466,
+      "updatedAt": 1751319466,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmX5nAAB7k5uvSpwCVpgYfEp1Z3TUzST1N2SrbhzrqV5RB",
+      "accountAddress": "7zQ3VDicHVwSu4y7kL98CRkrTyurEVBpor1DPFW88ois",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:37:46.000Z",
+      "updatedAtFormatted": "2025-06-30T21:37:46.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "oLzT86qsA41JDaB99FNof5a9GL6PXqx8nXZCb1Jsx7J",
+      "isActive": true,
+      "createdAt": 1751316618,
+      "updatedAt": 1751316618,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbVKN7RhJ4BZQzGDeP5qWesaFUTLcfxypcVAAULcdqRuB",
+      "accountAddress": "82SWEaX66ykU9fZQS93yLpmKiQRQxJ9s3n79LsPyDUE3",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:50:18.000Z",
+      "updatedAtFormatted": "2025-06-30T20:50:18.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "7SBWoNxiPYnc5RHTRj8DQC5CSo23vHUE9ivaGnuksZYR",
+      "isActive": true,
+      "createdAt": 1751318804,
+      "updatedAt": 1751318804,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcNnd789ge7dvMWt9SVsNPe7qWrKHBMf3QGeW73o5qvHs",
+      "accountAddress": "8JKJNw4cToW2eYYBa5xhXNwAgYUX6xgHRymsxyHqc4bm",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:26:44.000Z",
+      "updatedAtFormatted": "2025-06-30T21:26:44.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "2CUD23EYckAhLKNbKWfZQbibhCnLYhjL6zGjeZcM2vrF",
+      "isActive": true,
+      "createdAt": 1751315813,
+      "updatedAt": 1751315813,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXcgVBD2iKq8zMfHt7nMQ3evnPeNBbxpZtLipv6ZM6Vfm",
+      "accountAddress": "8LSkCKbX23QJYkgigNk64ZSt4NNyxJMh8rDgYHT49AhN",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:36:53.000Z",
+      "updatedAtFormatted": "2025-06-30T20:36:53.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "HyPTWKHc7QKnQ8af3VaqGjHi6wMejZmfrVNSoLgu2gF1",
+      "isActive": true,
+      "createdAt": 1751319058,
+      "updatedAt": 1751319058,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbepRcQPeS6eFra4bK9qUErtCPiKZe2J6QVq3wzYgcMPe",
+      "accountAddress": "8MdBBhVZYUEwxX9NnDiuuPggvkuwGZVwJLvMHpEvDYcg",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:30:58.000Z",
+      "updatedAtFormatted": "2025-06-30T21:30:58.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "Gs8nfE8AC8n1WEYUohHWuQaHag8eguv2EHPxx6E3TTip",
+      "isActive": true,
+      "createdAt": 1751317433,
+      "updatedAt": 1751317433,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcP3VuGhH3epnSSFoHjzuYkur9nudWjQKjTtEZPf5Geys",
+      "accountAddress": "8NnvnDiTTFi2pS2tjP5GjwXvNGtxc16NSq5pmCjBbGPW",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:03:53.000Z",
+      "updatedAtFormatted": "2025-06-30T21:03:53.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "73HLE3BxAZg1XrayQ8T93ZF2nrNvQdgw67JynAE1p7ct",
+      "isActive": true,
+      "createdAt": 1751311356,
+      "updatedAt": 1751311356,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbH9Ndyrwc84b6QzEdqHX1jv7vc3DLhkXR1LP5LDVy7CC",
+      "accountAddress": "8PhbvqWibSNvxMGiwtdq1C7ckkWFj3dh8M47L9RT6fZY",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:22:36.000Z",
+      "updatedAtFormatted": "2025-06-30T19:22:36.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "A3M13omiMYERrj2ydFwt6HXEu6oAvL8vA4LdVSUeco76",
+      "isActive": true,
+      "createdAt": 1751317126,
+      "updatedAt": 1751317126,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmdZLGFtzuaiS6eYZ2iyXB9AgrGucLbtTP4pcoEAxyVhyC",
+      "accountAddress": "8c9z6xQkZxoHb7E9x5UWQ55SGSNpDRFqJNkWJGVF2tQZ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:58:46.000Z",
+      "updatedAtFormatted": "2025-06-30T20:58:46.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "FwzqBK4Ryx2DNLZMojzDqzXZbYY9sn5JcQEQNQvfFqjR",
+      "isActive": true,
+      "createdAt": 1751316515,
+      "updatedAt": 1751316515,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQKEyibS9J9qD3SrvBfGFXxtSRXuSayEz4DKk1PccE1gp",
+      "accountAddress": "8dUJtWqJn3eRE9LSha1Shn9J1US4Jx2qm8uPieDnpawi",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:48:35.000Z",
+      "updatedAtFormatted": "2025-06-30T20:48:35.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "9c3F7oidUAHKR6upfgDTbxRH9iYSg4pyzHkCVmmYzhi5",
+      "isActive": true,
+      "createdAt": 1751313283,
+      "updatedAt": 1751313283,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQFp4GfCxq4CdsGgtED4zEQSFsy4y7CyrRyFmitEeArEU",
+      "accountAddress": "8nRu8RZNG2njessxedPtCg4qYiJJx1zGkiLFodD2Vfjn",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:54:43.000Z",
+      "updatedAtFormatted": "2025-06-30T19:54:43.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "6K4ModC2jV7Qfs7i3YCvzYoaQk9AUKZz4njeWexVriGE",
+      "isActive": true,
+      "createdAt": 1751315608,
+      "updatedAt": 1751315608,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaYAWERezkJfJANvdqxzMfsXkWYmJ4qiYJDZ1ocqw2wy1",
+      "accountAddress": "8oofbTP4DohJyMCpZdNPZJT4B34nywhjJ8UooruszEPt",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:33:28.000Z",
+      "updatedAtFormatted": "2025-06-30T20:33:28.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "3zWtG6K9nasACsjGRzaK3w2xCtFVaimNMRqi2qzwxhNY",
+      "isActive": true,
+      "createdAt": 1751316566,
+      "updatedAt": 1751316566,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNMWUBCNvwFoxqSi8CJvGZck8iHtoPz1cj8fpFbGn8ykF",
+      "accountAddress": "8uhT1PdMBYgfhZ3MrphiwQ6qauh44xwcidRvVPGcNEfQ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:49:26.000Z",
+      "updatedAtFormatted": "2025-06-30T20:49:26.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "3qcn7g6BZAdTPEjz8zodgSFKRBBv9xo2W4is751CofpV",
+      "isActive": true,
+      "createdAt": 1751317838,
+      "updatedAt": 1751317838,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNjgmKkSX6cNTph4vJur56FtYwxSuV1MdZX7tszVqZ4U7",
+      "accountAddress": "92rda54TyhyUTkvAYPzwYFHqUBpdHR6PANbkdiNQ9Hkt",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:10:38.000Z",
+      "updatedAtFormatted": "2025-06-30T21:10:38.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "8SP6XGBfRuxMUQg26wDePf5huwyJBn6XKkZmi2YDDGcW",
+      "isActive": true,
+      "createdAt": 1751315048,
+      "updatedAt": 1751315048,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qma6AzcG59226agh4aUQvqKk7pHrZRsvMvXhS9TujZHWMW",
+      "accountAddress": "9CZQffrFGetcrTKUeN91BWDcRqX6TU3SkCGymNDQ51Fw",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:24:08.000Z",
+      "updatedAtFormatted": "2025-06-30T20:24:08.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "3Pkj5gMbehmde4Pwar9u47T8RPk4fqErtAyrLjZxxsxX",
+      "isActive": true,
+      "createdAt": 1751311053,
+      "updatedAt": 1751311053,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaLEBoyuCsTUtgxVvx88X8U44pApnULuWcv8WMrPw83cU",
+      "accountAddress": "9FMmpp3zEGAa8hJoFLxDSUimtTCxuPNEwW8HR1UF6K9C",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:17:33.000Z",
+      "updatedAtFormatted": "2025-06-30T19:17:33.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "DogzgRxA2JTR5fkFt9tCDx68kPzTfaazNpcsSTo5LxHB",
+      "isActive": true,
+      "createdAt": 1751311508,
+      "updatedAt": 1751311508,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQRuhhXEHu1TKLBMcoBHXYTqtyearx2VZRhaZ5SaP9HtQ",
+      "accountAddress": "9QSBBuAXWVuzUbJyjQaxgdPNYzvqYURCJcn6rCEeW7tG",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:25:08.000Z",
+      "updatedAtFormatted": "2025-06-30T19:25:08.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "6zWSPpn5ruykwijpDujKWhxKdmbmX29HRNSSh69JL5XV",
+      "isActive": true,
+      "createdAt": 1751318956,
+      "updatedAt": 1751318956,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYvMK2aP3S7pG7JDHeUHG8X3CHP2EDjv9DYHW6YPTxrqU",
+      "accountAddress": "9RCEbKBp6a6QJjQRRiYXk1rgd7aiokn5sgcQCZMDE2Hk",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:29:16.000Z",
+      "updatedAtFormatted": "2025-06-30T21:29:16.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "A7iwLPndy6AQBWiNRUrwPhP1Eh7x9jv1YFXrFtT9RWGi",
+      "isActive": true,
+      "createdAt": 1751318855,
+      "updatedAt": 1751318855,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmR5p6QiBxAFtqSyQeQQo38kot5r9thFKHh4zAHVHhsasw",
+      "accountAddress": "9ScxdPTXBgv8pkr9nHxsS3WXcMykm2wfLkZtE89LLQkr",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:27:35.000Z",
+      "updatedAtFormatted": "2025-06-30T21:27:35.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "3jVePFHyrLRMJVLfgGwZcAHdvYnbsGGtZLQ1tgP325eL",
+      "isActive": true,
+      "createdAt": 1751314243,
+      "updatedAt": 1751314243,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYB4TpibjTh46nHomLgPcHwCsScpn5Wy2HQh1tReXu6Ty",
+      "accountAddress": "9WdqfxBDGTmMuc7mtDmPbi6oA6XfoYSzGTEcvKjDUi95",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:10:43.000Z",
+      "updatedAtFormatted": "2025-06-30T20:10:43.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "En7RuSrF4JkT8X8htgJUeXZ9diiqwYZyAUxNYpc3VW41",
+      "isActive": true,
+      "createdAt": 1751314041,
+      "updatedAt": 1751314041,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmayVj8EFRNSy9jEK1LsrNB6jqtSFMHT4RJYAKkbr9U46c",
+      "accountAddress": "9abZFBMrbHt5zbgVo3mVsoUuyM2ynHVzKsMMLNvh5rH6",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:07:21.000Z",
+      "updatedAtFormatted": "2025-06-30T20:07:21.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "BVBrUmdYDzaQayyG9fuyZYmB4HR7rx5i31cqtCyULZgb",
+      "isActive": true,
+      "createdAt": 1751311153,
+      "updatedAt": 1751311153,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qman6uKQmsdPWDALF6cBgi17y7TiRoJbhRz97yYUzZfeDq",
+      "accountAddress": "9g4TfnzYTrLuiGT9RDfT3bTDTQSt8GpMUBZ1XFBpqeVK",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:19:13.000Z",
+      "updatedAtFormatted": "2025-06-30T19:19:13.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "CqSi1kq1rqtakZSU9pmu2LSgSNiWQyDBnzQuVTBBj5A5",
+      "isActive": true,
+      "createdAt": 1751312218,
+      "updatedAt": 1751312218,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUF2zG5C67W8XMdir82LLxMbg2zmY7XKNkpUpDhoEpTkT",
+      "accountAddress": "9jee6iTmMozpKvGDRCngkop2Wx4WS9MJ1Qe2LQYU2g2t",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:36:58.000Z",
+      "updatedAtFormatted": "2025-06-30T19:36:58.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "E5Hvu8oPFsSbci2utvjYSttjxXdiQScqp6Z7XhKpqk4w",
+      "isActive": true,
+      "createdAt": 1751313788,
+      "updatedAt": 1751313788,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmddK5dB4DEMXCVaKrT3NmRqC3xXSntnr8vx9yU9ThVDef",
+      "accountAddress": "9knwSeTxAqhoXtavxYtY4fFAyH3sFfWZY5Rq94ddTVay",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:03:08.000Z",
+      "updatedAtFormatted": "2025-06-30T20:03:08.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "ALZouQ8EaDfqF41pZEfQYJWAtXMdENaHhgAV4ttxfhRk",
+      "isActive": true,
+      "createdAt": 1751319818,
+      "updatedAt": 1751319818,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmW8jVTRtGcJgYYR27UaySxSF1o3TxNbmD2JoE1aa98upU",
+      "accountAddress": "9rEgzwGjDz6rjqbPt29KsGB9pSo2moYPqAnZg4LRcchM",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:43:38.000Z",
+      "updatedAtFormatted": "2025-06-30T21:43:38.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "H5ByGr9sth91XSD3AhuU3J2TAPHrqohR19g3WkV7SX6V",
+      "isActive": true,
+      "createdAt": 1751314640,
+      "updatedAt": 1751314640,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPoZtbXaZYhTYQRF48QSVDH9swUe4FUhuziJM6aZKSruR",
+      "accountAddress": "9vun9wFskwdsDX5sr4U3AJkaBFyFfY64UgUyUPrtdP6n",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:17:20.000Z",
+      "updatedAtFormatted": "2025-06-30T20:17:20.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "EA7EjpfyZ4wNNcESsRyvy7smP9H6nJ8G7GPdLa2EYC4d",
+      "isActive": true,
+      "createdAt": 1751315558,
+      "updatedAt": 1751315558,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmeVVMNcaFZ3Cae6VHQFiJTSbEhNaQ9TQdyaQBuhVKBJfN",
+      "accountAddress": "9zrCYoyq1D3kQpDT2gtAaDenTkiF5zC8y2gxsRr2teet",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:32:38.000Z",
+      "updatedAtFormatted": "2025-06-30T20:32:38.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "5iLshhYZhTsGPvponREMW1dvxzHxWVSnHrFC8qkXdgXK",
+      "isActive": true,
+      "createdAt": 1751318703,
+      "updatedAt": 1751318703,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcDBhbFuTXfbYrEi7womddax5xEvKGQx4qSPwCuwRokZq",
+      "accountAddress": "A2XXXC2qEEVKqo8zqgdGFgjG1i7ZSQ1nCQwumxKEc1FY",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:25:03.000Z",
+      "updatedAtFormatted": "2025-06-30T21:25:03.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "ASGE6fTHiXP7KJZYpcQ4xNRPFhYQfdsWr2E3tZqHabPR",
+      "isActive": true,
+      "createdAt": 1751318905,
+      "updatedAt": 1751318905,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmT4zncm5tdb84sDy83Bdjwqu8g5MqYGyirjHJbQsowJxs",
+      "accountAddress": "A7NXccDGfVUz4HWB8NcDYN5hz6ohtmcdXDfybMX3LnQs",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:28:25.000Z",
+      "updatedAtFormatted": "2025-06-30T21:28:25.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "3GVDw5grnL8yU22HjNMsDqxTVtbrHrBdC2BK4g3wWxom",
+      "isActive": true,
+      "createdAt": 1751314741,
+      "updatedAt": 1751314741,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQbNcaRcH5r3P3Z7rsZjkbeSq4uym3JnPMbXXvV7Z5vhn",
+      "accountAddress": "A7ffn1NGda71gyTVhuEc4H2FbU4WMtjHCLECbjJx45pm",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:19:01.000Z",
+      "updatedAtFormatted": "2025-06-30T20:19:01.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "71cRZQHGoSXK8fhruwHCWwcgF72QVtxdp4fAJvp9oE1X",
+      "isActive": true,
+      "createdAt": 1751318753,
+      "updatedAt": 1751318753,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYdcQSNyTd8MmvPEgqCpfQEHsG2zUaoTUEShj2n3f8nMG",
+      "accountAddress": "AHBxNpKb1mrUNEiojFUThSMR1UxFyLdCwic5uUSFVJKH",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:25:53.000Z",
+      "updatedAtFormatted": "2025-06-30T21:25:53.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "HDackDWtubiHQ1TUuSDHT3UAuHfc9UmCtvwrzq3zdzek",
+      "isActive": true,
+      "createdAt": 1751311103,
+      "updatedAt": 1751311103,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVpSL3QtjnyRCkrn5R3roe6GFq2T6Yz5tomyPZWbAFqsu",
+      "accountAddress": "AKY1qfJ52V6LSKK6BLHScXa5EkKp3u4EpmpnUFzusVqj",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:18:23.000Z",
+      "updatedAtFormatted": "2025-06-30T19:18:23.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "DYmeYMH8u9WcUR8oLBQV7pwrEf5Rf5DX2eeRr2cZmDT7",
+      "isActive": true,
+      "createdAt": 1751317735,
+      "updatedAt": 1751317735,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmeTNyzDtHBykfW2SiXQQ7TXo4mSpzG1NuTDSvMQgwKD36",
+      "accountAddress": "AKrYNA5mQaTTbsZhFyAcSwPXTWUKZPJ74UMQaMEAzfVz",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:08:55.000Z",
+      "updatedAtFormatted": "2025-06-30T21:08:55.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "7LcFX3WeA29kjj2K5bmGbF6HvUo5ugEPbLYSUoDP8FXm",
+      "isActive": true,
+      "createdAt": 1751310698,
+      "updatedAt": 1751310698,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXw1dBqiwqmzV7MLY9VF8t95cEZcrPt52GdcwjwRRspoy",
+      "accountAddress": "AKs2AvR1QoDMRNUNhUNiKjbaypRC3Gb7jdx2NahUjMcB",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:11:38.000Z",
+      "updatedAtFormatted": "2025-06-30T19:11:38.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "8d2vX2KFM7dcwFCk36cYqMi7PPodGRYXNfXf99Jx1Rin",
+      "isActive": true,
+      "createdAt": 1751318598,
+      "updatedAt": 1751318598,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPBbJ3cKPBs4jmXyK1m241Ahxt85X6ZFzoiGB3fCSNNJ6",
+      "accountAddress": "AbX5y6ocdLX7StqXjPkEyVV4ZARkiRGPpaox2M3cdZe5",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:23:18.000Z",
+      "updatedAtFormatted": "2025-06-30T21:23:18.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "4kZA7MJ5Vt6QhgT4QmChNpQQzXgWkTYzAWGuTPnQwbzP",
+      "isActive": true,
+      "createdAt": 1751312523,
+      "updatedAt": 1751312523,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qme2PTSgNK4LdyBvvzJS3NrPRMspwf4Yo4ZDayNUwDToVR",
+      "accountAddress": "AcZWFoEFtmxGcFaWSiGr7YRGiVQWsZMXRaoNTGkdr8ER",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:42:03.000Z",
+      "updatedAtFormatted": "2025-06-30T19:42:03.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "GHWbkL4KtcscFDXPyvzHjFjFpnGFbLL5ZwHvd5P846X3",
+      "isActive": true,
+      "createdAt": 1751318449,
+      "updatedAt": 1751318449,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmReMEFMs3HQNACTsoWcTrw1u9YaGgELfeiTo2LCwADUy7",
+      "accountAddress": "AdD3GE2hL8aTvpuzt3hmvcJHzaWsvQkT8xwDcJ2oWVYY",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:20:49.000Z",
+      "updatedAtFormatted": "2025-06-30T21:20:49.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "ChyiU4SytLqgP7cgN9ZhDXUdcFbE7fd2a6LkD44epmui",
+      "isActive": true,
+      "createdAt": 1751319159,
+      "updatedAt": 1751319159,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaNvcUzzL5EWbSvGYnEZFHaZ4z4R1F28rR824NET2XaP8",
+      "accountAddress": "AdQcynm45SXQKK76jbnML6R4cHMUvVSdnZgozwisL5WL",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:32:39.000Z",
+      "updatedAtFormatted": "2025-06-30T21:32:39.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "9q7KRRin7dkc7k5Zpsw7fPgMyG1ZBru3UVUwaf4J5KHG",
+      "isActive": true,
+      "createdAt": 1751317688,
+      "updatedAt": 1751317688,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmU4MGSkDs8kTmJrhohy3wh25BLm2yopr1eK7eLaWeYMn4",
+      "accountAddress": "AjN9ggBZgMjPNdnEovrH6VmiQskoD7nYA9zhwVFJyuVv",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:08:08.000Z",
+      "updatedAtFormatted": "2025-06-30T21:08:08.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "FVuSd35BjeDSj9D2zqNXVXyn2AJT6Z5xKcMJs3DjNZY3",
+      "isActive": true,
+      "createdAt": 1751318296,
+      "updatedAt": 1751318296,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcBXauYy8hdzrzyKP8pS4hHCmmCCLLMf54F5aAhobduK6",
+      "accountAddress": "AksUTETPusxu7CAJeiskht1g38tUyX4aWikHArX7Wq65",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:18:16.000Z",
+      "updatedAtFormatted": "2025-06-30T21:18:16.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "7LbsBYbWMu9yQ2rWmc55fKHSmzaiJJUfNSPx2PyW3XoA",
+      "isActive": true,
+      "createdAt": 1751311863,
+      "updatedAt": 1751311863,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVFE7yYdDMQhqYR2Am2QygzLwdMDH6QdbU6GF8N7Au8ox",
+      "accountAddress": "AmWJMuGCC9YEPYRT7ZZtuspjPz1d8chfpxbQ7XGpczNF",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:31:03.000Z",
+      "updatedAtFormatted": "2025-06-30T19:31:03.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "3421PmCCTfSUBrNoHGbQME4wBStjjqN4ZqQ2zy9DnqCx",
+      "isActive": true,
+      "createdAt": 1751313028,
+      "updatedAt": 1751313028,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcY4fpEGNtDPCeEDVXWuGwKoRZVA9aUanBYyJivYXWCB2",
+      "accountAddress": "Aq6yB9WaTnkdY9DWZ4cn4ppgBKac5EwQpTs9Aqpy7QiJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:50:28.000Z",
+      "updatedAtFormatted": "2025-06-30T19:50:28.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "75iDy9JXdqhQzQkdqCS3Q2EnqPxsZs2gY1qxTDsbjoYi",
+      "isActive": true,
+      "createdAt": 1751311964,
+      "updatedAt": 1751311964,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmZXw6zSGE2Pc5jivW2Zf1PPA3tWkdP4h5guQ9zaznQZXL",
+      "accountAddress": "Av9fiqa1UsVrzmEqXAg6AptZ5vQy1nrju1dWBC825eMB",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:32:44.000Z",
+      "updatedAtFormatted": "2025-06-30T19:32:44.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "7JuAnRTkV1kmzw3YHeZ1kLBBNjmPMZH2qXYgvBAGUXcT",
+      "isActive": true,
+      "createdAt": 1751314996,
+      "updatedAt": 1751314996,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaYZsB15xTtxya6euw3omVHFXUsMJiaeGg4CWJVj6w8D6",
+      "accountAddress": "B8D9Ctq8b6xcMFfnKqMH2guYxpu3evQfL3ZCgkYQE6RZ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:23:16.000Z",
+      "updatedAtFormatted": "2025-06-30T20:23:16.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "BJmrynWgVCR5TMd1Te1S2LuSGdrqTw1MWuSANSNt78jD",
+      "isActive": true,
+      "createdAt": 1751315149,
+      "updatedAt": 1751315149,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPHs7dtVJm7XnK4NWu3qrJAjYen3spq89p1Tz5C9M8xj3",
+      "accountAddress": "BBCHz5BhPgeeC5DHJj3DbcR8eXXwp9NdXp51M8Cpnc2z",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:25:49.000Z",
+      "updatedAtFormatted": "2025-06-30T20:25:49.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "3rUAhRumXzXdZTcRqsZKzgF6QBTTaNU6w4m3VcHqmgyR",
+      "isActive": true,
+      "createdAt": 1751317075,
+      "updatedAt": 1751317075,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbVd2EwYiY2Y2LZNsE8r8Wja3YS9dK3aBv6rYr1zKkwsR",
+      "accountAddress": "BE9WpcHFDDL9PrYDgVbFg1duKQE6gkvyMFd4i6SGxdpc",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:57:55.000Z",
+      "updatedAtFormatted": "2025-06-30T20:57:55.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "2UWsPawioLNFM3LsMiuRungmGVujkr7fyfjjbt8NejZT",
+      "isActive": true,
+      "createdAt": 1751320023,
+      "updatedAt": 1751320023,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmU9KoesX2hXajtNpfErTEDgYDcpXRvBi33v7QE3NLBz21",
+      "accountAddress": "BM5CHRhbHWweM4VeZWj4E52jzGEHQmCJnF2ttqrBQ6Gb",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:47:03.000Z",
+      "updatedAtFormatted": "2025-06-30T21:47:03.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "DFjkr45S5RyXCcvDuR27RxqtB1gawU4Y2KjuG38g1gzh",
+      "isActive": true,
+      "createdAt": 1751315303,
+      "updatedAt": 1751315303,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmemrDy6uAGS61eYgwnvQ2EStWMUw8eiK42taWea8Y8iw6",
+      "accountAddress": "BdxqMki3nHYGJqaHXU6NEAV62uaXQmsXJLuXspP3VXon",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:28:23.000Z",
+      "updatedAtFormatted": "2025-06-30T20:28:23.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "9ayXUi8nynV3jR14BjLFMWX8Vbf3prShXBXUQQfreL3r",
+      "isActive": true,
+      "createdAt": 1751317484,
+      "updatedAt": 1751317484,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmdDS5feJBxVjvdSBcjM3WYxZkAPkhqHsp9pvVMUVaFK3S",
+      "accountAddress": "BkjLCCaDqxFGek26Xt6k6gSQ2ZsrEtsjZyio41oAmNJy",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:04:44.000Z",
+      "updatedAtFormatted": "2025-06-30T21:04:44.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "AAnG7fnLPTi6SEXS3q1eQPrvLdWcU7GdBHaGj7TB9W19",
+      "isActive": true,
+      "createdAt": 1751310648,
+      "updatedAt": 1751310648,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qme4oFoLom9HsTGsqScrArL8mZTVQf5Zgi1HQn6HSPE8Lk",
+      "accountAddress": "BtcMAGm4LemyG4Jko3nzDEHEv7Yn4SRMR3o7eEHpQYvb",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:10:48.000Z",
+      "updatedAtFormatted": "2025-06-30T19:10:48.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "Cxeeh7yobWhXGNzrZEKHkj1TGi1UHKrZ3ERQe2xa3aAL",
+      "isActive": true,
+      "createdAt": 1751320124,
+      "updatedAt": 1751320124,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmbVN6Xw1Ww5LSXKmpnJB1QuUugJdET5WDT6TLicjbTqyW",
+      "accountAddress": "BtdUA6t5266DSgidvHRD53oUJTPQLVvcAXAFkSKpCZj7",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:48:44.000Z",
+      "updatedAtFormatted": "2025-06-30T21:48:44.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "BM7E2ek31B4Pc2VoZ66DyDon4F44wtxSDidby1Jpgwqc",
+      "isActive": true,
+      "createdAt": 1751315098,
+      "updatedAt": 1751315098,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmeris3svE1BSVY1Dfmw4Xin7irtpVo8AWJ898jQeH5YTf",
+      "accountAddress": "By2xrgN2SxTf8cth893iBzpjhPZkAjnj9hpUWYkprQL2",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:24:58.000Z",
+      "updatedAtFormatted": "2025-06-30T20:24:58.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "DSssVr4fF6zFMQLKoAKkWaNhcj8PG4nq9vZwoLMd9e2z",
+      "isActive": true,
+      "createdAt": 1751312878,
+      "updatedAt": 1751312878,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmZW6FpoS8ZXd6dvdkekJE2hDRkuEdusPHkbgGovqnuRHh",
+      "accountAddress": "ByZ2mzdNKzcfHEKswpmxRneG31V4qeZvucofSnTpppL9",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:47:58.000Z",
+      "updatedAtFormatted": "2025-06-30T19:47:58.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "TzmatVkDy29GVANYkcAyAedJydHfiMLuHuAdoeknoGo",
+      "isActive": true,
+      "createdAt": 1751310598,
+      "updatedAt": 1751310598,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmb81zJSA4ignisnenpdTcw7uWDXwSeyczcHYDc3ackndr",
+      "accountAddress": "BzsRJsVPkdBeqjmY6sGeC4WLWRtcyJkshxa4ctjhxsTJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:09:58.000Z",
+      "updatedAtFormatted": "2025-06-30T19:09:58.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "7Gge2sggfqHZ233N6EukMFYPZugS2khy7tcEYGQyQ5o7",
+      "isActive": true,
+      "createdAt": 1751312724,
+      "updatedAt": 1751312724,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmf2VgJZTSymQPoKQ38Gu3NydbKamuQiJBBbDn5ssqdSYw",
+      "accountAddress": "C19kHPuBi9BKZ1uMxWRJ9j464YpWPYAfEbMjwQWkcpXt",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:45:24.000Z",
+      "updatedAtFormatted": "2025-06-30T19:45:24.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "8KDVxCYEykVduSUMt47kTnNzSULdJfUtqP76weAqndRv",
+      "isActive": true,
+      "createdAt": 1751316923,
+      "updatedAt": 1751316923,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVSbBWUbVpNBo3bHRxjLBn72EQnhzR57Kzx5KXRMd8VkB",
+      "accountAddress": "C1xJKYwPh8vAu3o1UwMoHsDPB3xARRKeFqnDZeGhVw2H",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:55:23.000Z",
+      "updatedAtFormatted": "2025-06-30T20:55:23.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "AQLw49kZ8c7fZ7wHDwuUgoqD1P26riuv3Km56tHjhnAf",
+      "isActive": true,
+      "createdAt": 1751313333,
+      "updatedAt": 1751313333,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUcBHuyyxz9vDzwqkVSrWrQaezzfyxpcpynAUvNMAKvMB",
+      "accountAddress": "C3LH81Z5xWfGqT75WZLosuR1whSQU7Z831TAdT3Dd2J2",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:55:33.000Z",
+      "updatedAtFormatted": "2025-06-30T19:55:33.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "6vcuCrYvQfjyDEdb3avqavGcgK6bw28uf1YRydzF3KtS",
+      "isActive": true,
+      "createdAt": 1751312168,
+      "updatedAt": 1751312168,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaEEHM4iieuyu6Nx5nVP7cUXLjXGjk7Vnpfq6yWygVyMn",
+      "accountAddress": "CA1NMWLtsmNrmoeR17xSHdm7ebcCvpLwAhZ23J4KfnRN",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:36:08.000Z",
+      "updatedAtFormatted": "2025-06-30T19:36:08.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "HXLSGgKCEjAMPcBbKdHbdNtbhNgbpkso6jQ9rMWvgnLL",
+      "isActive": true,
+      "createdAt": 1751312473,
+      "updatedAt": 1751312473,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcQpN77xfzV7xHHSbMTqTBhS4zV7gWsDB1yddXvfio9ps",
+      "accountAddress": "CSUS2d7FQqkA7CsQfKBheYyyNVJXvpTAkaXoguHgm784",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:41:13.000Z",
+      "updatedAtFormatted": "2025-06-30T19:41:13.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "7SSsyfwK795kUw6YFByFH3kHXkHGzXQ6jEpsSwHJVQnj",
+      "isActive": true,
+      "createdAt": 1751315965,
+      "updatedAt": 1751315965,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaEeZU8ARjkWQY4rwg8oXnBuhmDNKngwLq3jun7ps11wa",
+      "accountAddress": "CSnGRrsRhQJg2nw2JFWspsySxnUDex7T3X5PeHwLBi6u",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:39:25.000Z",
+      "updatedAtFormatted": "2025-06-30T20:39:25.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "DCZyPg7jP6RP7mWFGqQHJwbe258avcLCSx6mexR15jud",
+      "isActive": true,
+      "createdAt": 1751317229,
+      "updatedAt": 1751317229,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaKmdE1UpsFv4xJy3DiguDEALeAPDz9e7rVJRxYDy4JEZ",
+      "accountAddress": "CTajiW3BxG8wb7Xt96dP9N8uXbW18YzSxuLphW6V7NXm",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:00:29.000Z",
+      "updatedAtFormatted": "2025-06-30T21:00:29.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "5VCiMxBeUcvSKesZ6kjjx9hPkyBvQdy5WYrWzjLF41Lk",
+      "isActive": true,
+      "createdAt": 1751318348,
+      "updatedAt": 1751318348,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmev9oHf7qB2fHTtYqUAq97XXHrb7XHVTnUmSajUmWFFMb",
+      "accountAddress": "CV1zjZs6KW9pVGy5YBd6TbkSKkyhqeAy2Xmy9saMNX57",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:19:08.000Z",
+      "updatedAtFormatted": "2025-06-30T21:19:08.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "3mYCTjtDGvdFW7SNtrp2rRNS4yYnyxiXW3wjkCAv4BsW",
+      "isActive": true,
+      "createdAt": 1751312573,
+      "updatedAt": 1751312573,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSZnYPN1p9m9iKpsNgspv9UCymHJ8WeCXTWb6KZ3kBhuj",
+      "accountAddress": "CaKjiTxFVzrPs9dXvEK5hEnbZfzi25ibCFbL1HLBE6w8",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:42:53.000Z",
+      "updatedAtFormatted": "2025-06-30T19:42:53.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "HrvE2NcPeu7wp62MoMHWzifvoEJNJ5PUfxrVdXsNLyEX",
+      "isActive": true,
+      "createdAt": 1751318496,
+      "updatedAt": 1751318496,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWibwAXrY9YpWmJCSjFHJAYNWP3VWzmeK2sFKhdd4G8QZ",
+      "accountAddress": "CbG9Uia84n8fKiwJZ2VC14GAHDdPa6hzpvEazpiK4u9B",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:21:36.000Z",
+      "updatedAtFormatted": "2025-06-30T21:21:36.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "9BpVj87DsvgnjwB8ATvuVr4zhW6JNEtDKn4nWP37zWBN",
+      "isActive": true,
+      "createdAt": 1751312674,
+      "updatedAt": 1751312674,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNXYqxodnJY1jJAc4u836JmtYrNkkxBYe4wy2q6FmhTmV",
+      "accountAddress": "CccdofupiEYQcLhwhutM4GLzDLGM4wWy5wZGtUMyGEXH",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:44:34.000Z",
+      "updatedAtFormatted": "2025-06-30T19:44:34.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "H8tPXNJte1Uypdy3kb3khgG4JYyLfnSocx9K8Rqb8DNZ",
+      "isActive": true,
+      "createdAt": 1751320634,
+      "updatedAt": 1751320634,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmePjFyywRaePNQWPwqVxpv5LtWYhzC5WKXsJtJ2dToKEN",
+      "accountAddress": "ChgJu6q2iDNjw5zbZiMfz4kGGg9XJoS2kkGi1RsfLarX",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:57:14.000Z",
+      "updatedAtFormatted": "2025-06-30T21:57:14.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "3qkXsQd8ycKn5ZY45RDk8o3SNAWQodKU6LUounNYrhXY",
+      "isActive": true,
+      "createdAt": 1751316363,
+      "updatedAt": 1751316363,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUz3KYVDHbc5TcNHetoo4v5Nkij8RwTmcgYJN7V3Ew8ZZ",
+      "accountAddress": "CmpEsqZXmpMReTMbscgx6jZCovDuEwwnV96gqq3tFw1W",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:46:03.000Z",
+      "updatedAtFormatted": "2025-06-30T20:46:03.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "6jDsxLBAPTxvyWYPWqcKEXBuycx5ii2B4nDQHkiVN6V4",
+      "isActive": true,
+      "createdAt": 1751313638,
+      "updatedAt": 1751313638,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNhQcisKp35KoSVq4oqQgk2skR63CjJFimgrpNnUBJVYj",
+      "accountAddress": "CtWLMCxdANYcDVA8H8CxVBShE1knVG9zFsbTf2HcXseD",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:00:38.000Z",
+      "updatedAtFormatted": "2025-06-30T20:00:38.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "HoEe5KpXVqXL1oTFyDLaCbRggZBvhGHJRaN3umBVQRbF",
+      "isActive": true,
+      "createdAt": 1751313181,
+      "updatedAt": 1751313181,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUY65cdNnWQJgaXm8jujYfUTnWtWGYCpKfrRXmsDgE9EF",
+      "accountAddress": "CuAVSQRZ3qBQcE9W1YNZZQypaEaUYKUybkr8GqrQKwmL",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:53:01.000Z",
+      "updatedAtFormatted": "2025-06-30T19:53:01.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "D5bpGQ9xfX2xRAZkg329CiaBwfkbqykW4osv4AW3AGaC",
+      "isActive": true,
+      "createdAt": 1751316058,
+      "updatedAt": 1751316058,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPgZ3hXx4vSNZ4ambw3Fkdk3VmeLU8gfJN7ryuNAbEiZP",
+      "accountAddress": "D188Rt1ZtVoUmZZtM3ALdfj8WT4GjuvtRF5jhaoLVYXB",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:40:58.000Z",
+      "updatedAtFormatted": "2025-06-30T20:40:58.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "5cFj65E9ULwdHt6fvxuRNaLsRVRSv9ZRTPinzEoZqjbq",
+      "isActive": true,
+      "createdAt": 1751319008,
+      "updatedAt": 1751319008,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQiN4iBPtj5nj646TCxAsuzy7qEPrnFq1nJ1LPmaBatyw",
+      "accountAddress": "DH5ZXqhDNdFnpPip1jKovb1Q3Zf9uVMgrehCFzpMogfu",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:30:08.000Z",
+      "updatedAtFormatted": "2025-06-30T21:30:08.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "HXS3G53b7CWigMrQARxD484WgacbGGZnJmPqLZsDWaTD",
+      "isActive": true,
+      "createdAt": 1751312928,
+      "updatedAt": 1751312928,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmeSnnmGBxh9NtqS3PiSMgotMqjyNe1SkLT8YDf9cea5eQ",
+      "accountAddress": "DQmPJ5tSeQx5LZXe84Gt8Z6uZ5DZoYfA3dai6xgdibs1",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:48:48.000Z",
+      "updatedAtFormatted": "2025-06-30T19:48:48.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "9wGxezEE6pbPuavVppDey5EqBhNFpyKyW7ZxPeTygabn",
+      "isActive": true,
+      "createdAt": 1751320073,
+      "updatedAt": 1751320073,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmY6i5LYiKwQwuNv4GNPjE6mh9pXnW4NQDjHGeEtaAqdz8",
+      "accountAddress": "DWfFQJ7kt7t5Q5kbJhJcMd53TfowxBu4zBXY7dydpLAh",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:47:53.000Z",
+      "updatedAtFormatted": "2025-06-30T21:47:53.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "2SJvRaUrDpMnVsq6rqGoBkXaxXb7DSwV4CtdGhcsPsxX",
+      "isActive": true,
+      "createdAt": 1751317331,
+      "updatedAt": 1751317331,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWV7mPdKu6KWUA1jGKCp6zBsndG2q8beMfhfGu1M1h8fW",
+      "accountAddress": "DZWdW99tfS9nWmsuFDSEBUUQTo8sd65BnNMipmUKsxjA",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:02:11.000Z",
+      "updatedAtFormatted": "2025-06-30T21:02:11.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "Axm43MsGueEoCmiMsuEP4KkNrqx6qfbbFn7KHp1tCSJA",
+      "isActive": true,
+      "createdAt": 1751310899,
+      "updatedAt": 1751310899,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qme6Ujxpwr9erV3HFBTpsb5deDdDYM4bSVp5JBMk5s9GtH",
+      "accountAddress": "DmoqqkqMvH8b8ci7BwVxxzg5q6WiD89q881JwSXnxLhU",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:14:59.000Z",
+      "updatedAtFormatted": "2025-06-30T19:14:59.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "9o9Tjs4PJi9Rm3puGgeNpigyW6Ph2MPGCkF5VzTXTNPL",
+      "isActive": true,
+      "createdAt": 1751317990,
+      "updatedAt": 1751317990,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSr317GnzJwVdSnQStTP7NzwgFtX5zUg4bNMLSHhWtUC1",
+      "accountAddress": "DmuRaJXVMH3JR8pxEnn9FPSk2v72cAVCZ4vWvB3zVz8W",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:13:10.000Z",
+      "updatedAtFormatted": "2025-06-30T21:13:10.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "ELPePbhtspVsJBd8AVQG9pF5dpPsd55sSSF2t9EvGLUT",
+      "isActive": true,
+      "createdAt": 1751315659,
+      "updatedAt": 1751315659,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPBQqs71E77ajQxkdn8N4RsGGz8HoyJLk7MkPNUXy4yox",
+      "accountAddress": "DnC48Wo15zrMqYvwYQCNAMXK5S5vdVVKdTrZYvcgog3D",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:34:19.000Z",
+      "updatedAtFormatted": "2025-06-30T20:34:19.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "ni8vmtJAMaEtZTxT6VTeWu6aaY8ZkyRcCRUQ3y3Puw1",
+      "isActive": true,
+      "createdAt": 1751316719,
+      "updatedAt": 1751316719,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTiXupXbG5GM38GNVYAEhfuoTu2Bxf2LiFuEXzKHfs5PR",
+      "accountAddress": "DnwmTd8Zan8yKR1qDZkeSUkCTML45YmfKH3fdBcvx2P1",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:51:59.000Z",
+      "updatedAtFormatted": "2025-06-30T20:51:59.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "4z9R7MAZFBakvcH489aanTw9UKLmPUg1WXa7gGKecS1m",
+      "isActive": true,
+      "createdAt": 1751312269,
+      "updatedAt": 1751312269,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVrGdRb4mywhxFQ9XoKPEZtTwR45Jcqwr7TiweLqW9deK",
+      "accountAddress": "Ds6dVSrDzHpFUjFLQg9DwrHCdtaEmdQTdVL63VXgo2ox",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:37:49.000Z",
+      "updatedAtFormatted": "2025-06-30T19:37:49.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "Deg7vNhRJ6rF6ptxTS1pmNvpuThGWWVePMN2RwsAeNxw",
+      "isActive": true,
+      "createdAt": 1751312320,
+      "updatedAt": 1751312320,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmRCZj3iDEL7hVrvXTDcLC6Y6Nh6Vzk1zCGHuK52X6Xt4A",
+      "accountAddress": "DzCDcgSkcNGWjNwvJcVx1gQyYtDfhQiodZoqAR1YMSoX",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:38:40.000Z",
+      "updatedAtFormatted": "2025-06-30T19:38:40.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "4ceZ7cQfQvWsS18QgsXXpwYruKFakqQfdUhbysNFnE7c",
+      "isActive": true,
+      "createdAt": 1751318548,
+      "updatedAt": 1751318548,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXiumYH6NmQeaY7TJyP9csY4Dyri8oPU4oZRg7WoN2uvG",
+      "accountAddress": "E6jqazti5XCxp9teMpTfkvtYywWrH2X5CsqtPgeiWNtG",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:22:28.000Z",
+      "updatedAtFormatted": "2025-06-30T21:22:28.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "CGc8Dz8XwQS8ERK5EZyEJjDTbFkmidrK4JAPA23kxE3t",
+      "isActive": true,
+      "createdAt": 1751313079,
+      "updatedAt": 1751313079,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYRoW3NHCzWSLSF78Ta3ai1xy52LeDNBgdKi9gDf7Jyak",
+      "accountAddress": "E9cKJKP37Z52ecPVP9WGuNkGMQSuJKR4mPhWABmD3mEW",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:51:19.000Z",
+      "updatedAtFormatted": "2025-06-30T19:51:19.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "E5gHfS83EMyJWJhY32pxULfnPLnbYMQMe2aRKRDv4kND",
+      "isActive": true,
+      "createdAt": 1751320533,
+      "updatedAt": 1751320533,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmfWHcAU6W3Qm32pUJoPJ7azujtk5j22LhjNo5gBAEw2BQ",
+      "accountAddress": "EFuEHDy1ogY7ninxeqHiZRqMKvxu7quwzZMGmucebexJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:55:33.000Z",
+      "updatedAtFormatted": "2025-06-30T21:55:33.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "Ag5Q8WBEjuZsuRh14rR1X5eMqQViK7kVT9EW39ZKzZQa",
+      "isActive": true,
+      "createdAt": 1751313384,
+      "updatedAt": 1751313384,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmamuLoiMfTjrgDgfouCNoHkd4cAzQT16GhJcGs9P2wxwi",
+      "accountAddress": "EFvcqmWMCgyFdCQL3JtfwfCMTw6RPqcQnrywnCvYih8g",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:56:24.000Z",
+      "updatedAtFormatted": "2025-06-30T19:56:24.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "HWJnh5vrt3e1mPaVwqGK5RV74CGEAMaMGXr6zQFRgM7b",
+      "isActive": true,
+      "createdAt": 1751313233,
+      "updatedAt": 1751313233,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUFvpSrmiT2dtZ6SqdWQwD6YYVJH9UK9PHwN9F5g6SPdE",
+      "accountAddress": "EHHdSs6YnTn6xrQFQ6FMZDi4KVtGNAuEdyDnZLTbCLfA",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:53:53.000Z",
+      "updatedAtFormatted": "2025-06-30T19:53:53.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "7dNoN99wasSFj93svnLEBLzuFREVWWTZa7CWs59b4nhD",
+      "isActive": true,
+      "createdAt": 1751319210,
+      "updatedAt": 1751319210,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPRFzRuZbj3yRG1m32cVM3Fik5r24EayiL3MgL8XbBi63",
+      "accountAddress": "ErG3hFhpCpgAeDaApyx75mnsLPeYPtAhWLvYRNgLGvNw",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:33:30.000Z",
+      "updatedAtFormatted": "2025-06-30T21:33:30.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "ybiH2hRiJr867NJcwj7q8CtDdK5e7qJ1h3oqg6UDzAA",
+      "isActive": true,
+      "createdAt": 1751317383,
+      "updatedAt": 1751317383,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVoGrBQdLa24oQN41BNjMaGqArfftJgXCpoKtxRXKuVp1",
+      "accountAddress": "F7Z8o1k7abhGfxVfkpTmnoHS2Fs1fXWu3mcLFfrCRYNX",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:03:03.000Z",
+      "updatedAtFormatted": "2025-06-30T21:03:03.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "BcDr26jT6qWmfD2Mnda28nkQmhJZrYtphDiSJn194RAG",
+      "isActive": true,
+      "createdAt": 1751320481,
+      "updatedAt": 1751320481,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNzXdigp8sZj9zhfdRrfeDT8R5v1ir9mHE8PsusfsLLYi",
+      "accountAddress": "FBD3tTfmb33Fu1yMLbNpCKA6uhVigLux5hJqoqG78FDp",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:54:41.000Z",
+      "updatedAtFormatted": "2025-06-30T21:54:41.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "GYuUc7Mh2PjA6Rgjxakzp9a2QqhoCUSCXHaRLDCXGhnu",
+      "isActive": true,
+      "createdAt": 1751317638,
+      "updatedAt": 1751317638,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSQJMSAtFWQkrNHYAbk8jxnEHhtg6kfzVruUaTipXTWhm",
+      "accountAddress": "FLBmqMLhfkB2akLChZhHmmeeXjWfAiXsgFsj6n18EvXi",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:07:18.000Z",
+      "updatedAtFormatted": "2025-06-30T21:07:18.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "2Vd3MT56pvQ9zsmxRzN5YLmfbyv9sBShCfotjihtnrCC",
+      "isActive": true,
+      "createdAt": 1751315251,
+      "updatedAt": 1751315251,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmY98PdoTxdS8R3v8i88NZuTwQgMn4Ci8TE79ZGpKbV87u",
+      "accountAddress": "FLKJPCUvXdoRuYc5P1WCEH33mseRkquXehN7U3HwUsyV",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:27:31.000Z",
+      "updatedAtFormatted": "2025-06-30T20:27:31.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "GzVJsEoCMo2Ggbe33DZmkuHY5DZffMBnjm56Pv9AXsbY",
+      "isActive": true,
+      "createdAt": 1751313688,
+      "updatedAt": 1751313688,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmYA3zDWvyUwjGLDHhewGkfmSR4ou6idGbkWqcoDUmsj8v",
+      "accountAddress": "FP9RndceF4rLU4nxxc19gM2qAWhn4KBf6gZQRTGfuvJY",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:01:28.000Z",
+      "updatedAtFormatted": "2025-06-30T20:01:28.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "5PFBZXKyLppZ6fmRSXFnfAXWXNZLkQSZQffQyJ566WgD",
+      "isActive": true,
+      "createdAt": 1751320328,
+      "updatedAt": 1751320328,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmXoUiyANNAenRre8jYAGHtbypevJUAdxQHJ3SQJo65aEU",
+      "accountAddress": "FTuoJyKLd1qVTrBUvVhBZ8p7TqCCh66eZyqyiRMq9Ddd",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:52:08.000Z",
+      "updatedAtFormatted": "2025-06-30T21:52:08.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "C36QPr32GNzBm3VQq3yf4SSRY3gb3Hv7bN1xi1bwXsi1",
+      "isActive": true,
+      "createdAt": 1751311661,
+      "updatedAt": 1751311661,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPs7oYPeYGfFPZEJQawifweiMJF2hpZ7SUcRqEGAXPSgK",
+      "accountAddress": "FVqvdYCNh7THzTEoaviNvd2A9guQVJjvX1L4EHvBkCw5",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:27:41.000Z",
+      "updatedAtFormatted": "2025-06-30T19:27:41.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "E3xoaNHM9m5iTXh7CGVHVjvxAFTkpEbMUEoeHJWEUtrC",
+      "isActive": true,
+      "createdAt": 1751319920,
+      "updatedAt": 1751319920,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmY1WkGDLZmtdXeSkjKr5EHzV6nUjvcdc7sGJVRj2x8rTa",
+      "accountAddress": "FfZFnKPFiRiFRtBtuEA8ZbquU1cFvuaVuhCG3MLb8eG6",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:45:20.000Z",
+      "updatedAtFormatted": "2025-06-30T21:45:20.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "3gqNCW6z5KdoWr2GneHJaDMmTyMed2hft5A6k9TzM3Ch",
+      "isActive": true,
+      "createdAt": 1751311711,
+      "updatedAt": 1751311711,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmRaFfXKPabWLf85XCjM2L6n8UEeAidZnf3bVCKw3rAcY8",
+      "accountAddress": "FfidEM1PzwDY7tAVfgYhqp9MGo68Mr4qCXTpuhKfLqGq",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:28:31.000Z",
+      "updatedAtFormatted": "2025-06-30T19:28:31.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "FpYfnuxcrvkrnXnSYhzj9Yg1vQ8XA89AFeb9UGANmCeP",
+      "isActive": true,
+      "createdAt": 1751309928,
+      "updatedAt": 1751309928,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTYkmtvRTmQUgWBCMYnMWV8pdAFgobsGEYvu1Y4y4XChy",
+      "accountAddress": "Fr7yEF2wDXDhS4gy6FN1tNTvGdceeaJrBrDz3PQimSyK",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T18:58:48.000Z",
+      "updatedAtFormatted": "2025-06-30T18:58:48.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "8uuQqj9DLSsVLHKiHkHEuZTvPEbc1tm2kvy8deUSGjm3",
+      "isActive": true,
+      "createdAt": 1751311811,
+      "updatedAt": 1751311811,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSeTXkgSzve86QVTqdSmgNrCjYhk9YArWxGcScE27D4Hs",
+      "accountAddress": "FvBPB19AjUC8zNDs1FV9B7kK7zh1ipW1pERqtLFMH7kJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:30:11.000Z",
+      "updatedAtFormatted": "2025-06-30T19:30:11.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "5Dw3Se3iAvTXxuU9uzrU5k4LjL8Hr27GtfeeBpQJfH77",
+      "isActive": true,
+      "createdAt": 1751312014,
+      "updatedAt": 1751312014,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmeHtUS83cKsybiLbXm7EydYU6A83KxefrXs9F3wgtmc6i",
+      "accountAddress": "FyJMXaPK6t41xavSr1SV9bunRaYhTpssuMFopTCQ6Cmd",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:33:34.000Z",
+      "updatedAtFormatted": "2025-06-30T19:33:34.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "HWxtLf1n2cRe6f9SQ7WfCZSy4qfmzUigG4q63dmGFRVT",
+      "isActive": true,
+      "createdAt": 1751310548,
+      "updatedAt": 1751310548,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTYkmtvRTmQUgWBCMYnMWV8pdAFgobsGEYvu1Y4y4XChy",
+      "accountAddress": "G2fiuLXchDSCBUT4JhvQTg8mygeqP2wiWrUojBQZfHUf",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:09:08.000Z",
+      "updatedAtFormatted": "2025-06-30T19:09:08.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "BoGNeQciB267JvWLrGeRQGm15EJgCutm3Zu9yvaLaH4j",
+      "isActive": true,
+      "createdAt": 1751318041,
+      "updatedAt": 1751318041,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmf1hf1eckt2F84yMt3wdxfT89RvQ6VEvvXFfDnDfkQjXE",
+      "accountAddress": "G3y8Wk8myCNc6H6yNCKKr8bmrQZtVHUpkqNW3W3PPkcT",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:14:01.000Z",
+      "updatedAtFormatted": "2025-06-30T21:14:01.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "GxUyKhjQMnk9NsJwcFkuksLky5cYV27JmkN8znH883pE",
+      "isActive": true,
+      "createdAt": 1751317586,
+      "updatedAt": 1751317586,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWo4Y1A6cqozxtwoRs3MFFGYUXM5TZUWr8wwfHS6ShL3m",
+      "accountAddress": "G8iiwjQJhLjp423RP1TabTBFRdnxbvasAZVqQjW8aFCQ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:06:26.000Z",
+      "updatedAtFormatted": "2025-06-30T21:06:26.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "BidwMrTDi7W2NThkMreyb7TV2cM7hEXfkuudsxFLfFxR",
+      "isActive": true,
+      "createdAt": 1751316465,
+      "updatedAt": 1751316465,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTw8jXjZ7UraVrMbqTtJnCxpFSMDuPXkUHqo3B6b7FtYS",
+      "accountAddress": "GHVJJDzV93P1mVW3d1J2fYSPRYUKGjjfjt54BVxa7Tzz",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:47:45.000Z",
+      "updatedAtFormatted": "2025-06-30T20:47:45.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "4Jt2HdXY74zjx9qzyqsh5tZfzVdUbSUd1Ege5RStVyqG",
+      "isActive": true,
+      "createdAt": 1751316210,
+      "updatedAt": 1751316210,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTday72xLqyc2bqugCbiHp7p4n49T8a464aqoudu63JZg",
+      "accountAddress": "GPMChgvshqcBwvrzYuXdSh4ZLHcK6heDKndP2jZMiUGV",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:43:30.000Z",
+      "updatedAtFormatted": "2025-06-30T20:43:30.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "FNxf3udyK3LyAtPFgJ4kwRnFwKrajUQmvrRxtTNnNK3s",
+      "isActive": true,
+      "createdAt": 1751314341,
+      "updatedAt": 1751314341,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQkKSrUsdSRdZUxC4MueejVwzKaQnRcqZxsYRRDGKrFSk",
+      "accountAddress": "GPwLAGvhBMsipMW78pUozCc2Y5DDTWbTubpzhnokJzNK",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:12:21.000Z",
+      "updatedAtFormatted": "2025-06-30T20:12:21.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "43gccRCps76YKF75USVi3UNjQytEeZEeQXjbwp18fNer",
+      "isActive": true,
+      "createdAt": 1751316414,
+      "updatedAt": 1751316414,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmPXNkDHtP551ADDtk4WfZ7PgtYfh6XGRpZ4tPvTY9bcxC",
+      "accountAddress": "GRyV6asKvUeuzpC5WRJwLjPT54wzWgX9gH6Hxmu2eyCf",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:46:54.000Z",
+      "updatedAtFormatted": "2025-06-30T20:46:54.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "HxF7swLs7uLMPkv8kyrLj3iC893oTiop1Ap6Pbsfw9Y9",
+      "isActive": true,
+      "createdAt": 1751317280,
+      "updatedAt": 1751317280,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmNQ2AjfWoFM2HmerbQedkSaiApFrzeg3A7W88DgCTdbdc",
+      "accountAddress": "GSvQaHUEK5bN8eF654f1w3Hgm5k5mbDu7sej75Q5e12r",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:01:20.000Z",
+      "updatedAtFormatted": "2025-06-30T21:01:20.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "7yDCy1oVBTqKq8P6JoYut8ipLFiAW3876YbmJc4nwNrK",
+      "isActive": true,
+      "createdAt": 1751313130,
+      "updatedAt": 1751313130,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSaFvsPVPUucCQbuGoK4afLwWVqNYaX9o41xy3ASFsrpJ",
+      "accountAddress": "GekuteduTrgKmGUgwDtDzKdTCW58dXwK2FJ4B3uAHKKo",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:52:10.000Z",
+      "updatedAtFormatted": "2025-06-30T19:52:10.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "FW8uRv7TTgHsvs9NU2RAKZdhCKo8yU9a8V1zZbfgCdKr",
+      "isActive": true,
+      "createdAt": 1751314441,
+      "updatedAt": 1751314441,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "Qmdwgwc73MxdYbwpPGtQBpxaHTTHj5o6WA6Jih8DUaSFf5",
+      "accountAddress": "GgdmbtHkm5QX6nz8FaHp7MJuTH9T31Nyyg9nNJ29V4Xp",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:14:01.000Z",
+      "updatedAtFormatted": "2025-06-30T20:14:01.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "BpAkd5N3gqdCpoFe7UqE7SyZLspxMRkrPMNrVsviGV5",
+      "isActive": true,
+      "createdAt": 1751312978,
+      "updatedAt": 1751312978,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": true,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmVFCpUAc6WmYeUTmk6bQR3FXKrtyKqZ1QHJuR6KE14238",
+      "accountAddress": "GhgCFJ35SZ2csFxxDYR24cMYGjiAmUU4xPsrGocNSsUJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:49:38.000Z",
+      "updatedAtFormatted": "2025-06-30T19:49:38.000Z",
+      "activeRoles": [
+        "accelerator"
+      ]
+    },
+    {
+      "authority": "Fuf2ZAGtX9Lg9Cj2EzDYXdisY3nuueJTXSBK8myffzJ5",
+      "isActive": true,
+      "createdAt": 1751319971,
+      "updatedAt": 1751319971,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTjzGtLe73Jiy1wKeWSafnqzFcyhpHYgtZygrTWL9s1s6",
+      "accountAddress": "GkiqpHUusqV311H7w5oMFhZvkptPxE5th8cVPqgwEgtb",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:46:11.000Z",
+      "updatedAtFormatted": "2025-06-30T21:46:11.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "GG3kEm936SuPEfxg3ujR2dpK34v6zUi2tKqP5x5QejXF",
+      "isActive": true,
+      "createdAt": 1751315200,
+      "updatedAt": 1751315200,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmZ3L7tWTsLeuixRP8E33hwAk4cmYtyuTrawcK9MZFkiuC",
+      "accountAddress": "GyexSCxwARJsQVwTawJhyqUfSA42bpmuQWQ1G3nQR1RR",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:26:40.000Z",
+      "updatedAtFormatted": "2025-06-30T20:26:40.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "F7Y6yjNTTRbTTCAyjx1vVtqtnUkgQsjLTqPCbHsBMMzp",
+      "isActive": true,
+      "createdAt": 1751313889,
+      "updatedAt": 1751313889,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmTWY94cgwF2c1gsh3NQumHsmUyT3c81KU2yH3mVCBXMko",
+      "accountAddress": "H1ohTuQYt3xZEfZkx1iALaZccFMJg2u94eM4sRQ11VYh",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:04:49.000Z",
+      "updatedAtFormatted": "2025-06-30T20:04:49.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "9mezdhXz7DZNVzrMPv5oCeSjt3HXFP9UwCAM1HjPc8Uc",
+      "isActive": true,
+      "createdAt": 1751317024,
+      "updatedAt": 1751317024,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmS6Ni7jtYWF4xDCzMpTkYvcmicfwpHrYr7TGcRpLwvEe4",
+      "accountAddress": "H3qw9zQV6h1hURKZJQS7z6t9BEgd1NQiGzZhfU47BrVK",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:57:04.000Z",
+      "updatedAtFormatted": "2025-06-30T20:57:04.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "rQxnd8nBDmQh21L25TiayaQHsPnNRAFg4H4swjUDDkJ",
+      "isActive": true,
+      "createdAt": 1751314191,
+      "updatedAt": 1751314191,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": true,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmZimGcAypcyVnREyo7Gqs4tyf1LxzgAAcPqUKmj9ehcZB",
+      "accountAddress": "H43M41WX61YaPwJnTRcNUuCpDSvmD3iCjDz5oxgvqXUQ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:09:51.000Z",
+      "updatedAtFormatted": "2025-06-30T20:09:51.000Z",
+      "activeRoles": [
+        "executive"
+      ]
+    },
+    {
+      "authority": "59sQCtxXD2FE5Td7JHGRLp1Gz4JRW1Kw8EjyXnT23xpW",
+      "isActive": true,
+      "createdAt": 1751310950,
+      "updatedAt": 1751310950,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmSnMhwNtHSH2cxbonzBbP85dWanfVyugSPPzxnDacKn7Q",
+      "accountAddress": "H65U5rgEE8Jm2Sn9F29gzVukrFMWhRxGvaFp1QhxMQrt",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:15:50.000Z",
+      "updatedAtFormatted": "2025-06-30T19:15:50.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "2QsxLwE7cJe4QQMYN8rPCq9XqKtAMrFHACA5agWSZc6N",
+      "isActive": true,
+      "createdAt": 1751315353,
+      "updatedAt": 1751315353,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUxVFYk1T6g96x1dNnEyMaMVx1cvne9kQbi82ALDJejf6",
+      "accountAddress": "H6uL5xYYwjjnZVMjw2c7H3545dvsug74q7fN6aJKfeiJ",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:29:13.000Z",
+      "updatedAtFormatted": "2025-06-30T20:29:13.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "74cCZez4ipanY5k7mjfAU59n3e8QKNtWE5JBz1goADWb",
+      "isActive": true,
+      "createdAt": 1751316973,
+      "updatedAt": 1751316973,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmeqEg5JQZVm31X9X4BvKk6zaC24yqAU3dvpnAzpmv4uQN",
+      "accountAddress": "HLbRvTqqrq1vV3cn18PmdisD3JHRcQc17R9wHfY7fQMD",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:56:13.000Z",
+      "updatedAtFormatted": "2025-06-30T20:56:13.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "3LXsbNpzZGEV2WVVcPMiifAFUif9aP2yypF2nerFsEXc",
+      "isActive": true,
+      "createdAt": 1751315710,
+      "updatedAt": 1751315710,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmeSWJFf85gCGh9U5XpfiUKzPELmvNCZyWRTW2XPjpoqNw",
+      "accountAddress": "HSLCCVfBYZUwFoHzAG6gyEtERsGL1Hf5kJY3v9G5jZ66",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:35:10.000Z",
+      "updatedAtFormatted": "2025-06-30T20:35:10.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    },
+    {
+      "authority": "FBxiXqvUHSGcvXr78JWJhLiCZBarVJ1AvMqhyH2JUtnw",
+      "isActive": true,
+      "createdAt": 1751314691,
+      "updatedAt": 1751314691,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmRh6Fjjg3E8wVWhknVzabNQwqwBGtuNjc4Qh3LkjcUgEA",
+      "accountAddress": "HUQmE6yUsjC5BUGrrduS58Fh2SVw2vUrj3kmYbqS8Pxf",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:18:11.000Z",
+      "updatedAtFormatted": "2025-06-30T20:18:11.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "4vNoG79D9pe2o5stm2mUkwcqQ5mfQL5JLMC68QYLLEp5",
+      "isActive": true,
+      "createdAt": 1751314843,
+      "updatedAt": 1751314843,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": true,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmR6VZJmS9XXSvHkMVCP8p63CmVwduWCmt2ptxE9zL9pfK",
+      "accountAddress": "HYcfhzm5za9LgLAvfReVCW3xSDS1HYZ4dgw5oFo4USAM",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:20:43.000Z",
+      "updatedAtFormatted": "2025-06-30T20:20:43.000Z",
+      "activeRoles": [
+        "legal"
+      ]
+    },
+    {
+      "authority": "B2SW7TjWuyBmsps1DkovxBqL8dFnS1YcXygMgy7e4F8i",
+      "isActive": true,
+      "createdAt": 1751316871,
+      "updatedAt": 1751316871,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmP7d7XhMG3Dk2U69CnFpg9wx723pznsyHgxqhWPjpfUUW",
+      "accountAddress": "HZX7giSUwFviuHru1DJUvwMs1SjhLskFgzgKM9huYS6P",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:54:31.000Z",
+      "updatedAtFormatted": "2025-06-30T20:54:31.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "4tehgiwnCCr6SBun78sBMcQAJZe2bns2ncsFwZ3a2aXZ",
+      "isActive": true,
+      "createdAt": 1751311458,
+      "updatedAt": 1751311458,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmUNndAhdnkzbTPqgHmX7rU31DNyp4CreMGxwzomzK3evh",
+      "accountAddress": "HdLJCnBKsUVRELtYLBdJV3DXKy7QSccJfZ7kSa9jixrd",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:24:18.000Z",
+      "updatedAtFormatted": "2025-06-30T19:24:18.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "Er5NprTBZtyWFPJkoLMaZoMBmXGWxxEs1anYFuSF3wii",
+      "isActive": true,
+      "createdAt": 1751319415,
+      "updatedAt": 1751319415,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmcbkKh6wcSiLanEv76e9rSF8tDpsNZeCQckQa435JjNUA",
+      "accountAddress": "Hincu9kXfV5fUEbs9NSMLdy3opWDVevMN3MapwwcFRoe",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:36:55.000Z",
+      "updatedAtFormatted": "2025-06-30T21:36:55.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "GuQyCsvnJfEMiJc9bXrVgejEgDt6KA6haXUj61ZT1B1f",
+      "isActive": true,
+      "createdAt": 1751320430,
+      "updatedAt": 1751320430,
+      "roles": {
+        "founder": true,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaQeMqHNx7FYZNmzvtBLGa23a9J6wQ8VJPrg23c85Wucv",
+      "accountAddress": "HtayCyNiPNkRaWH43P5TXwFuWC6SutZqE2VwQQc8hHGt",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:53:50.000Z",
+      "updatedAtFormatted": "2025-06-30T21:53:50.000Z",
+      "activeRoles": [
+        "founder"
+      ]
+    },
+    {
+      "authority": "E9BuceDTvVzWVS3pfLz3PzzNaAATi7Nu6J6G6yEdknnG",
+      "isActive": true,
+      "createdAt": 1751317786,
+      "updatedAt": 1751317786,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": true,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmaRtMSQofggo9SvWJScd2Pc7apQGjcRHp5tinwFbQYyQs",
+      "accountAddress": "HwxC37HYGwM6GcKhn9YauSJoAppNmYEjhXc6E8Wg85jN",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T21:09:46.000Z",
+      "updatedAtFormatted": "2025-06-30T21:09:46.000Z",
+      "activeRoles": [
+        "freelancer"
+      ]
+    },
+    {
+      "authority": "HbHSTWriiuJqCbjWvmarkQJZ6HCK387zbb4ZeopJBRaa",
+      "isActive": true,
+      "createdAt": 1751316668,
+      "updatedAt": 1751316668,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmU7hUuCYJonDPzo51zo3oJ8oNBHjhZm5bhrx3pQSWL2Se",
+      "accountAddress": "J25fqkwz9ch4889aczSuRHA3ui2Nsqu358SuxHXoq8ry",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:51:08.000Z",
+      "updatedAtFormatted": "2025-06-30T20:51:08.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "7SWFTbjdB9asCEo3Zb4muNBuRcBA9n526iPDJy5TVmmK",
+      "isActive": true,
+      "createdAt": 1751312065,
+      "updatedAt": 1751312065,
+      "roles": {
+        "founder": false,
+        "investor": true,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmV9KUkRRqXEcgT3Yx3wo14oTXqMutRyBTZm3TdbyNTZSB",
+      "accountAddress": "JBuwCeVwDKdFCbobcU2yk5zFJkmYpQ5YjuWTwKuZsLPX",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T19:34:25.000Z",
+      "updatedAtFormatted": "2025-06-30T19:34:25.000Z",
+      "activeRoles": [
+        "investor"
+      ]
+    },
+    {
+      "authority": "GDvrUCNrVjTTiJot6WnHHH6jjQhzVoCNHytmGoXxZVeD",
+      "isActive": true,
+      "createdAt": 1751316770,
+      "updatedAt": 1751316770,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": false,
+        "cybersecurity": true,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmWWr7423xy6gPn9BsmdWdvVD42TUqMc4bXPcbFFsi75UG",
+      "accountAddress": "JCY3Vq6xNxn3JgBXdLiji8PDvJ7vAQBqx1AFJtZXaUei",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:52:50.000Z",
+      "updatedAtFormatted": "2025-06-30T20:52:50.000Z",
+      "activeRoles": [
+        "cybersecurity"
+      ]
+    },
+    {
+      "authority": "9fY3zMefNG6Zuup44Qq5LeveSNuSvx6nqr6RBmiqx8Z6",
+      "isActive": true,
+      "createdAt": 1751315863,
+      "updatedAt": 1751315863,
+      "roles": {
+        "founder": false,
+        "investor": false,
+        "accelerator": false,
+        "executive": false,
+        "legal": false,
+        "government": true,
+        "cybersecurity": false,
+        "freelancer": false,
+        "mentor_research": false,
+        "exit_planner": false
+      },
+      "ipfsCid": "QmQN2ESU5x1N9TsZgeucJShGSFqcGxpoCZdAJD85R86KQ2",
+      "accountAddress": "JCat4f9p7qfQPgUfHH72n7anN9xvZu4KUzMAs3QatcJA",
+      "lamports": 2025360,
+      "owner": "Cb2kAL6pdTpEVhmXiZ7kiJ2jttHXfMoJA4tbZiiCZyjF",
+      "executable": false,
+      "rentEpoch": 18446744073709552000,
+      "createdAtFormatted": "2025-06-30T20:37:43.000Z",
+      "updatedAtFormatted": "2025-06-30T20:37:43.000Z",
+      "activeRoles": [
+        "government"
+      ]
+    }
+  ]
+}

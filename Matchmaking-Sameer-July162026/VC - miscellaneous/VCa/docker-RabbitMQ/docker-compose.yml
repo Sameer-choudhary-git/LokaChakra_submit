@@ -1,0 +1,47 @@
+version: '3.8'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    env_file:
+      - .env
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+      - ./rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+    networks:
+      - rabbitmq-net
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "check_running"]
+      interval: 30s
+      timeout: 30s
+      retries: 5
+
+  api-service:
+    build: . # Build the image from the Dockerfile in the current directory
+    container_name: api-service
+    ports:
+      - "3002:3002"
+    env_file:
+      - .env # Load environment variables for the API service
+    volumes:
+      - .:/usr/src/app # Mount local code for development
+      - /usr/src/app/node_modules # Do not mount local node_modules
+    networks:
+      - rabbitmq-net
+    depends_on:
+      rabbitmq:
+        condition: service_healthy # Wait for rabbitmq to be healthy before starting
+    restart: unless-stopped
+
+volumes:
+  rabbitmq_data:
+    driver: local
+
+networks:
+  rabbitmq-net:
+    driver: bridge

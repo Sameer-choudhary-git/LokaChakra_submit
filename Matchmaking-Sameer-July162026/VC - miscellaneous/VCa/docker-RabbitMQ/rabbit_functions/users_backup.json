@@ -1,0 +1,26 @@
+[
+  {
+    "profilePDA": "Bfau25n6HxYeC3u3wosRS54NXRsZ6nArCQc6GfFSeXnN",
+    "role": "founders",
+    "cid": "QmTYkmtvRTmQUgWBCMYnMWV8pdAFgobsGEYvu1Y4y4XChy",
+    "userPublicKey": "DaHh2RgtvpEKioTxBqjNbS5vTrhFUxX5F8dBfLQHLjwT",
+    "processedAt": 1751525135342,
+    "addedAt": 1751524821198
+  },
+  {
+    "profilePDA": "78GMjLqLxyq18rJyhHMX2xypaqSsTKJ6w2DEBVRNhcEQ",
+    "role": "founders",
+    "cid": "QmTYkmtvRTmQUgWBCMYnMWV8pdAFgobsGEYvu1Y4y4XChy",
+    "userPublicKey": "4jygxx43mKKYi6ByWFQQJnjEyzf4iDBWr5nfJXVW5LUh",
+    "processedAt": 1751525378755,
+    "addedAt": 1751525067358
+  },
+  {
+    "profilePDA": "dJS6H7Yrsx7DbrzzuPPqMcaF6EJ5AEhB3MQ3dkYsVmf",
+    "role": "founders",
+    "cid": "Qmb81zJSA4ignisnenpdTcw7uWDXwSeyczcHYDc3ackndr",
+    "userPublicKey": "5C9hi6Uizf8gHhpxmF22WB22DKyjZ2wXLfF4W8j59YDM",
+    "processedAt": 1751525389710,
+    "addedAt": 1751525088816
+  }
+]

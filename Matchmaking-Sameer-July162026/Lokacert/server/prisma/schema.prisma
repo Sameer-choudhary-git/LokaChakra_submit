@@ -1,0 +1,172 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model TransactionLog {
+  id          String   @id @default(cuid())
+  signature   String   @unique
+  slot        Int
+  programId   String
+  instruction String?
+  eventName   String?
+  eventData   String?  @db.Text // JSON string
+  status      String // 'success' or 'failed'
+  error       String?  @db.Text
+  timestamp   DateTime @default(now())
+
+  @@index([programId, timestamp])
+  @@index([eventName, timestamp])
+  @@index([signature])
+  @@map("transaction_logs")
+}
+
+// New model for Authority Transfers
+model TransferRequest {
+  id               String   @id @default(cuid())
+  companyPublicKey String
+  currentAuthority String
+  newAuthority     String
+  status           String // 'Pending', 'Accepted', 'Cancelled'
+  createdTxSignature String
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  company Company @relation(fields: [companyPublicKey], references: [publicKey], onDelete: Cascade)
+
+  @@index([companyPublicKey])
+  @@index([status])
+  @@map("transfer_requests")
+}
+
+model Company {
+  id                 String   @id @default(cuid())
+  publicKey          String   @unique
+  authority          String
+  companyId          String // Stores JSON string of [u8; 6]
+  details            String? // CID for company_details
+  isActive           Boolean  @default(true)
+  version            Int      @default(1)
+  createdTxSignature String
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  employees            Employee[]
+  certificates         Certificate[]
+  awards               Award[]
+  certificateTemplates CertificateTemplate[]
+  awardTypes           AwardType[]
+  transferRequests     TransferRequest[] // Relation to transfers
+
+  @@index([publicKey])
+  @@index([authority])
+  @@map("companies")
+}
+
+model Employee {
+  id                 String   @id @default(cuid())
+  publicKey          String   @unique
+  wallet             String
+  companyPublicKey   String
+  details            String? // CID for employee_details
+  status             String // 'Pending', 'Active', 'Inactive'
+  version            Int      @default(1)
+  createdTxSignature String
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  company      Company       @relation(fields: [companyPublicKey], references: [publicKey], onDelete: Cascade)
+  certificates Certificate[]
+  awards       Award[]
+
+  @@index([publicKey])
+  @@index([wallet])
+  @@index([companyPublicKey])
+  @@map("employees")
+}
+
+model Certificate {
+  id                String    @id @default(cuid())
+  publicKey         String    @unique
+  certificateId     String // Stores JSON string of [u8; 6]
+  companyPublicKey  String
+  employeePublicKey String
+  details           String? // CID for certificate_details
+  status            String // 'Active', 'Revoked', 'Expired', 'Closed'
+  expiresAt         DateTime? // Null means no expiry
+  version           Int       @default(1)
+  issuedTxSignature String
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+
+  company  Company  @relation(fields: [companyPublicKey], references: [publicKey], onDelete: Cascade)
+  employee Employee @relation(fields: [employeePublicKey], references: [publicKey], onDelete: Cascade)
+
+  @@index([publicKey])
+  @@index([companyPublicKey])
+  @@index([employeePublicKey])
+  @@index([status])
+  @@map("certificates")
+}
+
+model CertificateTemplate {
+  id                 String   @id @default(cuid())
+  publicKey          String   @unique
+  templateId         String // Stores JSON string of [u8; 6]
+  companyPublicKey   String
+  details            String? // CID for certificate_details
+  version            Int      @default(1)
+  createdTxSignature String
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  company            Company  @relation(fields: [companyPublicKey], references: [publicKey], onDelete: Cascade)
+
+  @@index([publicKey])
+  @@index([companyPublicKey])
+  @@map("certificate_templates")
+}
+
+model AwardType {
+  id                 String   @id @default(cuid())
+  publicKey          String   @unique
+  awardTypeId        String // Stores JSON string of [u8; 6]
+  companyPublicKey   String
+  metadataUri        String? // URI string
+  isActive           Boolean  @default(true)
+  version            Int      @default(1)
+  createdTxSignature String
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  company            Company  @relation(fields: [companyPublicKey], references: [publicKey], onDelete: Cascade)
+  awards             Award[]
+
+  @@index([publicKey])
+  @@index([companyPublicKey])
+  @@map("award_types")
+}
+
+model Award {
+  id                 String   @id @default(cuid())
+  publicKey          String   @unique
+  awardId            String // Stores JSON string of [u8; 6]
+  companyPublicKey   String
+  employeePublicKey  String
+  awardTypePublicKey String
+  mint               String   @unique
+  version            Int      @default(1)
+  mintedTxSignature  String
+  createdAt          DateTime @default(now())
+  company            Company  @relation(fields: [companyPublicKey], references: [publicKey], onDelete: Cascade)
+  employee           Employee @relation(fields: [employeePublicKey], references: [publicKey], onDelete: Cascade)
+  awardType          AwardType @relation(fields: [awardTypePublicKey], references: [publicKey], onDelete: Cascade)
+
+  @@index([publicKey])
+  @@index([mint])
+  @@index([companyPublicKey])
+  @@index([employeePublicKey])
+  @@index([awardTypePublicKey])
+  @@map("awards")
+}

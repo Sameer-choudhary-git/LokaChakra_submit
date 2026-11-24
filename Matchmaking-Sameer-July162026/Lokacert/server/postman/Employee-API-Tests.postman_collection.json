@@ -1,0 +1,404 @@
+{
+  "info": {
+    "_postman_id": "unique-id-2",
+    "name": "Onchain Certificate - Employee API Tests",
+    "description": "API tests for employee-related endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add Employee",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('employeePDA');",
+              "    pm.expect(response).to.have.property('companyPDA');",
+              "    pm.expect(response).to.have.property('confirmationToken');",
+              "    pm.expect(response).to.have.property('emailHash');",
+              "});",
+              "",
+              "pm.test(\"Error on missing fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyId\": \"test-company\",\n    \"employeeWallet\": \"{{employeeWallet}}\",\n    \"email\": \"test@example.com\",\n    \"employeeDetails\": {\n        \"name\": \"Test Employee\",\n        \"position\": \"Software Engineer\"\n    },\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/addEmployee",
+          "host": ["{{baseUrl}}"],
+          "path": ["addEmployee"]
+        },
+        "description": "Add a new employee to a company"
+      }
+    },
+    {
+      "name": "Confirm Employee",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has required fields\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('employeePDA');",
+              "});",
+              "",
+              "pm.test(\"Error on invalid confirmation token\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyPubkey\": pm.variables.get('companyPubkey'),",
+              "                \"employeeWalletPubkey\": pm.variables.get('employeeWallet'),",
+              "                \"confirmationToken\": \"invalid-token\"",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response.json().success).to.be.false;",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"employeeWalletPubkey\": \"{{employeeWallet}}\",\n    \"confirmationToken\": \"{{confirmationToken}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/confirmEmployee",
+          "host": ["{{baseUrl}}"],
+          "path": ["confirmEmployee"]
+        },
+        "description": "Confirm employee account with token"
+      }
+    },
+    {
+      "name": "Get Employee Profile",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has employee data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('employee');",
+              "    pm.expect(response.employee).to.have.property('pubkey');",
+              "    pm.expect(response.employee).to.have.property('wallet');",
+              "    pm.expect(response.employee).to.have.property('company');",
+              "    pm.expect(response.employee).to.have.property('status');",
+              "    pm.expect(response.employee).to.have.property('statusString');",
+              "});",
+              "",
+              "pm.test(\"404 on invalid employee ID\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('employeeId'), 'invalid-id'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 404);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/employee/{{employeeId}}?companyPubkey={{companyPubkey}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["employee", "{{employeeId}}"],
+          "query": [
+            {
+              "key": "companyPubkey",
+              "value": "{{companyPubkey}}"
+            }
+          ]
+        },
+        "description": "Get employee profile by ID or wallet address"
+      }
+    },
+    {
+      "name": "Update Employee",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has transaction\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('message');",
+              "});",
+              "",
+              "pm.test(\"Error on missing fields\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({})",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"employeeWalletPubkey\": \"{{employeeWallet}}\",\n    \"employeeDetails\": {\n        \"name\": \"Updated Employee Name\",\n        \"position\": \"Senior Software Engineer\"\n    }\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/updateEmployee",
+          "host": ["{{baseUrl}}"],
+          "path": ["updateEmployee"]
+        },
+        "description": "Update employee details"
+      }
+    },
+    {
+      "name": "Update Employee Status",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has transaction and status\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('transaction');",
+              "    pm.expect(response).to.have.property('newStatus');",
+              "    pm.expect(response).to.have.property('newStatusString');",
+              "});",
+              "",
+              "pm.test(\"Error on invalid status\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url,",
+              "        method: 'POST',",
+              "        header: {",
+              "            'Content-Type': 'application/json'",
+              "        },",
+              "        body: {",
+              "            mode: 'raw',",
+              "            raw: JSON.stringify({",
+              "                \"companyPubkey\": pm.variables.get('companyPubkey'),",
+              "                \"employeePubkey\": pm.variables.get('employeePubkey'),",
+              "                \"newStatus\": 999,",
+              "                \"companyAuthorityPubkey\": pm.variables.get('companyAuthorityPubkey')",
+              "            })",
+              "        }",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"companyPubkey\": \"{{companyPubkey}}\",\n    \"employeePubkey\": \"{{employeePubkey}}\",\n    \"newStatus\": 1,\n    \"companyAuthorityPubkey\": \"{{companyAuthorityPubkey}}\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/updateEmployeeStatus",
+          "host": ["{{baseUrl}}"],
+          "path": ["updateEmployeeStatus"]
+        },
+        "description": "Update employee status (by company authority)"
+      }
+    },
+    {
+      "name": "Get Employee Requests",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test(\"Response has employee requests data\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('success', true);",
+              "    pm.expect(response).to.have.property('walletAddress');",
+              "    pm.expect(response).to.have.property('total');",
+              "    pm.expect(response).to.have.property('summary');",
+              "    pm.expect(response).to.have.property('requests').that.is.an('array');",
+              "});",
+              "",
+              "pm.test(\"Summary has correct structure\", function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response.summary).to.have.property('pending');",
+              "    pm.expect(response.summary).to.have.property('active');",
+              "    pm.expect(response.summary).to.have.property('inactive');",
+              "});",
+              "",
+              "pm.test(\"Error on invalid wallet address\", function () {",
+              "    const invalidRequest = {",
+              "        url: pm.request.url.toString().replace(pm.variables.get('walletAddress'), 'invalid-address'),",
+              "        method: 'GET'",
+              "    };",
+              "    ",
+              "    pm.sendRequest(invalidRequest, function (err, response) {",
+              "        pm.expect(response).to.have.property('code', 400);",
+              "    });",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/employee/requests/{{walletAddress}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["employee", "requests", "{{walletAddress}}"]
+        },
+        "description": "Get all company requests/associations for an employee wallet"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api"
+    },
+    {
+      "key": "employeeId",
+      "value": "employee-id-or-wallet"
+    },
+    {
+      "key": "employeeWallet",
+      "value": "employee-wallet-pubkey"
+    },
+    {
+      "key": "employeePubkey",
+      "value": "employee-pda-pubkey"
+    },
+    {
+      "key": "companyPubkey",
+      "value": "company-pubkey"
+    },
+    {
+      "key": "companyAuthorityPubkey",
+      "value": "authority-pubkey"
+    },
+    {
+      "key": "confirmationToken",
+      "value": "confirmation-token"
+    },
+    {
+      "key": "walletAddress",
+      "value": "employee-wallet-address"
+    }
+  ]
+}
